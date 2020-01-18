@@ -1,0 +1,32 @@
+---
+title: Livros Online Sobre R e Tidyverse
+author: fnaufel
+date: '2020-01-18'
+slug: []
+categories:
+  - probest
+tags:
+  - livros
+  - r
+  - tidyverse
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-01-18T17:27:16-03:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+```{r echo=FALSE, out.width='10%'}
+knitr::include_graphics("tidyverse.png")
+```
+
+Todos com acesso livre e em português.
+
+* [Introdução a R para Visualização e Apresentação de Dados](http://sillasgonzaga.com/material/curso_visualizacao/index.html), por Sillas Gonzaga.
+
+* [Ciência de Dados com R: Introdução](https://cdr.ibpad.com.br/index.html), por Max Stabile.
