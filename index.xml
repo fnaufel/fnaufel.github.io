@@ -26,10 +26,43 @@
     </item>
     
     <item>
+      <title>Livros Online Sobre R e Tidyverse</title>
+      <link>https://fnaufel.github.io/post/2020-01-18-livros-online-sobre-r-e-tidyverse/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://fnaufel.github.io/post/2020-01-18-livros-online-sobre-r-e-tidyverse/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;img src=&#34;tidyverse.png&#34; width=&#34;10%&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Todos com acesso livre e em português.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://sillasgonzaga.com/material/curso_visualizacao/index.html&#34;&gt;Introdução a R para Visualização e Apresentação de Dados&lt;/a&gt;, por Sillas Gonzaga.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cdr.ibpad.com.br/index.html&#34;&gt;Ciência de Dados com R: Introdução&lt;/a&gt;, por Max Stabile.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://fnaufel.github.io/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fnaufel.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fnaufel.github.io/ga/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fnaufel.github.io/ga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fnaufel.github.io/probest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fnaufel.github.io/probest/</guid>
       <description></description>
     </item>
     
