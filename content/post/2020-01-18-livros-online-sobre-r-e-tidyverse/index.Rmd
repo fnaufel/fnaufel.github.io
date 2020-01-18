@@ -26,8 +26,16 @@ knitr::include_graphics('tidyverse.png')
 ```
 
 
-Todos com acesso livre e em português.
+Todos com acesso livre.
+
+**Em português:**
 
 * [Introdução a R para Visualização e Apresentação de Dados](http://sillasgonzaga.com/material/curso_visualizacao/index.html), por Sillas Gonzaga.
 
 * [Ciência de Dados com R: Introdução](https://cdr.ibpad.com.br/index.html), por Max Stabile.
+
+**Em inglês:**
+
+* [R for Data Science](https://r4ds.had.co.nz/), de Garrett Grolemund e Hadley Wickham.
+
+* [Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/), de Chester Ismay e Albert Y. Kim. 
