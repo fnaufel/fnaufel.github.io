@@ -21,9 +21,10 @@ image:
 projects: []
 ---
 
-```{r echo=FALSE, out.width='10%'}
-knitr::include_graphics("tidyverse.png")
+```{r echo=FALSE, out.width='25%'}
+knitr::include_graphics('tidyverse.png')
 ```
+
 
 Todos com acesso livre e em português.
 
