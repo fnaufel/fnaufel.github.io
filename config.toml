@@ -1,6 +1,8 @@
 theme = "hugo-academic"
-baseURL = "http://example.org/"
+baseURL = "https://fnaufel.github.io/"
 title = "fnaufel"
+
+publishDir = "../fnaufel.github.io"
 
 languageCode = "pt"
 defaultContentLanguage = "pt" 
