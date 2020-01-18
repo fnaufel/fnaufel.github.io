@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | fnaufel</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fnaufel.github.io/tags/</link>
+      <atom:link href="https://fnaufel.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Sat, 18 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
+      <url>https://fnaufel.github.io/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://fnaufel.github.io/tags/</link>
     </image>
     
     <item>
       <title>livros</title>
-      <link>/tags/livros/</link>
+      <link>https://fnaufel.github.io/tags/livros/</link>
       <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/livros/</guid>
+      <guid>https://fnaufel.github.io/tags/livros/</guid>
       <description></description>
     </item>
     
     <item>
       <title>r</title>
-      <link>/tags/r/</link>
+      <link>https://fnaufel.github.io/tags/r/</link>
       <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/r/</guid>
+      <guid>https://fnaufel.github.io/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidyverse</title>
-      <link>/tags/tidyverse/</link>
+      <link>https://fnaufel.github.io/tags/tidyverse/</link>
       <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/tags/tidyverse/</guid>
+      <guid>https://fnaufel.github.io/tags/tidyverse/</guid>
       <description></description>
     </item>
     
