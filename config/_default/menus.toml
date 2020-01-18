@@ -4,28 +4,33 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#about"
+  name = "Principal"
+  url = "/"
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Blog"
+  url = "posts/"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Prob/Est"
+  url = "probest/"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "GA"
+  url = "ga/"
   weight = 40
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Publicações"
+  url = "pubs/"
+  weight = 50
+
+[[main]]
+  name = "Contato"
+  url = "contact/"
   weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
