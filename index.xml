@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fnaufel</title>
+    <link>https://fnaufel.github.io/</link>
+      <atom:link href="https://fnaufel.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>fnaufel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Sat, 18 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://fnaufel.github.io/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
+      <title>fnaufel</title>
+      <link>https://fnaufel.github.io/</link>
+    </image>
+    
+    <item>
+      <title>LICENÇA: CC-BY-NC-SA</title>
+      <link>https://fnaufel.github.io/license/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://fnaufel.github.io/license/</guid>
+      <description>&lt;p&gt;Todo o material deste site está disponível sob a licença
+
+&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional&lt;/a&gt;
+.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://fnaufel.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fnaufel.github.io/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
