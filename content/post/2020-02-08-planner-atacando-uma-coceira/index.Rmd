@@ -1,5 +1,5 @@
 ---
-title: 'planneR: Atacando Uma Coceira'
+title: 'planneR: Atacando uma Coceira'
 author: fnaufel
 date: '2020-02-08'
 slug: []
@@ -51,11 +51,20 @@ knitr::include_graphics('scratcher-200px.jpg')
 
 Nos últimos tempos, tenho me interessado pela [linguagem R](https://cran.r-project.org/) e pelo desenvolvimento de aplicativos web usando [Shiny](https://shiny.rstudio.com/). Agora, apresento-lhes [planneR](https://fnaufel.shinyapps.io/planner/), meu gerador online de calendários de cursos.
 
+Você pode acessar o aplicativo em https://fnaufel.shinyapps.io/planner/.
+
 Talvez não seja ainda um "bom produto de software", mas é um início. 
 
 O código fonte está disponível em um [repositório GitHub](https://github.com/fnaufel/planneR), sob licença [GPL 3](https://www.gnu.org/licenses/gpl-3.0.pt-br.html). Qualquer pessoa pode usar, copiar, distribuir e modificar o programa, desde que siga essa licença.
 
 Os planos de curso produzidos com planneR, por sua vez, ficam disponíveis sob licença [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
+
+```{r echo=FALSE}
+blogdown::shortcode(
+  .name = 'alert',
+  .content = '[**Acesse planneR agora.**](https://fnaufel.shinyapps.io/planner/)'
+)
+```
 
 ---
 
@@ -72,6 +81,13 @@ blogdown::shortcode(
 ```
 
 Se você acessar a partir de um celular ou de um tablet, a disposição dos elementos pode ser um pouco diferente.
+
+```{r echo=FALSE}
+blogdown::shortcode(
+  .name = 'alert',
+  .content = '[**Acesse planneR agora.**](https://fnaufel.shinyapps.io/planner/)'
+)
+```
 
 Entre as informações necessárias:
 
@@ -117,5 +133,12 @@ blogdown::shortcode(
 ```
 
 Bom proveito. [Contribuições](https://github.com/fnaufel/planneR/issues) são bem-vindas.
+
+```{r echo=FALSE}
+blogdown::shortcode(
+  .name = 'alert',
+  .content = '[**Acesse planneR agora.**](https://fnaufel.shinyapps.io/planner/)'
+)
+```
 
 ---
