@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fnaufel</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    <description>fnaufel</description>
+    <title>software | fnaufel</title>
+    <link>/categories/software/</link>
+      <atom:link href="/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>software</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
-      <title>fnaufel</title>
-      <link>/</link>
+      <title>software</title>
+      <link>/categories/software/</link>
     </image>
     
     <item>
@@ -125,66 +125,6 @@
 &lt;hr /&gt;
 &lt;/div&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>LICENÇA: CC-BY-NC-SA</title>
-      <link>/license/</link>
-      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/license/</guid>
-      <description>&lt;p&gt;Todo o material deste site está disponível sob a licença
-
-&lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional&lt;/a&gt;
-.&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Livros Online Sobre R e Tidyverse</title>
-      <link>/post/2020-01-18-livros-online-sobre-r-e-tidyverse/</link>
-      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-01-18-livros-online-sobre-r-e-tidyverse/</guid>
-      <description>
-
-
-&lt;p&gt;&lt;img src=&#34;tidyverse.png&#34; width=&#34;25%&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Todos com acesso livre.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Em português:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://sillasgonzaga.com/material/curso_visualizacao/index.html&#34;&gt;Introdução a R para Visualização e Apresentação de Dados&lt;/a&gt;, por Sillas Gonzaga.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cdr.ibpad.com.br/index.html&#34;&gt;Ciência de Dados com R: Introdução&lt;/a&gt;, por Max Stabile.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Em inglês:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt;, de Garrett Grolemund e Hadley Wickham.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://moderndive.com/&#34;&gt;Statistical Inference via Data Science: A ModernDive into R and the Tidyverse&lt;/a&gt;, de Chester Ismay e Albert Y. Kim.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/ga/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/ga/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/probest/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/probest/</guid>
-      <description></description>
     </item>
     
   </channel>
