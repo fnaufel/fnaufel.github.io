@@ -1,7 +1,7 @@
 +++
 widget = "tag_cloud"  # Use the Tag Cloud widget
 headless = true  # This file represents a page section.
-weight = 30
+weight = 40
 
 active = false
 

@@ -1,0 +1,123 @@
+---
+title: 'planneR: Atacando Uma Coceira'
+author: fnaufel
+date: '2020-02-08'
+slug: []
+categories:
+  - software
+tags:
+  - r
+  - shiny
+  - universidade
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-02-08T12:44:36-03:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+---
+
+## A coceira
+
+```{r echo=FALSE, out.extra='style = "float:right; padding: 20px"'}
+knitr::include_graphics('cathedral-and-bazaar.jpg')
+```
+
+A vida do professor inclui tarefas como a construção de calendários e planos de curso. Não é uma tarefa tão desagradável quanto preencher relatórios burocráticos ou participar de reuniões que não deveriam ter sido nem mesmo e-mails, mas dá mais trabalho do que deveria dar.
+
+Em [**A Catedral e o Bazar**](https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar), Eric Raymond diz que
+
+> "Every good work of software starts by scratching a developer's personal itch."
+
+i.e.,
+
+> "Todo bom produto de software se inicia com uma coceira pessoal de um desenvolvedor."
+
+Ano após ano, a tarefa de construir calendários de curso já estava afetando a minha dermatologia emocional; então, decidi agir.
+
+---
+
+## O coçador
+
+```{r echo=FALSE, out.extra='style = "float:left; padding: 20px"'}
+knitr::include_graphics('scratcher-200px.jpg')
+```
+
+Nos últimos tempos, tenho me interessado pela [linguagem R](https://cran.r-project.org/) e pelo desenvolvimento de aplicativos web usando [Shiny](https://shiny.rstudio.com/). Agora, apresento-lhes [planneR](https://fnaufel.shinyapps.io/planner/), meu gerador online de calendários de cursos.
+
+Talvez não seja ainda um "bom produto de software", mas é um início. 
+
+O código fonte está disponível em um [repositório GitHub](https://github.com/fnaufel/planneR), sob licença [GPL 3](https://www.gnu.org/licenses/gpl-3.0.pt-br.html). Qualquer pessoa pode usar, copiar, distribuir e modificar o programa, desde que siga essa licença.
+
+Os planos de curso produzidos com planneR, por sua vez, ficam disponíveis sob licença [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
+
+---
+
+## Como usar
+
+O uso do programa é simples --- espero. Ao acessar [o site](https://fnaufel.shinyapps.io/planner/), você verá a tela principal:
+
+```{r echo=FALSE}
+blogdown::shortcode(
+  'figure',
+  src = 'planneR-screenshot-empty.png',
+  alt = 'screenshot do aplicativo'
+)
+```
+
+Se você acessar a partir de um celular ou de um tablet, a disposição dos elementos pode ser um pouco diferente.
+
+Entre as informações necessárias:
+
+* Preencha as datas de início e de fim do curso no formato "dd/mm/aaaa".
+
+* Marque os dias da semana em que haverá aulas.
+
+* Se quiser, veja a lista de feriados e recessos. Esta lista contém, por default, os feriados e recessos do [calendáio oficial da UFF](http://www.uff.br/?q=calendarios), com os feriados municipais da [UFF de Rio das Ostras](http://www.uff.br/?q=cidade/rio-das-ostras). 
+
+* Se você estiver em outro município, ou em outra universidade, clique o botão `[Ver / alterar feriados]` e mude o que for necessário.
+
+* Clique o botão `[Ver / alterar tópicos]` e preencha os tópicos das aulas --- uma linha por aula.
+
+* Clique `[Gerar]`.
+
+* Clique `[Baixar]` para fazer o download de um arquivo com o plano de curso. Os formatos disponíveis são
+
+  * HTML (página web).
+  
+  * PNG (imagem).
+  
+  * $\LaTeX$. Para compilar o arquivo `.tex`, você precisa inserir um preâmbulo. O mínimo é
+  
+    ```
+    \documentclass{article}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage{longtable}
+    \usepackage{booktabs}
+    \usepackage{hyperref}
+    
+    \begin{document}
+
+    ```
+    Não esqueça de `\end{document}` no final.
+
+Eis um exemplo de plano de curso com os tópicos preenchidos:
+
+```{r echo=FALSE}
+blogdown::shortcode(
+  'figure',
+  src = 'planneR-screenshot-final.png',
+  alt = 'screenshot do aplicativo'
+)
+```
+
+Bom proveito. [Contribuições](https://github.com/fnaufel/planneR/issues) são bem-vindas.
+
+---

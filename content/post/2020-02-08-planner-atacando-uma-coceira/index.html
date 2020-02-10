@@ -1,0 +1,85 @@
+---
+title: 'planneR: Atacando Uma Coceira'
+author: fnaufel
+date: '2020-02-08'
+slug: []
+categories:
+  - software
+tags:
+  - r
+  - shiny
+  - universidade
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-02-08T12:44:36-03:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<hr />
+<div id="a-coceira" class="section level2">
+<h2>A coceira</h2>
+<p><img src="cathedral-and-bazaar.jpg" style = "float:right; padding: 20px" /></p>
+<p>A vida do professor inclui tarefas como a construção de calendários e planos de curso. Não é uma tarefa tão desagradável quanto preencher relatórios burocráticos ou participar de reuniões que não deveriam ter sido nem mesmo e-mails, mas dá mais trabalho do que deveria dar.</p>
+<p>Em <a href="https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar"><strong>A Catedral e o Bazar</strong></a>, Eric Raymond diz que</p>
+<blockquote>
+<p>“Every good work of software starts by scratching a developer’s personal itch.”</p>
+</blockquote>
+<p>i.e.,</p>
+<blockquote>
+<p>“Todo bom produto de software se inicia com uma coceira pessoal de um desenvolvedor.”</p>
+</blockquote>
+<p>Ano após ano, a tarefa de construir calendários de curso já estava afetando a minha dermatologia emocional; então, decidi agir.</p>
+<hr />
+</div>
+<div id="o-coçador" class="section level2">
+<h2>O coçador</h2>
+<p><img src="scratcher-200px.jpg" style = "float:left; padding: 20px" /></p>
+<p>Nos últimos tempos, tenho me interessado pela <a href="https://cran.r-project.org/">linguagem R</a> e pelo desenvolvimento de aplicativos web usando <a href="https://shiny.rstudio.com/">Shiny</a>. Agora, apresento-lhes <a href="https://fnaufel.shinyapps.io/planner/">planneR</a>, meu gerador online de calendários de cursos.</p>
+<p>Talvez não seja ainda um “bom produto de software”, mas é um início.</p>
+<p>O código fonte está disponível em um <a href="https://github.com/fnaufel/planneR">repositório GitHub</a>, sob licença <a href="https://www.gnu.org/licenses/gpl-3.0.pt-br.html">GPL 3</a>. Qualquer pessoa pode usar, copiar, distribuir e modificar o programa, desde que siga essa licença.</p>
+<p>Os planos de curso produzidos com planneR, por sua vez, ficam disponíveis sob licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">Creative Commons BY-NC-SA</a>.</p>
+<hr />
+</div>
+<div id="como-usar" class="section level2">
+<h2>Como usar</h2>
+<p>O uso do programa é simples — espero. Ao acessar <a href="https://fnaufel.shinyapps.io/planner/">o site</a>, você verá a tela principal:</p>
+{{% figure src="planneR-screenshot-empty.png" alt="screenshot do aplicativo" %}}
+<p>Se você acessar a partir de um celular ou de um tablet, a disposição dos elementos pode ser um pouco diferente.</p>
+<p>Entre as informações necessárias:</p>
+<ul>
+<li><p>Preencha as datas de início e de fim do curso no formato “dd/mm/aaaa”.</p></li>
+<li><p>Marque os dias da semana em que haverá aulas.</p></li>
+<li><p>Se quiser, veja a lista de feriados e recessos. Esta lista contém, por default, os feriados e recessos do <a href="http://www.uff.br/?q=calendarios">calendáio oficial da UFF</a>, com os feriados municipais da <a href="http://www.uff.br/?q=cidade/rio-das-ostras">UFF de Rio das Ostras</a>.</p></li>
+<li><p>Se você estiver em outro município, ou em outra universidade, clique o botão <code>[Ver / alterar feriados]</code> e mude o que for necessário.</p></li>
+<li><p>Clique o botão <code>[Ver / alterar tópicos]</code> e preencha os tópicos das aulas — uma linha por aula.</p></li>
+<li><p>Clique <code>[Gerar]</code>.</p></li>
+<li><p>Clique <code>[Baixar]</code> para fazer o download de um arquivo com o plano de curso. Os formatos disponíveis são</p>
+<ul>
+<li><p>HTML (página web).</p></li>
+<li><p>PNG (imagem).</p></li>
+<li><p><span class="math inline">\(\LaTeX\)</span>. Para compilar o arquivo <code>.tex</code>, você precisa inserir um preâmbulo. O mínimo é</p>
+<pre><code>\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\begin{document}
+</code></pre>
+<p>Não esqueça de <code>\end{document}</code> no final.</p></li>
+</ul></li>
+</ul>
+<p>Eis um exemplo de plano de curso com os tópicos preenchidos:</p>
+{{% figure src="planneR-screenshot-final.png" alt="screenshot do aplicativo" %}}
+<p>Bom proveito. <a href="https://github.com/fnaufel/planneR/issues">Contribuições</a> são bem-vindas.</p>
+<hr />
+</div>

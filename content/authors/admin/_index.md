@@ -20,6 +20,7 @@ organizations:
   url: "http://www.uff.br"
 
 # Short bio (displayed in user profile at end of posts)
+
 interests:
 - Ciência de dados
 - Estatística
@@ -48,6 +49,5 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/fnaufel
-
+  
 ---
-
