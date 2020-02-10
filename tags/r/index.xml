@@ -76,8 +76,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;Preencha as datas de início e de fim do curso no formato “dd/mm/aaaa”.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Marque os dias da semana em que haverá aulas.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Se quiser, veja a lista de feriados e recessos. Esta lista contém, por default, os feriados e recessos do &lt;a href=&#34;http://www.uff.br/?q=calendarios&#34;&gt;calendáio oficial da UFF&lt;/a&gt;, com os feriados municipais da &lt;a href=&#34;http://www.uff.br/?q=cidade/rio-das-ostras&#34;&gt;UFF de Rio das Ostras&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Se você estiver em outro município, ou em outra universidade, clique o botão &lt;code&gt;[Ver / alterar feriados]&lt;/code&gt; e mude o que for necessário.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Se quiser, veja a lista de feriados e recessos. Esta lista contém, por default, os feriados e recessos do &lt;a href=&#34;http://www.uff.br/?q=calendarios&#34;&gt;calendário oficial da UFF&lt;/a&gt;, com os feriados municipais da &lt;a href=&#34;http://www.uff.br/?q=cidade/rio-das-ostras&#34;&gt;UFF de Rio das Ostras&lt;/a&gt;. Se você estiver em outro município, ou em outra universidade, clique o botão &lt;code&gt;[Ver / alterar feriados]&lt;/code&gt; e mude o que for necessário.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Clique o botão &lt;code&gt;[Ver / alterar tópicos]&lt;/code&gt; e preencha os tópicos das aulas — uma linha por aula.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Clique &lt;code&gt;[Gerar]&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Clique &lt;code&gt;[Baixar]&lt;/code&gt; para fazer o download de um arquivo com o plano de curso. Os formatos disponíveis são&lt;/p&gt;
