@@ -79,9 +79,7 @@ Entre as informações necessárias:
 
 * Marque os dias da semana em que haverá aulas.
 
-* Se quiser, veja a lista de feriados e recessos. Esta lista contém, por default, os feriados e recessos do [calendáio oficial da UFF](http://www.uff.br/?q=calendarios), com os feriados municipais da [UFF de Rio das Ostras](http://www.uff.br/?q=cidade/rio-das-ostras). 
-
-* Se você estiver em outro município, ou em outra universidade, clique o botão `[Ver / alterar feriados]` e mude o que for necessário.
+* Se quiser, veja a lista de feriados e recessos. Esta lista contém, por default, os feriados e recessos do [calendário oficial da UFF](http://www.uff.br/?q=calendarios), com os feriados municipais da [UFF de Rio das Ostras](http://www.uff.br/?q=cidade/rio-das-ostras). Se você estiver em outro município, ou em outra universidade, clique o botão `[Ver / alterar feriados]` e mude o que for necessário.
 
 * Clique o botão `[Ver / alterar tópicos]` e preencha os tópicos das aulas --- uma linha por aula.
 
