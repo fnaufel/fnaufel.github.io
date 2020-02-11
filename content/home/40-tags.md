@@ -3,12 +3,11 @@ widget = "tag_cloud"  # Use the Tag Cloud widget
 headless = true  # This file represents a page section.
 weight = 40
 
-active = false
-
-# ... Put Your Section Options Here (title etc.) ...
+active = true
 
 title = "Tags"
 
+columns = "2"
 
 [content]
   # Choose the taxonomy from `config.toml` to display (e.g. tags, categories)
@@ -19,6 +18,6 @@ title = "Tags"
 
 [design]
   # Minimum and maximum font sizes (1.0 = 100%).
-  font_size_min = 0.5
-  font_size_max = 2.0
+  font_size_min = 1.0
+  font_size_max = 5.0
 +++
