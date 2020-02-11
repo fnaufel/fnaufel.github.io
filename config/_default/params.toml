@@ -25,16 +25,6 @@ font = ""
 font_size = "S"
 
 ############################
-## Plugins                ##
-############################
-
-# Load CSS and JS plugins
-#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
-#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_css = [""]
-plugins_js  = []
-
-############################
 ## Basic Info
 ############################
 
@@ -144,6 +134,16 @@ time_format = "15:04"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
 address_format = "en-us"
+
+############################
+## Plugins                ##
+############################
+
+# Load CSS and JS plugins
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_css = []
+plugins_js = []
 
 ############################
 ## Advanced
