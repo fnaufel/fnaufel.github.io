@@ -12,6 +12,9 @@ title = "Fernando Náufel do Amaral"
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 author = "admin"
 
+[design]
+  columns = "2"
+
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
     padding = ["20px", "0", "0", "0"]

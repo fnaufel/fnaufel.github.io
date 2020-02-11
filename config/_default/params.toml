@@ -25,6 +25,16 @@ font = ""
 font_size = "S"
 
 ############################
+## Plugins                ##
+############################
+
+# Load CSS and JS plugins
+#   E.g. To load `/assets/css/custom.css`, set `plugins_css = ["custom"]`.
+#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
+plugins_css = [""]
+plugins_js  = []
+
+############################
 ## Basic Info
 ############################
 
@@ -53,7 +63,7 @@ description = ""
 # Enable source code highlighting? true/false
 # Documentation: https://sourcethemes.com/academic/docs/writing-markdown-latex/#highlighting-options
 highlight = true
-highlight_languages = ["r", "python"]  # Add support for highlighting additional languages
+highlight_languages = ["r", "python", "bash"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
 
 # Enable LaTeX math rendering? true/false
@@ -157,10 +167,6 @@ sharing = true
 
 # Link authors to their profile page? (true/false)
 link_authors = true
-
-# Load JS plugins
-#   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = []
 
 # Available address formats.
 [address_formats]

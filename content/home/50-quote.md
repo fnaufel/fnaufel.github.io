@@ -2,7 +2,7 @@
 widget = "blank"  
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 25  # Order that this section will appear in.
+weight = 50  # Order that this section will appear in.
 
 title = ""
 
@@ -14,7 +14,7 @@ title = ""
 
 +++
 
-"The line dividing good and evil cuts through the heart of every human being."
+"A linha que separa o bem e o mal passa pelo coração de todo ser humano."
 
 ---ALEKSANDR SOLZHENITSYN
 
