@@ -1,11 +1,12 @@
 +++
-# About widget.
 widget = "pages"  # Use the Pages widget
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear in.
 
 title = "Posts recentes"
+subtitle = " "
+
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
