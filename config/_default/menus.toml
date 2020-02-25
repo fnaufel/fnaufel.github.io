@@ -23,10 +23,10 @@
   url = "ga/"
   weight = 40
 
-# [[main]]
-#   name = "Publicações"
-#   url = "pubs/"
-#   weight = 50
+[[main]]
+ name = "Publicações"
+ url = "publication/"
+ weight = 50
 
 [[main]]
   name = "Contato"
