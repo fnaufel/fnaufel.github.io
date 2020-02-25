@@ -1,16 +1,232 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | fnaufel</title>
+    <title>Publicações | fnaufel</title>
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language>
+    <description>Publicações</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
-      <title>Publications</title>
+      <title>Publicações</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Model Outlines: a Visual Language for DL Concept Descriptions</title>
+      <link>/publication/content/publication/fnaufel-swj-2013/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-swj-2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usabilidade de uma Notação Diagramática para Descrições de Conceitos</title>
+      <link>/publication/content/publication/fnaufel-sem-onto-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-sem-onto-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usability of a Visual Language for DL Concept Descriptions</title>
+      <link>/publication/content/publication/fnaufel-wrr-2010/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-wrr-2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Trivial Study Case of the Application of Ontologies in Electronic Games</title>
+      <link>/publication/content/publication/fnaufel-videojogos-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-videojogos-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Trivial Study Case of the Application of Ontologies in Electronic Games (poster)</title>
+      <link>/publication/content/publication/fnaufel-sb-games-2009/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-sb-games-2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualization of Description Logic Models</title>
+      <link>/publication/content/publication/fnaufel-dl-2008/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-dl-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualização de Descrições de Conceitos em OWL</title>
+      <link>/publication/content/publication/fnaufel-sem-onto-2008/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-sem-onto-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualizing the Semantics (Not the Syntax) of Concept Descriptions</title>
+      <link>/publication/content/publication/fnaufel-til-2008/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-til-2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Sequent Calculus for ALC</title>
+      <link>/publication/content/publication/fnaufel-puc-07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-puc-07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dealing with the Formal Analysis of Information Security Policies through Ontologies: A Case Study</title>
+      <link>/publication/content/publication/fnaufel-aow-07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-aow-07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using the Internal Logic of a Topos to Model Search Spaces for Problems</title>
+      <link>/publication/content/publication/fnaufel-igpl-07/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-igpl-07/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Ontology-based Approach to the Formalization of Information Security Policies</title>
+      <link>/publication/content/publication/fnaufel-vorte-06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-vorte-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Topos-Based Logical Frameworks and an Application to (Meta)Heuristic Search</title>
+      <link>/publication/content/publication/fnaufel-lsfa-06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-lsfa-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using the Internal Logic of a Topos Related to the Topos of Forests to Model Search Spaces for Problems</title>
+      <link>/publication/content/publication/fnaufel-ebl-06/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-ebl-06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Logic-Based Formal Model for (Meta)Heuristics</title>
+      <link>/publication/content/publication/fnaufel-puc-05/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-puc-05/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teoria de Modelos para Heurísticas Baseada em Topoi</title>
+      <link>/publication/content/publication/fnaufel-thesis-04/</link>
+      <pubDate>Thu, 01 Jan 2004 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-thesis-04/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Real-Time Specification Language</title>
+      <link>/publication/content/publication/fnaufel-laptec-02/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-laptec-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Real-Time Specification Language</title>
+      <link>/publication/content/publication/fnaufel-puc-02/</link>
+      <pubDate>Tue, 01 Jan 2002 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-puc-02/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Logic-Based Approach for Real-Time Object-Oriented Software Development</title>
+      <link>/publication/content/publication/fnaufel-rita-00/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-rita-00/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Logic-Based Approach for Real-Time Object-Oriented Software Development</title>
+      <link>/publication/content/publication/fnaufel-wmf-00/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-wmf-00/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Completeness of an Action Logic Featuring a Delta-Operator for Timed Transition Systems</title>
+      <link>/publication/content/publication/fnaufel-wollic-00/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-wollic-00/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Completeness of an Action Logic for Timed Transition Systems</title>
+      <link>/publication/content/publication/fnaufel-bsl-00/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-bsl-00/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RETOOL: an Action Logic for Timed Transition Systems</title>
+      <link>/publication/content/publication/fnaufel-lc-00/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-lc-00/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RETOOL: uma Lógica de Ações para Sistemas de Transição Temporizados</title>
+      <link>/publication/content/publication/fnaufel-dissert-00/</link>
+      <pubDate>Sat, 01 Jan 2000 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-dissert-00/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C&#43;&#43; Idioms for Concurrent Operations</title>
+      <link>/publication/content/publication/fnaufel-jaiio-99/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-jaiio-99/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tradução de Estruturas de Controle para Sistemas de Tempo Real em Linguagens Orientadas a Objetos</title>
+      <link>/publication/content/publication/fnaufel-uff-97/</link>
+      <pubDate>Wed, 01 Jan 1997 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-uff-97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uma Nova Proposta para o Cálculo do Fecho Transitivo de Relações Binárias</title>
+      <link>/publication/content/publication/fnaufel-faperj-96/</link>
+      <pubDate>Mon, 01 Jan 1996 00:00:00 +0000</pubDate>
+      <guid>/publication/content/publication/fnaufel-faperj-96/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
