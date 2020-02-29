@@ -268,3 +268,18 @@ iframe {
 .dark a:hover {
 	color: #fff;
 }
+
+
+/* Blogs */
+
+.level2 > h2 {
+  border-bottom: 1px solid;
+  margin-bottom: .8em;
+}
+
+.level3 > h3 {
+  font-weight: 500;
+  font-style: italic;
+  border-bottom: 0;
+  margin-bottom: .5em;
+}

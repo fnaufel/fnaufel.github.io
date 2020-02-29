@@ -25,6 +25,8 @@ interests:
 - Ciência de dados
 - Estatística
 - Probabilidade
+- Linguagens visuais
+- Lógicas de descrição
 
 education:
   courses:
