@@ -91,8 +91,7 @@
 &lt;li&gt;&lt;p&gt;Clique &lt;code&gt;[Gerar]&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Clique &lt;code&gt;[Baixar]&lt;/code&gt; para fazer o download de um arquivo com o plano de curso. Os formatos disponíveis são&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;HTML (página web).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;PNG (imagem).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;HTML (página web). Você pode incluir o conteúdo deste arquivo no seu site, gerar um arquivo .pdf a partir do seu browser, ou importar este arquivo para um documento do &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt;. Para compilar o arquivo &lt;code&gt;.tex&lt;/code&gt;, você precisa inserir um preâmbulo. O mínimo é&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;\documentclass{article}
 \usepackage[utf8]{inputenc}
