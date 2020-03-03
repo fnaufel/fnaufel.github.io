@@ -97,9 +97,7 @@ Entre as informações necessárias:
 
 * Clique `[Baixar]` para fazer o download de um arquivo com o plano de curso. Os formatos disponíveis são
 
-  * HTML (página web).
-  
-  * PNG (imagem).
+  * HTML (página web). Você pode incluir o conteúdo deste arquivo no seu site, gerar um arquivo .pdf a partir do seu browser, ou importar este arquivo para um documento do [LibreOffice](https://www.libreoffice.org/).
   
   * $\LaTeX$. Para compilar o arquivo `.tex`, você precisa inserir um preâmbulo. O mínimo é
   
