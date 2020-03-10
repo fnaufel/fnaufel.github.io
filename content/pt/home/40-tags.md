@@ -6,6 +6,7 @@ weight = 40
 active = true
 
 title = "Tags"
+subtitle = "em português"
 
 columns = "2"
 

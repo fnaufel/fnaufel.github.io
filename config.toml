@@ -4,7 +4,9 @@ title = "fnaufel"
 
 publishDir = "../fnaufel.github.io"
 
-languageCode = "pt"
+languageCode = ["pt", "en"]
 defaultContentLanguage = "pt" 
+defaultContentLanguageInSubdir = true
+
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]

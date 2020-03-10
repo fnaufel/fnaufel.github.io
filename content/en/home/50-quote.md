@@ -14,7 +14,7 @@ title = ""
 
 +++
 
-"A linha que separa o bem e o mal passa pelo coração de todo ser humano."
+"The line dividing good and evil cuts through the heart of every human being."
 
----ALEKSANDR SOLZHENITSYN
+---[Александр Солженицын (Aleksandr Solzhenitsyn)](https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn)
 
