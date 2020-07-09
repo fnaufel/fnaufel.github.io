@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>software | fnaufel</title>
-    <link>/pt/categories/software/</link>
-      <atom:link href="/pt/categories/software/index.xml" rel="self" type="application/rss+xml" />
-    <description>software</description>
+    <title>creativecommons | fnaufel</title>
+    <link>/pt/tags/creativecommons/</link>
+      <atom:link href="/pt/tags/creativecommons/index.xml" rel="self" type="application/rss+xml" />
+    <description>creativecommons</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Thu, 09 Jul 2020 13:40:40 -0300</lastBuildDate>
     <image>
       <url>/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
-      <title>software</title>
-      <link>/pt/categories/software/</link>
+      <title>creativecommons</title>
+      <link>/pt/tags/creativecommons/</link>
     </image>
     
     <item>
@@ -129,134 +129,6 @@ Esta é a mais restritiva das licenças principais, só permitindo que outros fa
 &lt;li&gt;&lt;p&gt;Incluir no seu trabalho as atribuições aos autores dos trabalhos que você usou, se eles assim exigem (e nada impede que você também inclua atribuições aos autores que não as exigem).&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Incluir a licença que você está estipulando para o seu trabalho.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>planneR: Atacando uma Coceira</title>
-      <link>/pt/post/2020-02-08-planner-atacando-uma-coceira/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/pt/post/2020-02-08-planner-atacando-uma-coceira/</guid>
-      <description>
-
-
-&lt;div id=&#34;a-coceira&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;A coceira&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;cathedral-and-bazaar.jpg&#34; style = &#34;float:right; padding: 20px&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;A vida do professor inclui tarefas como a construção de calendários e planos de curso. Não é uma tarefa tão desagradável quanto preencher relatórios burocráticos ou participar de reuniões que não deveriam ter sido nem mesmo e-mails, mas dá mais trabalho do que deveria dar.&lt;/p&gt;
-&lt;p&gt;Em &lt;a href=&#34;https://pt.wikipedia.org/wiki/A_Catedral_e_o_Bazar&#34;&gt;&lt;strong&gt;A Catedral e o Bazar&lt;/strong&gt;&lt;/a&gt;, Eric Raymond diz que&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Every good work of software starts by scratching a developer’s personal itch.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;i.e.,&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“Todo bom produto de software se inicia com uma coceira pessoal de um desenvolvedor.”&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Ano após ano, a tarefa de construir calendários de curso já estava afetando a minha dermatologia emocional; então, decidi agir.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;o-coçador&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;O coçador&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&#34;scratcher-200px.jpg&#34; style = &#34;float:left; padding: 20px&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Nos últimos tempos, tenho me interessado pela &lt;a href=&#34;https://cran.r-project.org/&#34;&gt;linguagem R&lt;/a&gt; e pelo desenvolvimento de aplicativos web usando &lt;a href=&#34;https://shiny.rstudio.com/&#34;&gt;Shiny&lt;/a&gt;. Agora, apresento-lhes &lt;a href=&#34;https://fnaufel.shinyapps.io/planner/&#34;&gt;planneR&lt;/a&gt;, meu gerador online de calendários de cursos.&lt;/p&gt;
-&lt;p&gt;Você pode acessar o aplicativo em &lt;a href=&#34;https://fnaufel.shinyapps.io/planner/&#34; class=&#34;uri&#34;&gt;https://fnaufel.shinyapps.io/planner/&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Talvez não seja ainda um “bom produto de software”, mas é um início.&lt;/p&gt;
-&lt;p&gt;O código fonte está disponível em um &lt;a href=&#34;https://github.com/fnaufel/planneR&#34;&gt;repositório GitHub&lt;/a&gt;, sob licença &lt;a href=&#34;https://www.gnu.org/licenses/gpl-3.0.pt-br.html&#34;&gt;GPL 3&lt;/a&gt;. Qualquer pessoa pode usar, copiar, distribuir e modificar o programa, desde que siga essa licença.&lt;/p&gt;
-&lt;p&gt;Os planos de curso produzidos com planneR, por sua vez, ficam disponíveis sob licença &lt;a href=&#34;https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR&#34;&gt;Creative Commons BY-NC-SA&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;alert alert-&#34;&gt;
-  &lt;div&gt;
-    &lt;a href=&#34;https://fnaufel.shinyapps.io/planner/&#34;&gt;&lt;strong&gt;Acesse planneR agora.&lt;/strong&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div id=&#34;como-usar&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Como usar&lt;/h2&gt;
-&lt;p&gt;O uso do programa é simples — espero. Ao acessar &lt;a href=&#34;https://fnaufel.shinyapps.io/planner/&#34;&gt;o site&lt;/a&gt;, você verá a tela principal:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;planneR-screenshot-empty.png&#34; &gt;
-&lt;img data-src=&#34;planneR-screenshot-empty.png&#34; class=&#34;lazyload&#34; alt=&#34;screenshot do aplicativo&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;Se você acessar a partir de um celular ou de um tablet, a disposição dos elementos pode ser um pouco diferente.&lt;/p&gt;
-&lt;div class=&#34;alert alert-&#34;&gt;
-  &lt;div&gt;
-    &lt;a href=&#34;https://fnaufel.shinyapps.io/planner/&#34;&gt;&lt;strong&gt;Acesse planneR agora.&lt;/strong&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Entre as informações necessárias:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Preencha as datas de início e de fim do curso no formato “dd/mm/aaaa”.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Marque os dias da semana em que haverá aulas.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Se quiser, veja a lista de feriados e recessos. Esta lista contém, por default, os feriados e recessos do &lt;a href=&#34;http://www.uff.br/?q=calendarios&#34;&gt;calendário oficial da UFF&lt;/a&gt;, com os feriados municipais da &lt;a href=&#34;http://www.uff.br/?q=cidade/rio-das-ostras&#34;&gt;UFF de Rio das Ostras&lt;/a&gt;. Se você estiver em outro município, ou em outra universidade, clique o botão &lt;code&gt;[Ver / alterar feriados]&lt;/code&gt; e mude o que for necessário.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Clique o botão &lt;code&gt;[Ver / alterar tópicos]&lt;/code&gt; e preencha os tópicos das aulas — uma linha por aula.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Clique &lt;code&gt;[Gerar]&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Clique &lt;code&gt;[Baixar]&lt;/code&gt; para fazer o download de um arquivo com o plano de curso. Os formatos disponíveis são&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;HTML (página web). Você pode incluir o conteúdo deste arquivo no seu site, gerar um arquivo .pdf a partir do seu browser, ou importar este arquivo para um documento do &lt;a href=&#34;https://www.libreoffice.org/&#34;&gt;LibreOffice&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;span class=&#34;math inline&#34;&gt;\(\LaTeX\)&lt;/span&gt;. Para compilar o arquivo &lt;code&gt;.tex&lt;/code&gt;, você precisa inserir um preâmbulo. O mínimo é&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{longtable}
-\usepackage{booktabs}
-\usepackage{hyperref}
-
-\begin{document}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Não esqueça de &lt;code&gt;\end{document}&lt;/code&gt; no final.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Eis um exemplo de plano de curso com os tópicos preenchidos:&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure&gt;
-
-
-  &lt;a data-fancybox=&#34;&#34; href=&#34;planneR-screenshot-final.png&#34; &gt;
-&lt;img data-src=&#34;planneR-screenshot-final.png&#34; class=&#34;lazyload&#34; alt=&#34;screenshot do aplicativo&#34; &gt;&lt;/a&gt;
-
-
-
-&lt;/figure&gt;
-
-&lt;p&gt;Bom proveito. &lt;a href=&#34;https://github.com/fnaufel/planneR/issues&#34;&gt;Contribuições&lt;/a&gt; são bem-vindas.&lt;/p&gt;
-&lt;div class=&#34;alert alert-&#34;&gt;
-  &lt;div&gt;
-    &lt;a href=&#34;https://fnaufel.shinyapps.io/planner/&#34;&gt;&lt;strong&gt;Acesse planneR agora.&lt;/strong&gt;&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
 &lt;/div&gt;
 </description>
     </item>

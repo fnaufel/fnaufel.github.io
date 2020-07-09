@@ -5,12 +5,44 @@
     <link>/pt/tags/</link>
       <atom:link href="/pt/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Thu, 09 Jul 2020 13:40:40 -0300</lastBuildDate>
     <image>
       <url>/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
       <title>Tags</title>
       <link>/pt/tags/</link>
     </image>
+    
+    <item>
+      <title>cc</title>
+      <link>/pt/tags/cc/</link>
+      <pubDate>Thu, 09 Jul 2020 13:40:40 -0300</pubDate>
+      <guid>/pt/tags/cc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>creativecommons</title>
+      <link>/pt/tags/creativecommons/</link>
+      <pubDate>Thu, 09 Jul 2020 13:40:40 -0300</pubDate>
+      <guid>/pt/tags/creativecommons/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>licenças</title>
+      <link>/pt/tags/licen%C3%A7as/</link>
+      <pubDate>Thu, 09 Jul 2020 13:40:40 -0300</pubDate>
+      <guid>/pt/tags/licen%C3%A7as/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>universidade</title>
+      <link>/pt/tags/universidade/</link>
+      <pubDate>Thu, 09 Jul 2020 13:40:40 -0300</pubDate>
+      <guid>/pt/tags/universidade/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>r</title>
@@ -25,14 +57,6 @@
       <link>/pt/tags/shiny/</link>
       <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/pt/tags/shiny/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>universidade</title>
-      <link>/pt/tags/universidade/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/pt/tags/universidade/</guid>
       <description></description>
     </item>
     

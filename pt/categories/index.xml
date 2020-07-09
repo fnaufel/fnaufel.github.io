@@ -5,7 +5,7 @@
     <link>/pt/categories/</link>
       <atom:link href="/pt/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Thu, 09 Jul 2020 13:40:40 -0300</lastBuildDate>
     <image>
       <url>/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
       <title>Categories</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>culture</title>
+      <link>/pt/categories/culture/</link>
+      <pubDate>Thu, 09 Jul 2020 13:40:40 -0300</pubDate>
+      <guid>/pt/categories/culture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>software</title>
       <link>/pt/categories/software/</link>
-      <pubDate>Sat, 08 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2020 13:40:40 -0300</pubDate>
       <guid>/pt/categories/software/</guid>
       <description></description>
     </item>

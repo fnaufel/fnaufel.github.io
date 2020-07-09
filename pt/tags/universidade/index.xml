@@ -5,12 +5,133 @@
     <link>/pt/tags/universidade/</link>
       <atom:link href="/pt/tags/universidade/index.xml" rel="self" type="application/rss+xml" />
     <description>universidade</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Sat, 08 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Thu, 09 Jul 2020 13:40:40 -0300</lastBuildDate>
     <image>
       <url>/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
       <title>universidade</title>
       <link>/pt/tags/universidade/</link>
     </image>
+    
+    <item>
+      <title>Usando e Produzindo Material Livre</title>
+      <link>/pt/post/2020-07-09-usando-e-produzindo-material-livre/</link>
+      <pubDate>Thu, 09 Jul 2020 13:40:40 -0300</pubDate>
+      <guid>/pt/post/2020-07-09-usando-e-produzindo-material-livre/</guid>
+      <description>
+
+
+&lt;div id=&#34;como-achar-material-para-minhas-aulas-online&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Como achar material para minhas aulas &lt;em&gt;online&lt;/em&gt;?&lt;/h2&gt;
+&lt;div style=&#34;background-color: #eeeeee;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;420px-Copyrightstatusquestion.svg.png&#34; width=&#34;210&#34; /&gt;
+&lt;em&gt;(Imagem CC BY-SA 3.0 Unported, by &lt;a href=&#34;https://commons.wikimedia.org/wiki/User:Yung6&#34; class=&#34;uri&#34;&gt;https://commons.wikimedia.org/wiki/User:Yung6&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Durante a pandemia, nós, professores, precisamos produzir aulas &lt;em&gt;online&lt;/em&gt;. Para isso, provavelmente vamos precisar de imagens, vídeos, sons etc. de autoria de outras pessoas.&lt;/p&gt;
+&lt;p&gt;Também vamos precisar disponibilizar publicamente nosso material original.&lt;/p&gt;
+&lt;p&gt;Este &lt;em&gt;post&lt;/em&gt; ajuda a responder às seguintes perguntas:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Como podemos usar material produzido por outras pessoas sem infringir direitos autorais?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Considerando que não somos egoístas e entendemos as dificuldades de quem precisa produzir e/ou transmitir conhecimento, como podemos disponibilizar o material que &lt;em&gt;nós&lt;/em&gt; produzimos sem restringir excessivamente seu uso por outras pessoas?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div id=&#34;o-que-são-direitos-autorais&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;O que são direitos autorais?&lt;/h2&gt;
+&lt;p&gt;Por incrível que pareça, a idéia de direitos autorais &lt;em&gt;não&lt;/em&gt; surgiu para impedir que as pessoas fizessem cópias ilegais de obras artísticas. É claro que um dos objetivos da legislação é garantir que o autor da obra tenha um retorno financeiro sobre o seu trabalho, se assim desejar.&lt;/p&gt;
+&lt;p&gt;Se assim desejar? Como assim? Por que alguém não desejaria ter retorno financeiro sobre seu próprio trabalho?&lt;/p&gt;
+&lt;p&gt;Se você é professor de uma universidade pública, você já recebe um salário para produzir e transmitir conhecimento… para o público. Se, durante o seu trabalho, você cria um vídeo ou escreve um livro, até onde é justo receber dinheiro extra por isso, se o seu salário já inclui a compensação por este trabalho?&lt;/p&gt;
+&lt;p&gt;Mas esta não é a questão aqui.&lt;/p&gt;
+&lt;p&gt;Voltando ao objetivo dos direitos autorais: além de garantir o retorno financeiro do autor &lt;em&gt;por um tempo limitado&lt;/em&gt;, os direitos autorais existem para &lt;em&gt;garantir a renovação da cultura de toda a sociedade&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;O crucial, aqui, é que os direitos autorais expiram e, quando isso acontece, as obras passam a ser de domínio público. O conteúdo dessas obras passa a fazer parte do “caldo cultural” da sociedade, onde outros artistas e pensadores vão buscar material para novas obras.&lt;/p&gt;
+&lt;p&gt;É assim que a legislação, ao determinar que os direitos autorais expiram depois de um certo prazo, garantem uma situação justa, que promove o avanço da cultura e do conhecimento:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;O autor recebe sua compensação financeira por um tempo limitado, depois do qual é incentivado a produzir novas obras para se sustentar;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A sociedade dispõe de um repositório continuamente renovado de obras no domínio público para servir de ponto de partida para novas obras, por novos autores.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div style=&#34;background-color: #eeeeee;&#34;&gt;
+&lt;p&gt;&lt;img src=&#34;600px-Disney-infinite-copyright.svg.png&#34; width=&#34;300&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;O principal problema, obviamente, é o Mickey Mouse.&lt;/p&gt;
+&lt;p&gt;A Walt Disney Company criou o Mickey em 1928. Na época, a vigência dos direitos autorais nos Estados Unidos era de 75 anos (longo demais, aliás, segundo estudiosos da legislação). Antes que este prazo expirasse, a empresa pressionou o Congresso americano a aumentar a vigência de &lt;em&gt;todas&lt;/em&gt; as obras existentes no país.&lt;/p&gt;
+&lt;p&gt;Atualmente, dependendo da obra, este prazo pode chegar a 100 anos.&lt;/p&gt;
+&lt;p&gt;O irônico, aqui, é que muitos outros desenhos animados cujos direitos autorais são da Disney, como, por exemplo, &lt;em&gt;Branca de Neve&lt;/em&gt;, são meras adaptações de obras que já existiam antes, na forma de livros, e que já estavam em domínio público.&lt;/p&gt;
+&lt;p&gt;A Disney e outras empresas de comunicação também se empenharam para convencer a população de que os direitos autorais existem apenas para impedir cópias ilegais. É por isso que não pensamos sobre o outro objetivo (o de garantir um domínio publico constantemente renovado).&lt;/p&gt;
+&lt;p&gt;Sobre esta e outras manobras semelhantes, &lt;a href=&#34;https://pt.wikipedia.org/wiki/Lawrence_Lessig&#34;&gt;Lawrence Lessig&lt;/a&gt; escreveu no seu livro &lt;a href=&#34;http://www.free-culture.cc/freeculture.pdf&#34;&gt;&lt;em&gt;Free Culture&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Jamais houve em nossa história um período em que tanto da nossa “cultura” teve um “dono” como atualmente. E nunca antes houve um período quando a concentração de poder para controlar os usos da cultura foi tão inquestionavelmente aceita como o é atualmente.&#34;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- ## O que são esquerdos autorais? --&gt;
+&lt;!-- ```{r echo=FALSE} --&gt;
+&lt;!-- knitr::include_graphics(&#39;600px-Copyleft.svg.png&#39;) --&gt;
+&lt;!-- ``` --&gt;
+&lt;!-- https://criandocondicoesaliberdade.blogspot.com/2008/09/esquerdos-autorais-copyleft-informao-e.html --&gt;
+&lt;!-- &gt; O termo Copyleft foi popularizado por Richard Stallman (que colocou em funcionamento o projeto GNU, origem e base do GNU/Linux atual), ao associá-lo em 1988 à GPL - uma licença intelectual livre -, sendo diferente do domínio público. De acordo com Stallman, o termo foi-lhe sugerido pelo artista e programador Don Hopkins, que incluiu a expressão &#34;Copyleft - all rights reversed”. A frase é um trocadilho com a expressão &#34;Copyright - all rights reserved.&#34; usada para afirmar os direitos do autor. --&gt;
+&lt;!-- https://www.fsf.org/ --&gt;
+&lt;!-- GNU-Linux --&gt;
+&lt;!-- &lt;a href=&#34;http://u.fsf.org/16e&#34;&gt;&lt;img src=&#34;https://static.fsf.org/nosvn/images/badges/fsfs_icons_beige-bg.png&#34; alt=&#34;Free Software, Free Society&#34;&gt;&lt;/a&gt; --&gt;
+&lt;/div&gt;
+&lt;div id=&#34;o-que-são-as-licenças-creative-commons&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;O que são as licenças Creative Commons?&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://pt.wikipedia.org/wiki/Lawrence_Lessig&#34;&gt;Lawrence Lessig&lt;/a&gt; é um advogado americano, fundador da &lt;a href=&#34;https://br.creativecommons.org/&#34;&gt;Creative Commons&lt;/a&gt;. Uma boa introdução ao seu trabalho pela reforma dos direitos autorais é esta &lt;em&gt;TED talk&lt;/em&gt;, de 2007 (se quiser, configure para ver legendas em português). Mais informações sobre o vídeo, incluindo sua transcrição, no &lt;a href=&#34;https://www.ted.com/talks/lawrence_lessig_laws_that_choke_creativity&#34;&gt;site TED&lt;/a&gt;.&lt;/p&gt;
+&lt;div style=&#34;max-width:854px&#34;&gt;
+&lt;div style=&#34;position:relative;height:0;padding-bottom:56.25%&#34;&gt;
+&lt;iframe src=&#34;https://embed.ted.com/talks/lawrence_lessig_laws_that_choke_creativity&#34; width=&#34;854&#34; height=&#34;480&#34; style=&#34;position:absolute;left:0;top:0;width:100%;height:100%&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; allowfullscreen&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;
+ 
+&lt;/p&gt;
+&lt;p&gt;Lessig também escreveu o livro &lt;a href=&#34;http://free-culture.cc/&#34;&gt;Free Culture&lt;/a&gt;, disponível no &lt;a href=&#34;http://www.free-culture.cc/freeculture.pdf&#34;&gt;original em inglês&lt;/a&gt; e em uma &lt;a href=&#34;http://softwarelivre.org/articles/0018/5102/lawrence-lessig-cultura-livre.pdf&#34;&gt;tradução em português&lt;/a&gt;, ambos, é claro, sob licença livre.&lt;/p&gt;
+&lt;p&gt;A organização Creative Commons tem um &lt;a href=&#34;https://br.creativecommons.org/&#34;&gt;site em português&lt;/a&gt;, que explica como você pode usar e criar material sob diversos tipos de licenças livres, dentro da lei, sem se preocupar com a possibilidade de infringir direitos autorais.&lt;/p&gt;
+&lt;p&gt;As principais licenças Creative Commons são as seguintes (texto do &lt;a href=&#34;https://br.creativecommons.org/&#34;&gt;site brasileiro da CC&lt;/a&gt;):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Atribuição (CC BY)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://br.creativecommons.org/wp-content/uploads/2015/04/by.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Permite que outros distribuam, remixem, adaptem e criem a partir do seu trabalho, mesmo para fins comerciais, desde que lhe atribuam o devido crédito pela criação original. É a licença mais flexível de todas as licenças disponíveis. É recomendada para maximizar a disseminação e uso dos materiais licenciados.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Atribuição-CompartilhaIgual (CC BY-SA)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://br.creativecommons.org/wp-content/uploads/2015/04/by-sa.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Permite que outros remixem, adaptem e criem a partir do seu trabalho, mesmo para fins comerciais, desde que lhe atribuam o devido crédito e que licenciem as novas criações sob termos idênticos. Esta licença costuma ser comparada com as licenças de software livre e de código aberto “copyleft”. Todos os trabalhos novos baseados no seu terão a mesma licença, portanto quaisquer trabalhos derivados também permitirão o uso comercial. Esta é a licença usada pela Wikipédia e é recomendada para materiais que seriam beneficiados com a incorporação de conteúdos da Wikipédia e de outros projetos com licenciamento semelhante.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Atribuição-SemDerivações (CC BY-ND)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://br.creativecommons.org/wp-content/uploads/2015/04/by-nd.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Permite a redistribuição, comercial e não comercial, desde que o trabalho seja distribuído inalterado e no seu todo, com crédito atribuído a você.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Atribuição-NãoComercial (CC BY-NC)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://br.creativecommons.org/wp-content/uploads/2015/04/by-nc.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Permite que outros remixem, adaptem e criem a partir do seu trabalho para fins não comerciais, e embora os novos trabalhos tenham de lhe atribuir o devido crédito e não possam ser usados para fins comerciais, os usuários não têm de licenciar esses trabalhos derivados sob os mesmos termos.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://br.creativecommons.org/wp-content/uploads/2015/04/by-nc-sa.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Permite que outros remixem, adaptem e criem a partir do seu trabalho para fins não comerciais, desde que atribuam a você o devido crédito e que licenciem as novas criações sob termos idênticos.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Atribuição-NãoComercial-SemDerivados (CC BY-NC-ND)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://br.creativecommons.org/wp-content/uploads/2015/04/by-nc-nd.jpg&#34; /&gt;
+Esta é a mais restritiva das licenças principais, só permitindo que outros façam download dos seus trabalhos e os compartilhem desde que atribuam crédito a você, mas sem que possam alterá-los de nenhuma forma, nem utilizá-los para fins comerciais.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Domínio público (CC 0)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Publicdomainsymbolversion1-scaled.jpeg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Nenhuma restrição.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No &lt;a href=&#34;https://br.creativecommons.org/&#34;&gt;site da Creative Commons&lt;/a&gt;, você encontra links para o texto legal de todas as licenças. Não é necessário que o texto legal esteja incluído na obra. Para que ocorra o efeito legal, basta que o autor declare que o material está sendo disponibilizado sob uma dessas licenças.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;onde-achar-material-livre&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Onde achar material livre?&lt;/h2&gt;
+&lt;p&gt;Em &lt;a href=&#34;https://www.sitepoint.com/creative-commons-sources/&#34; class=&#34;uri&#34;&gt;https://www.sitepoint.com/creative-commons-sources/&lt;/a&gt;, existe uma lista de sites onde você pode baixar imagens, vídeos, músicas, arquivos de áudio, livros e outras obras disponíveis sob licenças livres.&lt;/p&gt;
+&lt;p&gt;Eu costumo encontrar o que preciso em&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://search.creativecommons.org/&#34; class=&#34;uri&#34;&gt;https://search.creativecommons.org/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://commons.wikimedia.org/wiki/Main_Page&#34; class=&#34;uri&#34;&gt;https://commons.wikimedia.org/wiki/Main_Page&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://freesound.org/&#34; class=&#34;uri&#34;&gt;https://freesound.org/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;que-licença-usar-para-o-material-que-eu-criei&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Que licença usar para o material que &lt;em&gt;eu&lt;/em&gt; criei?&lt;/h2&gt;
+&lt;p&gt;Você decide.&lt;/p&gt;
+&lt;p&gt;Eu, pessoalmente, prefiro &lt;em&gt;Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA)&lt;/em&gt;, que obriga a atribuir o material ao autor (eu) e a &lt;em&gt;não&lt;/em&gt; usar o material para fins comerciais, ao mesmo tempo que permite o remix (modificações e posterior distribuições, &lt;em&gt;desde que sob esta mesma licença&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Isto também me permite usar, no meu trabalho, obras de autores que proíbem o uso comercial do seu trabalho, pois, se alguém criar uma obra derivada da minha, não vai poder usá-la comercialmente.&lt;/p&gt;
+&lt;p&gt;Seja qual for a licença escolhida, não se esqueça de&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;p&gt;Incluir no seu trabalho as atribuições aos autores dos trabalhos que você usou, se eles assim exigem (e nada impede que você também inclua atribuições aos autores que não as exigem).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Incluir a licença que você está estipulando para o seu trabalho.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>planneR: Atacando uma Coceira</title>
