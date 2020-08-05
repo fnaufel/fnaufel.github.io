@@ -51,9 +51,12 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/fnaufel
+- icon: tv
+  icon-pack: fas
+  link: https://www.youtube.com/channel/UCg2GkejTo4r0taLHZspLEMQ  
 - icon: book
   icon-pack: fas
   link: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4779657J7
-  
+
 ---
 
