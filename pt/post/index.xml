@@ -271,16 +271,23 @@ Esta é a mais restritiva das licenças principais, só permitindo que outros fa
 
 &lt;p&gt;&lt;img src=&#34;tidyverse.png&#34; width=&#34;25%&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;Todos com acesso livre.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Em português:&lt;/strong&gt;&lt;/p&gt;
+&lt;div id=&#34;em-português&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Em português&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://sillasgonzaga.com/material/curso_visualizacao/index.html&#34;&gt;Introdução a R para Visualização e Apresentação de Dados&lt;/a&gt;, por Sillas Gonzaga.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://cdr.ibpad.com.br/index.html&#34;&gt;Ciência de Dados com R: Introdução&lt;/a&gt;, por Max Stabile.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sillas Gonzaga, &lt;em&gt;Introdução a R para Visualização e Apresentação de Dados&lt;/em&gt;,
+&lt;a href=&#34;http://sillasgonzaga.com/material/curso_visualizacao/index.html&#34; class=&#34;uri&#34;&gt;http://sillasgonzaga.com/material/curso_visualizacao/index.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Allan Vieira de Castro Quadros, &lt;em&gt;Introdução à Análise de Dados em R utilizando Tidyverse&lt;/em&gt;, &lt;a href=&#34;https://allanvc.github.io/book_IADR-T/&#34; class=&#34;uri&#34;&gt;https://allanvc.github.io/book_IADR-T/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Paulo Felipe de Oliveira, Saulo Guerra, Robert McDonnel, &lt;em&gt;Ciência de Dados com R – Introdução&lt;/em&gt;, &lt;a href=&#34;https://cdr.ibpad.com.br/index.html&#34; class=&#34;uri&#34;&gt;https://cdr.ibpad.com.br/index.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Curso R, &lt;em&gt;Ciência de Dados em R&lt;/em&gt;, &lt;a href=&#34;https://livro.curso-r.com/&#34; class=&#34;uri&#34;&gt;https://livro.curso-r.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Em inglês:&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;em-inglês&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Em inglês&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://r4ds.had.co.nz/&#34;&gt;R for Data Science&lt;/a&gt;, de Garrett Grolemund e Hadley Wickham.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://moderndive.com/&#34;&gt;Statistical Inference via Data Science: A ModernDive into R and the Tidyverse&lt;/a&gt;, de Chester Ismay e Albert Y. Kim.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Chester Ismay, Albert Y. Kim, &lt;em&gt;A ModernDive into R and the Tidyverse&lt;/em&gt;, &lt;a href=&#34;https://moderndive.com/&#34; class=&#34;uri&#34;&gt;https://moderndive.com/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Garrett Grolemund, Hadley Wickham, &lt;em&gt;R for Data Science&lt;/em&gt;, &lt;a href=&#34;https://r4ds.had.co.nz/&#34; class=&#34;uri&#34;&gt;https://r4ds.had.co.nz/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/div&gt;
 </description>
     </item>
     
