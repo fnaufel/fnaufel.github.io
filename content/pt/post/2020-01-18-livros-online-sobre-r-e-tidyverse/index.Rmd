@@ -28,14 +28,21 @@ knitr::include_graphics('tidyverse.png')
 
 Todos com acesso livre.
 
-**Em português:**
+## Em português
 
-* [Introdução a R para Visualização e Apresentação de Dados](http://sillasgonzaga.com/material/curso_visualizacao/index.html), por Sillas Gonzaga.
+* Sillas Gonzaga, *Introdução a R para Visualização e Apresentação de Dados*,
+http://sillasgonzaga.com/material/curso_visualizacao/index.html
 
-* [Ciência de Dados com R: Introdução](https://cdr.ibpad.com.br/index.html), por Max Stabile.
+* Allan Vieira de Castro Quadros, *Introdução à Análise de Dados em R utilizando Tidyverse*, https://allanvc.github.io/book_IADR-T/
 
-**Em inglês:**
+* Paulo Felipe de Oliveira, Saulo Guerra, Robert McDonnel, *Ciência de Dados com R – Introdução*, https://cdr.ibpad.com.br/index.html
 
-* [R for Data Science](https://r4ds.had.co.nz/), de Garrett Grolemund e Hadley Wickham.
+* Curso R, *Ciência de Dados em R*, https://livro.curso-r.com/
 
-* [Statistical Inference via Data Science: A ModernDive into R and the Tidyverse](https://moderndive.com/), de Chester Ismay e Albert Y. Kim. 
+
+## Em inglês
+
+* Chester Ismay, Albert Y. Kim, *A ModernDive into R and the Tidyverse*, https://moderndive.com/
+
+* Garrett Grolemund, Hadley Wickham, *R for Data Science*, https://r4ds.had.co.nz/
+
