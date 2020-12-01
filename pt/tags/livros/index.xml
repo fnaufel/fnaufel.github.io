@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>livros | fnaufel</title>
-    <link>/pt/tags/livros/</link>
-      <atom:link href="/pt/tags/livros/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://fnaufel.github.io/pt/tags/livros/</link>
+      <atom:link href="https://fnaufel.github.io/pt/tags/livros/index.xml" rel="self" type="application/rss+xml" />
     <description>livros</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>pt</language><lastBuildDate>Sat, 18 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
+      <url>https://fnaufel.github.io/images/icon_hu303daa3c4fc4cf144368f7880cca78d5_198292_512x512_fill_box_center_2.png</url>
       <title>livros</title>
-      <link>/pt/tags/livros/</link>
+      <link>https://fnaufel.github.io/pt/tags/livros/</link>
     </image>
     
     <item>
       <title>Livros Online Sobre R e Tidyverse</title>
-      <link>/pt/post/2020-01-18-livros-online-sobre-r-e-tidyverse/</link>
+      <link>https://fnaufel.github.io/pt/post/2020-01-18-livros-online-sobre-r-e-tidyverse/</link>
       <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>/pt/post/2020-01-18-livros-online-sobre-r-e-tidyverse/</guid>
+      <guid>https://fnaufel.github.io/pt/post/2020-01-18-livros-online-sobre-r-e-tidyverse/</guid>
       <description>
 
 
