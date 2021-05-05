@@ -1,12 +1,17 @@
 theme = "hugo-academic"
-baseURL = "https://fnaufel.github.io/"
+baseURL = "/site/"
 title = "fnaufel"
 
-publishDir = "../fnaufel.github.io"
+publishDir = "public"
 
 languageCode = ["pt", "en"]
 defaultContentLanguage = "pt" 
 defaultContentLanguageInSubdir = true
 
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "cache$"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
