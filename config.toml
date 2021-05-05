@@ -1,5 +1,5 @@
 theme = "hugo-academic"
-baseURL = ""
+baseURL = "https://fnaufel.github.io/site/"
 title = "fnaufel"
 
 publishDir = "public"
