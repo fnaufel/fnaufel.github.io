@@ -2,8 +2,8 @@
 .idea/
 
 # Hugo
-resources/
 public/
+resources/
 .Rproj.user
 
 # R
