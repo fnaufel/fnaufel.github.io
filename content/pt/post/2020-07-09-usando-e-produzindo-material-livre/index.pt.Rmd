@@ -132,37 +132,37 @@ As principais licenças Creative Commons são as seguintes (texto do [site brasi
 
 * **Atribuição (CC BY)**
 
-  ![](https://br.creativecommons.org/wp-content/uploads/2015/04/by.jpg)
-
+  ![](by.jpg)
+  
   Permite que outros distribuam, remixem, adaptem e criem a partir do seu trabalho, mesmo para fins comerciais, desde que lhe atribuam o devido crédito pela criação original. É a licença mais flexível de todas as licenças disponíveis. É recomendada para maximizar a disseminação e uso dos materiais licenciados.
 
 * **Atribuição-CompartilhaIgual (CC BY-SA)**
 
-  ![](https://br.creativecommons.org/wp-content/uploads/2015/04/by-sa.jpg)
+  ![](by-sa.jpg)
   
   Permite que outros remixem, adaptem e criem a partir do seu trabalho, mesmo para fins comerciais, desde que lhe atribuam o devido crédito e que licenciem as novas criações sob termos idênticos. Esta licença costuma ser comparada com as licenças de software livre e de código aberto "copyleft". Todos os trabalhos novos baseados no seu terão a mesma licença, portanto quaisquer trabalhos derivados também permitirão o uso comercial. Esta é a licença usada pela Wikipédia e é recomendada para materiais que seriam beneficiados com a incorporação de conteúdos da Wikipédia e de outros projetos com licenciamento semelhante.
 
 * **Atribuição-SemDerivações (CC BY-ND)**
 
-  ![](https://br.creativecommons.org/wp-content/uploads/2015/04/by-nd.jpg)
+  ![](by-nd.jpg)
   
   Permite a redistribuição, comercial e não comercial, desde que o trabalho seja distribuído inalterado e no seu todo, com crédito atribuído a você.
 
 * **Atribuição-NãoComercial (CC BY-NC)**
 
-  ![](https://br.creativecommons.org/wp-content/uploads/2015/04/by-nc.jpg)
+  ![](by-nc.jpg)
   
   Permite que outros remixem, adaptem e criem a partir do seu trabalho para fins não comerciais, e embora os novos trabalhos tenham de lhe atribuir o devido crédito e não possam ser usados para fins comerciais, os usuários não têm de licenciar esses trabalhos derivados sob os mesmos termos.
 
 * **Atribuição-NãoComercial-CompartilhaIgual (CC BY-NC-SA)**
 
-  ![](https://br.creativecommons.org/wp-content/uploads/2015/04/by-nc-sa.jpg)
+  ![](by-nc-sa.jpg)
   
   Permite que outros remixem, adaptem e criem a partir do seu trabalho para fins não comerciais, desde que atribuam a você o devido crédito e que licenciem as novas criações sob termos idênticos.
 
 * **Atribuição-NãoComercial-SemDerivados (CC BY-NC-ND)**
 
-  ![](https://br.creativecommons.org/wp-content/uploads/2015/04/by-nc-nd.jpg)
+  ![](by-nc-nd.jpg)
   Esta é a mais restritiva das licenças principais, só permitindo que outros façam download dos seus trabalhos e os compartilhem desde que atribuam crédito a você, mas sem que possam alterá-los de nenhuma forma, nem utilizá-los para fins comerciais.
 
 * **Domínio público (CC 0)**

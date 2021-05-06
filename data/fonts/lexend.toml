@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Lexend"
+
+# Optional Google font URL
+google_fonts = "family=Lexend:wght@400;700&family=JetBrains+Mono&family=Roboto:wght@400;700"
+
+# Font families
+heading_font = "Roboto"
+body_font = "Lexend"
+nav_font = "Roboto"
+mono_font = "JetBrains Mono"
