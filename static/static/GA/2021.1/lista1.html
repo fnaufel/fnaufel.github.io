@@ -160,7 +160,7 @@ pre code {
 <h1 class="title toc-ignore">Lista 1</h1>
 <h3 class="subtitle">Geometria Analítica 2021.1</h3>
 <h4 class="author">Prof. Fernando Náufel</h4>
-<h4 class="date">(v. 30/07/2021)</h4>
+<h4 class="date">(v. 31/07/2021)</h4>
 
 </div>
 
@@ -205,8 +205,8 @@ $(
 <li><p><span class="math inline">\(\vec w = (m, -n/2)\)</span></p></li>
 </ul></li>
 <li><p>Faça um esboço da situação no Geogebra, usando um <em>slider</em> para <span class="math inline">\(m\)</span>, com mínimo igual a <span class="math inline">\(-20\)</span>, máximo igual a <span class="math inline">\(20\)</span>, e incremento igual a <span class="math inline">\(0{,}01\)</span>.</p></li>
-<li><p>Determine <span class="hl">analiticamente</span> os valores de <span class="math inline">\(m \in \mathbb R\)</span> para que <span class="math inline">\(\Pr_{\vec w} \vec v\)</span> seja um vetor unitário.</p>
-<p>Dica:</p>
+<li><p>Determine <span class="hl">analiticamente</span> os valores de <span class="math inline">\(m \in \mathbb R\)</span> para que <span class="math inline">\(\Pr_{\vec w} \vec v\)</span> seja um vetor unitário.</p></li>
+<li><p>Dica <span class="math inline">\(1\)</span>:</p>
 <p><span class="math display">\[
 \left|\Pr_{\vec w} \vec v \right| = 1 
 \quad \iff \quad
@@ -215,6 +215,19 @@ $(
 \quad \iff \quad
 \frac{|\langle \vec v, \vec w \rangle|}{| \vec w |^2}
   \cdot | \vec w | = 1
+\]</span></p></li>
+<li><p>Dica <span class="math inline">\(2\)</span>:</p>
+<p>Esqueça a dica <span class="math inline">\(1\)</span>, pois ela faz você cair em uma equação de quarto grau. Em vez disso, pense que o vetor</p>
+<p><span class="math display">\[
+\frac{\vec w}{|\vec w|}
+\]</span></p>
+<p>sempre é unitário, e considere que</p>
+<p><span class="math display">\[
+\frac{|\langle \vec v, \vec w \rangle|}{| \vec w |^2}
+  \cdot \vec w 
+  \quad=\quad 
+  \frac{|\langle \vec v, \vec w \rangle|}{| \vec w |}
+  \cdot  \frac{\vec w}{| \vec w |}
 \]</span></p></li>
 </ul>
 <p><span class="hl">Respostas finais numéricas, arredondadas para <span class="math inline">\(2\)</span> casas decimais.</span></p>
