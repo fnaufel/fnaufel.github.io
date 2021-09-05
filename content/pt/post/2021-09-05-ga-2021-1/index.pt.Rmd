@@ -22,7 +22,7 @@ projects: []
 
 ## Descrição
 
-Listas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.
+Listas de exercícios que serviram como avaliação no semestre 2021.1, o terceiro a ser oferecido remotamente por causa da pandemia.
 
 
 ## Lista 1
