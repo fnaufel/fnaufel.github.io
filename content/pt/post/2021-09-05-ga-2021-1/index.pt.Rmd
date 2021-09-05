@@ -29,8 +29,11 @@ Listas de exercícios que serviram como avaliação no semestre 2020.1, o primei
 
 * [Enunciado.](/site/static/GA/2021.1/lista1.html){target="_blank"}
 
+* [Solução.](https://www.geogebra.org/m/w98zzmt8#material/uyrwturt){target="_blank"}
 
 ## Lista 2
 
 * [Enunciado.](/site/static/GA/2021.1/lista2.html){target="_blank"}
+
+* [Solução.](https://www.geogebra.org/m/w98zzmt8#material/rchfwcqv){target="_blank"}
 
