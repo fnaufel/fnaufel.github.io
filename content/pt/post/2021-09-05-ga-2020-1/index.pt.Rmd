@@ -1,0 +1,38 @@
+---
+title: GA 2020.1
+author: fnaufel
+date: '2021-09-05'
+slug: []
+categories:
+  - ga
+tags:
+  - cursos
+  - universidade
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-09-05T15:09:49-03:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+## Descrição
+
+Listas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.
+
+
+## Lista 1
+
+* [Enunciado.](/site/static/GA/2020.1/lista1.html){target="_blank"}
+
+* [Solução.](/site/static/GA/2020.1/lista1-gabarito.html){target="_blank"}
+
+
+## Lista 2
+
+* [Enunciado.](/site/static/GA/2020.1/lista2.html){target="_blank"}
+
