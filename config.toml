@@ -15,3 +15,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "cache$"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
