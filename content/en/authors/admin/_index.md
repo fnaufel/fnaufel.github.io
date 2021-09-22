@@ -45,16 +45,16 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-- icon: envelope
-  icon_pack: fas
-  link: 'contact/'  # For a direct email link, use "mailto:test@example.org".
+- icon: play
+  icon-pack: fas
+  link: https://www.youtube.com/channel/UCg2GkejTo4r0taLHZspLEMQ  
 - icon: github
   icon_pack: fab
   link: https://github.com/fnaufel
-- icon: tv
-  icon-pack: fas
-  link: https://www.youtube.com/channel/UCg2GkejTo4r0taLHZspLEMQ  
-- icon: book
+- icon: envelope
+  icon_pack: fas
+  link: 'contact/'  # For a direct email link, use "mailto:test@example.org".
+- icon: scroll
   icon-pack: fas
   link: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4779657J7
   
