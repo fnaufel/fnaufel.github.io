@@ -12,7 +12,7 @@ tags:
 subtitle: ''
 summary: ''
 authors: []
-lastmod: '2021-09-16T11:43:23-03:00'
+lastmod: 2021-11-01
 featured: no
 image:
   caption: ''
@@ -26,9 +26,16 @@ projects: []
 Informações sobre a disciplina RCN00037 do curso de Ciência da Computação do PURO da Universidade Federal Fluminense. 
 
 
-## Livros
+## Livro eletrônico
 
-Não vamos seguir nenhum livro em especial.
+Estou desenvolvendo um livro eletrônico com o conteúdo do curso.
+
+A versão preliminar está em [https://fnaufel.github.io/probestr/](https://fnaufel.github.io/probestr/){target="_blank"}.
+
+Você deve usar o livro eletrônico junto com a *playlist* de vídeos e com o repositório do GitHub. Mais informações abaixo.
+
+
+## Outras referências
 
 Minhas recomendações são
 
@@ -59,9 +66,6 @@ Não esqueça de indicar o canal para seus coleguinhas.
 Todos os arquivos usados nos vídeos estão no [repositório do curso no GitHub](https://github.com/fnaufel/CursoProbEst#readme){target="_blank"}.
 
 Lá, você encontra instruções para ter acesso a eles, *online* ou no seu computador.
-
-Estou desenvolvendo um livro eletrônico interativo baseado nesse material. Postarei mais informações aqui ao longo do tempo.
-
 
 ## Material de semestres anteriores
 
