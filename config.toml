@@ -18,3 +18,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "cache$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
+
