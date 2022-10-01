@@ -16,7 +16,7 @@ jobs:
       - name: Install rmarkdown
         run: Rscript -e 'install.packages(c("rmarkdown","blogdown"))'
       - name: install hugo
-        run: Rscript -e 'blogdown::install_hugo(arch="universal", extended=TRUE)'
+        run: Rscript -e 'blogdown::install_hugo(os="darwin", arch="universal", extended=TRUE)'
       - name: Render blog
         run: Rscript -e 'blogdown::build_site()'
       - uses: actions/upload-artifact@v1
