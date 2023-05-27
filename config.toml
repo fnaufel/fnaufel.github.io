@@ -4,10 +4,14 @@ title = "fnaufel"
 
 publishDir = "public"
 
-languageCode = ["pt", "en"]
+languageCode = "pt"
 defaultContentLanguage = "pt" 
 defaultContentLanguageInSubdir = true
 
+[languages]
+
+[languages.en]
+languageCode = "en-us"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "cache$"]
 
