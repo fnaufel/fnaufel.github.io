@@ -1,0 +1,16 @@
+---
+title: "Provas de períodos anteriores"
+description: "Algumas com gabarito"
+author: "fnaufel"
+image: 20230808_256x256_image.png
+date: 08/08/2023
+date-modified: 08/08/2023
+categories:
+  - ga
+#draft: true
+---
+  
+![](20230808_256x256_image.png)
+
+Baixe [este arquivo .zip](https://drive.google.com/file/d/1HsSzo3eflh7p2TbpBphG9m6WCNW3BA2h/view?usp=sharing).
+

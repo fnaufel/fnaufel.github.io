@@ -1,0 +1,63 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "fnaufel (RCN, UFF)"
+  favicon: images/avatar.jpg
+  image: images/icon.png
+  site-url: https://fnaufel.github.io
+  repo-url: https://github.com/fnaufel/site
+  repo-branch: master
+  reader-mode: true
+  page-footer: 
+    left: 
+      - text: "LICENÇA CC-BY-NC-SA"
+        href: licenca.qmd
+    right:
+      - text: Desenvolvido com Quarto
+        href: https://quarto.org/
+  search:
+    location: navbar
+    type: textbox
+  navbar:
+    logo: images/icon.png
+    background: dark
+    foreground: light
+    pinned: true
+    collapse: true
+    right:
+      - href: index.qmd
+        text: Posts
+        aria-label: Posts
+      - href: ga.qmd
+        text: GA
+        aria-label: GA
+      - href: probest.qmd
+        text: ProbEst
+        aria-label: Probabililidade e Estatística
+      - href: pubs.qmd
+        text: Publicações
+        aria-label: Publicações
+      - href: about.qmd
+        text: Sobre
+        aria-label: Sobre
+      - icon: github
+        href: https://github.com/fnaufel
+        aria-label: GitHub
+      - icon: youtube
+        href: https://www.youtube.com/@serenitasfifty1185
+        aria-label: YouTube
+        
+format:
+  html:
+    theme: 
+      light: journal 
+      dark: slate
+    css: styles.css
+    lang: pt
+    link-external-icon: true
+    link-external-newwindow: true
+    link-external-filter: ^(?:http:|https:)\/\/fnaufel\.github\.io
+    resources:
+      - "site/index.html"

@@ -1,0 +1,11 @@
+---
+title: "Publicações"
+bibliography: pubs.bib
+csl: universidade-do-porto-faculdade-de-engenharia-chicago-pt-crono.csl
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::
+

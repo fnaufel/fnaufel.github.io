@@ -1,0 +1,64 @@
+---
+title: "Trabalhos de períodos anteriores"
+description: "Tarefas online e respostas"
+author: "fnaufel"
+image: 20230808_256x256_image_2.png
+date: 08/08/2023
+date-modified: 08/08/2023
+categories:
+  - probest
+#draft: true
+---
+
+![](20230808_256x256_image_2.png)
+  
+## 2022.1
+
+### Lista 1: cidades brasileiras
+
+* [Enunciado.](https://fnaufel.github.io/lista1-cidades-br/)
+* [Solução parcial.](/probest/2022.1/cidades-gab.html)
+
+### Lista 2: pessoas e medidas
+
+* [Enunciado.](/probest/2022.1/ic-ih.html)
+
+
+## 2021.2
+
+### Lista 1: olimpíadas
+
+* [Enunciado.](https://github.com/fnaufel/Olimpiadas/blob/master/README.md)
+* [Solução.](/probest/2021.2/olimpiadas-solucoes.html)
+
+### Lista 2: intervalos de confiança e testes de hipóteses
+
+* [Enunciado.](/probest/2021.2/ic-th.html)
+* [Solução.](/probest/2021.2/ic-th-solucoes.html)
+
+
+## 2021.1
+
+Listas de exercícios que serviram como avaliação no semestre 2021.1, o terceiro a ser oferecido remotamente por causa da pandemia.
+
+### Lista 2: visualização e probabilidades
+
+* [Enunciado.](/probest/2021.1/lista2.html)
+* [Solução.](/probest/2021.1/lista2-gab.html)
+
+
+## 2020.1
+
+Listas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.
+
+### Lista 1: visualização, medidas, probabilidades
+
+* [Enunciado.](/probest/2020.1/lista1.html)
+* [Solução.](/probest/2020.1/lista1-gab.html)
+
+
+### Lista 2: normal, Poisson, probabilidades
+
+* [Enunciado.](/probest/2020.1/lista2.html)
+* [Solução.](/probest/2020.1/lista2-respostas.html)
+

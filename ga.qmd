@@ -1,0 +1,51 @@
+---
+title: "Geometria Analítica e Cálculo Vetorial (RCN00023)"
+listing:
+  id: ga-listings
+  contents: posts
+  type: grid
+  sort: "date desc"
+  date-format: short
+  categories: false
+  include: 
+    categories: "ga"
+---
+
+::: {.callout-important title="Postagens recentes"}
+
+Ao longo do semestre, acompanhe as postagens [mais abaixo, nesta mesma página](#listing-ga-listings).
+
+:::
+
+
+## Livros
+
+Vamos usar o material do [CEDERJ](https://canal.cecierj.edu.br/). Os PDFs estão em 
+
+* [https://canal.cecierj.edu.br/recurso/4690](https://canal.cecierj.edu.br/recurso/4690) (volume 1)
+* [https://canal.cecierj.edu.br/recurso/4549](https://canal.cecierj.edu.br/recurso/4549) (volume 2)
+
+
+## Vídeos
+
+Siga o [canal do seu professor favorito](https://www.youtube.com/channel/UCg2GkejTo4r0taLHZspLEMQ). Lá você encontra a *playlist* de GA:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7SRLwLs7ocaQDC-qPjBWCnG46jYofs67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Software
+
+* Aprenda a usar o [Geogebra](https://www.geogebra.org/), ou *online* ou instalado no seu celular, *tablet* ou computador.
+* Existem muitos vídeos com [tutoriais em português sobre o Geogebra](https://www.youtube.com/results?search_query=geogebra+portugu%C3%AAs).
+
+
+## Cronograma e outras informações
+
+No [Moodle](https://ead.cead.uff.br/). Entre em contato se você ainda não tem acesso.
+
+
+## Postagens recentes sobre GA
+
+::: {#ga-listings}
+:::
+

@@ -1,11 +1,9 @@
-# IDEs
-.idea/
-
-# Hugo
-public/
-resources/
 .Rproj.user
-
-# R
-.RData
 .Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+/2023-quarto.Rproj
+/_freeze/
+/auto/

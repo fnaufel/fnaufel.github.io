@@ -1,0 +1,37 @@
+---
+title: "Fernando Náufel do Amaral"
+image: profile.jpg
+about:
+  template: jolla
+  image: images/icon.png
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/fnaufel
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/@serenitasfifty1185
+    - icon: file-earmark-person
+      text: CV Lattes
+      href: http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4779657J7
+
+---
+
+Professor Associado  
+[Depto. de Ciências da Natureza](https://depcienciasdanatureza.uff.br/)  
+[Universidade Federal Fluminense](https://www.uff.br/)
+
+## Formação
+
+D.Sc. em Teoria da Computação, PUC-Rio, 2004  
+M.Sc. em Teoria da Computação, PUC-Rio, 2000  
+Bacharel em Ciência da Computação, UFF, 1997
+
+## Interesses
+
+Álgebra geométrica  
+Ciência de dados  
+Estatística  
+Probabilidades  
+Linguagens visuais  
+Lógicas de descrição
