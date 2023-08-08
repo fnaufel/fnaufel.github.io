@@ -1,192 +1,17 @@
 [
   {
+    "objectID": "licenca.html",
+    "href": "licenca.html",
+    "title": "Licença",
+    "section": "",
+    "text": "Todo o material deste site (exceto quando houver indicação em contrário) está disponível sob a licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional."
+  },
+  {
     "objectID": "pubs.html",
     "href": "pubs.html",
     "title": "Publicações",
     "section": "",
     "text": "Amaral, Fernando Náufel do. 1996. \"Uma Nova Proposta para o Cálculo do Fecho Transitivo de Relações Binárias\". E-26/151.163/95-BOLSA. Rio de Janeiro: FAPERJ.\n\n\nAmaral, Fernando Náufel do, e P. G. Rabelo. 1997. \"Tradução de Estruturas de Controle para Sistemas de Tempo Real em Linguagens Orientadas a Objetos\". Niterói, Rio de Janeiro: DCC, UFF.\n\n\nAmaral, Fernando Náufel do, P. G. Rabelo, e S. E. R. Carvalho. 1999. \"C++ Idioms for Concurrent Operations\". Comunicação apresentada em 28 JAIIO – Jornadas Argentinas de Informática e Investigación Operativa. Buenos Aires, Argentina. https://fnaufel.github.io/publications/fnaufel-jaiio-99.pdf.\n\n\nAmaral, Fernando Náufel do. 2000. \"RETOOL: uma Lógica de Ações para Sistemas de Transição Temporizados\". Rio de Janeiro: Depto. de Informática, PUC-Rio. https://fnaufel.github.io/publications/fnaufel-dissert-00.pdf.\n\n\nAmaral, Fernando Náufel do, e E. H. Haeusler. 2000a. \"A Logic-Based Approach for Real-Time Object-Oriented Software Development\". Editado por UFRGS. Revista de Informática Teórica e Aplicada VII, no.1: 69–88. https://fnaufel.github.io/publications/fnaufel-rita-00.pdf.\n\n\n———. 2000b. \"A Logic-Based Approach for Real-Time Object-Oriented Software Development\". Comunicação apresentada em Simpósio Brasileiro de Engenharia de Software – Workshop de Métodos Formais, 45–55. João Pessoa, Paraíba: SBC. https://fnaufel.github.io/publications/fnaufel-wmf-00.pdf.\n\n\n———. 2000c. \"Completeness of an Action Logic Featuring a Delta-Operator for Timed Transition Systems\". Comunicação apresentada em Workshop on Logic, Language, Information and Computation – WoLLIC, 123–32. Natal, Rio Grande do Norte. https://fnaufel.github.io/publications/fnaufel-wollic-00.pdf.\n\n\n———. 2000d. \"Completeness of an Action Logic for Timed Transition Systems\". Bulletin of the Section of Logic (Lodz, Poland) 29, no.4: 151–60. https://fnaufel.github.io/publications/fnaufel-bsl-00.pdf.\n\n\n———. 2000e. \"RETOOL: an Action Logic for Timed Transition Systems\". Comunicação apresentada em European Summer Meeting of the Association for Symbolic Logic – Logic Colloquium. https://fnaufel.github.io/publications/fnaufel-lc-00.pdf.\n\n\nAmaral, Fernando Náufel do, E. H. Haeusler, e M. Endler. 2002a. \"A Real-Time Specification Language\". Comunicação apresentada em Advances in Logic, Artificial Intelligence and Robotics – LAPTEC 2002, editado por J. M. Abe e J. I. da Silva Filho, 85:194–201. Frontiers in Artificial Intelligence and Applications. São Paulo, São Paulo: IOS Press. https://fnaufel.github.io/publications/fnaufel-laptec-02.pdf.\n\n\n———. 2002b. \"A Real-Time Specification Language\". 22/02. Rio de Janeiro, Rio de Janeiro: Depto. de Informática, PUC-Rio. https://fnaufel.github.io/publications/fnaufel-puc-02.pdf.\n\n\nAmaral, Fernando Náufel do. 2004. \"Teoria de Modelos para Heurísticas Baseada em Topoi\". Depto. de Informática, PUC-Rio. http://www2.dbd.puc-rio.br/pergamum/biblioteca/php/mostrateses.php?open=1&arqtese=0016027_04_Indice.html.\n\n\nAmaral, Fernando Náufel do, e E. H. Haeusler. 2005. \"A Logic-Based Formal Model for (Meta)Heuristics\". 06/05. Rio de Janeiro, Rio de Janeiro: Depto. de Informática, PUC-Rio. https://fnaufel.github.io/publications/fnaufel-puc-05.pdf.\n\n\nAmaral, Fernando Naufel do, C. Bazilio, G. M. H. da Silva, A. Rademaker, e E. H. Haeusler. 2006. \"An Ontology-based Approach to the Formalization of Information Security Policies\". Comunicação apresentada em 2006 10th IEEE International Enterprise Distributed Object Computing Conference Workshops (EDOCW’06). https://doi.org/10.1109/EDOCW.2006.21.\n\n\nAmaral, Fernando Náufel do, C. Bazílio, G. M. H. da Silva, A. Rademaker, e E. H. Haeusler. 2006. \"An Ontology-based Approach to the Formalization of Information Security Policies\". Comunicação apresentada em Workshop on Vocabularies, Ontologies, and Rules for the Enterprise (VORTE). Hong Kong, China. https://fnaufel.github.io/publications/fnaufel-vorte-06.pdf.\n\n\nAmaral, Fernando Náufel do, e E. H. Haeusler. 2006a. \"Topos-Based Logical Frameworks and an Application to (Meta)Heuristic Search\". Comunicação apresentada em LSFA – Brazilian Workshop on Logical and Semantic Frameworks, with Applications. Natal, Rio Grande do Norte. https://fnaufel.github.io/publications/fnaufel-lsfa-06.pdf.\n\n\n———. 2006b. \"Using the Internal Logic of a Topos Related to the Topos of Forests to Model Search Spaces for Problems\". Comunicação apresentada em XIV EBL – Encontro Brasileiro de Lógica. Itatiaia, Rio de Janeiro. https://fnaufel.github.io/publications/fnaufel-ebl-06.pdf.\n\n\n———. 2007. \"Using the Internal Logic of a Topos to Model Search Spaces for Problems\". Logic Journal of the IGPL 15, no.5–6: 457–74. https://fnaufel.github.io/publications/fnaufel-igpl-07.pdf.\n\n\nRademaker, A., Fernando Náufel do Amaral, e E. H. Haeusler. 2007. \"A Sequent Calculus for ALC\". 25/07. Rio de Janeiro, Rio de Janeiro: Depto. de Informática, PUC-Rio. ftp://ftp.inf.puc-rio.br/pub/docs/techreports/07_25_rademaker.pdf.\n\n\nSilva, G. M. H. da, A. Rademaker, D. R. Vasconcelos, Fernando Náufel do Amaral, C. Bazílio, V. Gonçalves, e E. H. Haeusler. 2007. \"Dealing with the Formal Analysis of Information Security Policies through Ontologies: A Case Study\". Comunicação apresentada em AOW – The Third Australasian Ontology Workshop. Gold Coast, Queensland, Australia.\n\n\nAmaral, Fernando Náufel do. 2008a. \"Visualização de Descrições de Conceitos em OWL\". Comunicação apresentada em I Seminário de Pesquisa em Ontologia no Brasil. UFF, Niterói, Rio de Janeiro. https://fnaufel.github.io/publications/fnaufel-sem-onto-2008.pdf.\n\n\n———. 2008b. \"Visualizing the Semantics (Not the Syntax) of Concept Descriptions\". Comunicação apresentada em VI Workshop em Tecnologia da Informação e da Linguagem Humana (TIL). Vila Velha, Espírito Santo. https://fnaufel.github.io/publications/fnaufel-til-2008.pdf.\n\n\nAmaral, Fernando Náufel do, e C. Bazílio. 2008. \"Visualization of Description Logic Models\". Comunicação apresentada em The 21st International Workshop on Description Logics. Dresden, Germany. https://fnaufel.github.io/publications/fnaufel-dl-2008.pdf.\n\n\nMachado, A. F. V., Fernando Náufel do Amaral, e E. W. Clua. 2009. \"A Trivial Study Case of the Application of Ontologies in Electronic Games\". Comunicação apresentada em Conferência de Ciências e Artes dos Videojogos 2009. Rio de Janeiro, Rio de Janeiro. https://fnaufel.github.io/publications/fnaufel-sb-games-2009.pdf.\n\n\nAmaral, Fernando Náufel do. 2010a. \"Usabilidade de uma Notação Diagramática para Descrições de Conceitos\". Comunicação apresentada em III Seminário de Pesquisa em Ontologia no Brasil. UFSC, Florianópolis, Santa Catarina. https://fnaufel.github.io/publications/fnaufel-sem-onto-2010.pdf.\n\n\n———. 2010b. \"Usability of a Visual Language for DL Concept Descriptions\". Comunicação apresentada em Proceedings of the Fourth International Conference on Web Reasoning and Rule Systems, 6333:27–41. LNCS. Bressanone/Brixen, Italy: Springer. https://fnaufel.github.io/publications/fnaufel-wrr-2010.pdf.\n\n\n———. 2013. \"Model Outlines: a Visual Language for DL Concept Descriptions\". Editado por IOS Press. Semantic Web 4: 429–55. https://fnaufel.github.io/publications/fnaufel-swj-2013.pdf."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Fernando Náufel do Amaral",
-    "section": "",
-    "text": "Professor Associado\nDepto. de Ciências da Natureza\nUniversidade Federal Fluminense"
-  },
-  {
-    "objectID": "about.html#formação",
-    "href": "about.html#formação",
-    "title": "Fernando Náufel do Amaral",
-    "section": "Formação",
-    "text": "Formação\nD.Sc. em Teoria da Computação, PUC-Rio, 2004\nM.Sc. em Teoria da Computação, PUC-Rio, 2000\nBacharel em Ciência da Computação, UFF, 1997"
-  },
-  {
-    "objectID": "about.html#interesses",
-    "href": "about.html#interesses",
-    "title": "Fernando Náufel do Amaral",
-    "section": "Interesses",
-    "text": "Interesses\nÁlgebra geométrica\nCiência de dados\nEstatística\nProbabilidades\nLinguagens visuais\nLógicas de descrição"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Todas as postagens",
-    "section": "",
-    "text": "Ordenar por\n       Pré-selecionado\n         \n          Título\n        \n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Autor\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProvas de períodos anteriores\n\n\n\nga\n\n\n\nAlgumas com gabarito\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\n\nga\n\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\n\nprobest\n\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "ga.html",
-    "href": "ga.html",
-    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
-    "section": "",
-    "text": "Postagens recentes\n\n\n\nAo longo do semestre, acompanhe as postagens mais abaixo, nesta mesma página."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "",
-    "text": "Enunciado.\nSolução.\n\n\n\n\n\nEnunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-1-construindo-uma-casa-no-mathbbr2",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-1-construindo-uma-casa-no-mathbbr2",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "",
-    "text": "Enunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-2-construindo-um-emoji-com-cônicas",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-2-construindo-um-emoji-com-cônicas",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "",
-    "text": "Enunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-1-vetores-projeção-ortogonal-cônicas",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-1-vetores-projeção-ortogonal-cônicas",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "Lista 1: vetores, projeção ortogonal, cônicas",
-    "text": "Lista 1: vetores, projeção ortogonal, cônicas\n\nEnunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-2-construindo-uma-casa-no-mathbbr3",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-2-construindo-uma-casa-no-mathbbr3",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "Lista 2: construindo uma casa no \\(\\mathbb{R}^3\\)",
-    "text": "Lista 2: construindo uma casa no \\(\\mathbb{R}^3\\)\n\nEnunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-1-cônicas",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-1-cônicas",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "Lista 1: cônicas",
-    "text": "Lista 1: cônicas\n\nEnunciado."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-2-esferas-e-retas-no-espaço",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-2-esferas-e-retas-no-espaço",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "Lista 2: esferas e retas no espaço",
-    "text": "Lista 2: esferas e retas no espaço\n\nEnunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-1-retas-vetores-projeção-ortogonal",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-1-retas-vetores-projeção-ortogonal",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "Lista 1: retas, vetores, projeção ortogonal",
-    "text": "Lista 1: retas, vetores, projeção ortogonal\n\nEnunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-2-cônicas",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#lista-2-cônicas",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "Lista 2: cônicas",
-    "text": "Lista 2: cônicas\n\nEnunciado."
-  },
-  {
-    "objectID": "posts/provas-antigas-ga/provas-antigas.html",
-    "href": "posts/provas-antigas-ga/provas-antigas.html",
-    "title": "Provas de períodos anteriores",
-    "section": "",
-    "text": "Baixe este arquivo .zip."
-  },
-  {
-    "objectID": "ga.html#livros",
-    "href": "ga.html#livros",
-    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
-    "section": "Livros",
-    "text": "Livros\nVamos usar o material do CEDERJ. Os PDFs estão em\n\nhttps://canal.cecierj.edu.br/recurso/4690 (volume 1)\nhttps://canal.cecierj.edu.br/recurso/4549 (volume 2)"
-  },
-  {
-    "objectID": "ga.html#vídeos",
-    "href": "ga.html#vídeos",
-    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
-    "section": "Vídeos",
-    "text": "Vídeos\nSiga o canal do seu professor favorito. Lá você encontra a playlist de GA:"
-  },
-  {
-    "objectID": "ga.html#software",
-    "href": "ga.html#software",
-    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
-    "section": "Software",
-    "text": "Software\n\nAprenda a usar o Geogebra, ou online ou instalado no seu celular, tablet ou computador.\nExistem muitos vídeos com tutoriais em português sobre o Geogebra."
-  },
-  {
-    "objectID": "ga.html#cronograma-e-outras-informações",
-    "href": "ga.html#cronograma-e-outras-informações",
-    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
-    "section": "Cronograma e outras informações",
-    "text": "Cronograma e outras informações\nNo Moodle. Entre em contato se você ainda não tem acesso."
-  },
-  {
-    "objectID": "ga.html#postagens-recentes",
-    "href": "ga.html#postagens-recentes",
-    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
-    "section": "Postagens recentes",
-    "text": "Postagens recentes\n\n\n\n\n\n\n\n\n\n\nProvas de períodos anteriores\n\n\nAlgumas com gabarito\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "2021.2",
-    "text": "2021.2\n\nLista 1: construindo uma casa no \\(\\mathbb{R}^2\\)\n\nEnunciado.\nSolução.\n\n\n\nLista 2: construindo um emoji com cônicas\n\nEnunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-1",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-1",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "2021.1",
-    "text": "2021.1\nListas de exercícios que serviram como avaliação no semestre 2021.1, o terceiro a ser oferecido remotamente por causa da pandemia.\n\nLista 1: vetores, projeção ortogonal, cônicas\n\nEnunciado.\nSolução.\n\n\n\nLista 2: construindo uma casa no \\(\\mathbb{R}^3\\)\n\nEnunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-2",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-2",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "2020.2",
-    "text": "2020.2\nListas de exercícios que serviram como avaliação no semestre 2020.2, o segundo a ser oferecido remotamente por causa da pandemia.\n\nLista 1: cônicas\n\nEnunciado.\n\n\n\nLista 2: esferas e retas no espaço\n\nEnunciado.\nSolução."
-  },
-  {
-    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-3",
-    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-3",
-    "title": "Trabalhos de períodos anteriores",
-    "section": "2020.1",
-    "text": "2020.1\nListas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.\n\nLista 1: retas, vetores, projeção ortogonal\n\nEnunciado.\nSolução.\n\n\n\nLista 2: cônicas\n\nEnunciado."
   },
   {
     "objectID": "probest.html",
@@ -231,18 +56,67 @@
     "text": "Cronograma e outras informações\nNo Moodle. Entre em contato se você ainda não tem acesso."
   },
   {
-    "objectID": "probest.html#material-de-semestres-anteriores",
-    "href": "probest.html#material-de-semestres-anteriores",
+    "objectID": "probest.html#postagens-recentes-sobre-probest",
+    "href": "probest.html#postagens-recentes-sobre-probest",
     "title": "Probabilidade e Estatística (RCN00037)",
-    "section": "Material de semestres anteriores",
-    "text": "Material de semestres anteriores\n\n2022.1\n\nLista 1: cidades brasileiras\n\nEnunciado.\nSolução parcial.\n\n\n\nLista 2: pessoas e medidas\n\nEnunciado.\n\n\n\n\n2021.2\n\nLista 1: olimpíadas\n\nEnunciado.\nSolução.\n\n\n\nLista 2: intervalos de confiança e testes de hipóteses\n\nEnunciado.\nSolução.\n\n\n\n\n2021.1\nListas de exercícios que serviram como avaliação no semestre 2021.1, o terceiro a ser oferecido remotamente por causa da pandemia.\n\nLista 2: visualização e probabilidades\n\nEnunciado.\nSolução.\n\n\n\n\n2020.1\nListas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.\n\nLista 1: visualização, medidas, probabilidades\n\nEnunciado.\nSolução.\n\n\n\nLista 2: normal, Poisson, probabilidades\n\nEnunciado.\nSolução."
+    "section": "Postagens recentes sobre ProbEst",
+    "text": "Postagens recentes sobre ProbEst\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
-    "objectID": "probest.html#postagens-recentes",
-    "href": "probest.html#postagens-recentes",
-    "title": "Probabilidade e Estatística (RCN00037)",
-    "section": "Postagens recentes",
-    "text": "Postagens recentes\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Fernando Náufel do Amaral",
+    "section": "",
+    "text": "Professor Associado\nDepto. de Ciências da Natureza\nUniversidade Federal Fluminense"
+  },
+  {
+    "objectID": "about.html#formação",
+    "href": "about.html#formação",
+    "title": "Fernando Náufel do Amaral",
+    "section": "Formação",
+    "text": "Formação\nD.Sc. em Teoria da Computação, PUC-Rio, 2004\nM.Sc. em Teoria da Computação, PUC-Rio, 2000\nBacharel em Ciência da Computação, UFF, 1997"
+  },
+  {
+    "objectID": "about.html#interesses",
+    "href": "about.html#interesses",
+    "title": "Fernando Náufel do Amaral",
+    "section": "Interesses",
+    "text": "Interesses\nÁlgebra geométrica\nCiência de dados\nEstatística\nProbabilidades\nLinguagens visuais\nLógicas de descrição"
+  },
+  {
+    "objectID": "posts/provas-antigas-ga/provas-antigas.html",
+    "href": "posts/provas-antigas-ga/provas-antigas.html",
+    "title": "Provas de períodos anteriores",
+    "section": "",
+    "text": "Baixe este arquivo .zip."
+  },
+  {
+    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section",
+    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section",
+    "title": "Trabalhos de períodos anteriores",
+    "section": "2021.2",
+    "text": "2021.2\n\nLista 1: construindo uma casa no \\(\\mathbb{R}^2\\)\n\nEnunciado.\nSolução.\n\n\n\nLista 2: construindo um emoji com cônicas\n\nEnunciado.\nSolução."
+  },
+  {
+    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-1",
+    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-1",
+    "title": "Trabalhos de períodos anteriores",
+    "section": "2021.1",
+    "text": "2021.1\nListas de exercícios que serviram como avaliação no semestre 2021.1, o terceiro a ser oferecido remotamente por causa da pandemia.\n\nLista 1: vetores, projeção ortogonal, cônicas\n\nEnunciado.\nSolução.\n\n\n\nLista 2: construindo uma casa no \\(\\mathbb{R}^3\\)\n\nEnunciado.\nSolução."
+  },
+  {
+    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-2",
+    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-2",
+    "title": "Trabalhos de períodos anteriores",
+    "section": "2020.2",
+    "text": "2020.2\nListas de exercícios que serviram como avaliação no semestre 2020.2, o segundo a ser oferecido remotamente por causa da pandemia.\n\nLista 1: cônicas\n\nEnunciado.\n\n\n\nLista 2: esferas e retas no espaço\n\nEnunciado.\nSolução."
+  },
+  {
+    "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-3",
+    "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section-3",
+    "title": "Trabalhos de períodos anteriores",
+    "section": "2020.1",
+    "text": "2020.1\nListas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.\n\nLista 1: retas, vetores, projeção ortogonal\n\nEnunciado.\nSolução.\n\n\n\nLista 2: cônicas\n\nEnunciado."
   },
   {
     "objectID": "posts/trabalhos-antigos-probest/trabalhos-antigos.html#section",
@@ -273,24 +147,52 @@
     "text": "2020.1\nListas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.\n\nLista 1: visualização, medidas, probabilidades\n\nEnunciado.\nSolução.\n\n\n\nLista 2: normal, Poisson, probabilidades\n\nEnunciado.\nSolução."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Todas as postagens",
+    "section": "",
+    "text": "Ordenar por\n       Pré-selecionado\n         \n          Título\n        \n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Autor\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nProvas de períodos anteriores\n\n\n\nga\n\n\n\nAlgumas com gabarito\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\n\nga\n\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\n\nprobest\n\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
+  },
+  {
+    "objectID": "ga.html",
+    "href": "ga.html",
+    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
+    "section": "",
+    "text": "Postagens recentes\n\n\n\nAo longo do semestre, acompanhe as postagens mais abaixo, nesta mesma página."
+  },
+  {
+    "objectID": "ga.html#livros",
+    "href": "ga.html#livros",
+    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
+    "section": "Livros",
+    "text": "Livros\nVamos usar o material do CEDERJ. Os PDFs estão em\n\nhttps://canal.cecierj.edu.br/recurso/4690 (volume 1)\nhttps://canal.cecierj.edu.br/recurso/4549 (volume 2)"
+  },
+  {
+    "objectID": "ga.html#vídeos",
+    "href": "ga.html#vídeos",
+    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
+    "section": "Vídeos",
+    "text": "Vídeos\nSiga o canal do seu professor favorito. Lá você encontra a playlist de GA:"
+  },
+  {
+    "objectID": "ga.html#software",
+    "href": "ga.html#software",
+    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
+    "section": "Software",
+    "text": "Software\n\nAprenda a usar o Geogebra, ou online ou instalado no seu celular, tablet ou computador.\nExistem muitos vídeos com tutoriais em português sobre o Geogebra."
+  },
+  {
+    "objectID": "ga.html#cronograma-e-outras-informações",
+    "href": "ga.html#cronograma-e-outras-informações",
+    "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
+    "section": "Cronograma e outras informações",
+    "text": "Cronograma e outras informações\nNo Moodle. Entre em contato se você ainda não tem acesso."
+  },
+  {
     "objectID": "ga.html#postagens-recentes-sobre-ga",
     "href": "ga.html#postagens-recentes-sobre-ga",
     "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
     "section": "Postagens recentes sobre GA",
     "text": "Postagens recentes sobre GA\n\n\n\n\n\n\n\n\n\n\nProvas de períodos anteriores\n\n\nAlgumas com gabarito\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "probest.html#postagens-recentes-sobre-probest",
-    "href": "probest.html#postagens-recentes-sobre-probest",
-    "title": "Probabilidade e Estatística (RCN00037)",
-    "section": "Postagens recentes sobre ProbEst",
-    "text": "Postagens recentes sobre ProbEst\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "licenca.html",
-    "href": "licenca.html",
-    "title": "Licença",
-    "section": "",
-    "text": "Todo o material deste site (exceto quando houver indicação em contrário) está disponível sob a licença Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional."
   }
 ]

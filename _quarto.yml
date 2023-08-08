@@ -61,3 +61,4 @@ format:
     link-external-filter: ^(?:http:|https:)\/\/fnaufel\.github\.io
     resources:
       - "site/index.html"
+      - "publications/*"
