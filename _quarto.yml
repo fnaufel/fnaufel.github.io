@@ -11,6 +11,17 @@ website:
   repo-url: https://github.com/fnaufel/fnaufel.github.io
   repo-branch: master
   reader-mode: true
+  comments:
+    giscus:
+      repo: fnaufel/fnaufel.github.io
+      repo-id: MDEwOlJlcG9zaXRvcnkyMzQ3OTA1Njc=
+      category: Announcements
+      category-id: DIC_kwDODf6ep84CYfNQ
+      mapping: pathname
+      reactions-enabled: true
+      input-position: top
+      language: pt
+      theme: preferred_color_scheme
   page-footer: 
     left: 
       - text: "LICENÇA CC-BY-NC-SA"
