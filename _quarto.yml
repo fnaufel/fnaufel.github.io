@@ -21,7 +21,6 @@ website:
       reactions-enabled: true
       input-position: top
       language: pt
-      theme: preferred_color_scheme
   page-footer: 
     left: 
       - text: "LICENÇA CC-BY-NC-SA"
