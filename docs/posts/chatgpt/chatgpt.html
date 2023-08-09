@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="fnaufel">
+<meta name="dcterms.date" content="2023-09-08">
+<meta name="description" content="Parte 1: TALMO">
 
-<title>fnaufel - Todas as postagens</title>
+<title>fnaufel - ChatGPT e similares no ensino de exatas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./images/avatar.jpg" rel="icon" type="image/jpeg">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/avatar.jpg" rel="icon" type="image/jpeg">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,53 +64,22 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
+<link rel="stylesheet" href="../../styles.css">
+</head>
 
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="fnaufel" href="index.xml"></head>
-
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/icon.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/icon.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">fnaufel</span>
     </a>
   </div>
@@ -120,23 +90,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ga.html" rel="" target="">
+    <a class="nav-link" href="../../ga.html" rel="" target="">
  <span class="menu-text">GA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./probest.html" rel="" target="">
+    <a class="nav-link" href="../../probest.html" rel="" target="">
  <span class="menu-text">ProbEst</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pubs.html" rel="" target="">
+    <a class="nav-link" href="../../pubs.html" rel="" target="">
  <span class="menu-text">Publicações</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item compact">
@@ -150,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml" rel="" target=""><i class="bi bi-rss" role="img">
+    <a class="nav-link" href="../../index.xml" rel="" target=""><i class="bi bi-rss" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
@@ -170,226 +140,163 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Todas as postagens</h1>
-                      </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">ChatGPT e similares no ensino de exatas</h1>
+                  <div>
+        <div class="description">
+          Parte 1: TALMO
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">ensino</div>
+                <div class="quarto-category">llm</div>
+                <div class="quarto-category">ia</div>
+              </div>
+                  </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Autor</div>
+      <div class="quarto-title-meta-contents">
+               <p>fnaufel </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Data de Publicação</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">09/08/2023</p>
+      </div>
+    </div>
     
+      <div>
+      <div class="quarto-title-meta-heading">Data de Modificação</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date-modified">09/08/2023</p>
+      </div>
+    </div>
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ensino">ensino <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ga">ga <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ia">ia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="livros">livros <span class="quarto-category-count">(1)</span></div><div class="category" data-category="llm">llm <span class="quarto-category-count">(1)</span></div><div class="category" data-category="probest">probest <span class="quarto-category-count">(2)</span></div><div class="category" data-category="r">r <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<section id="por-quê" class="level2">
+<h2 class="anchored" data-anchor-id="por-quê">Por quê?</h2>
+<p>Porque não acho certo ter em relação a estas ferramentas a mesma resistência que nossos antecessores tiveram em relação a calculadoras e computadores em sala de aula.</p>
+</section>
+<section id="nesta-postagem" class="level2">
+<h2 class="anchored" data-anchor-id="nesta-postagem">Nesta postagem</h2>
+<p>Por enquanto, minha idéia é listar vídeos e artigos com discussões a respeito, com alguns primeiros comentários meus.</p>
+<p>No futuro, incluir comentários mais aprofundados, assim como resultados de meus próprios experimentos.</p>
+</section>
+<section id="talmo-07062023" class="level2">
+<h2 class="anchored" data-anchor-id="talmo-07062023">TALMO, 07/06/2023</h2>
+<p><a href="http://talmo.uk/2023/generativeai.html">Neste evento online</a>,<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> dois professores de universidades inglesas discutiram sobre o uso de LLMs no ensino de matemática.</p>
+<p>Cesare G. Ardito, da Universidade de Manchester, fez a primeira apresentação:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/VHTy3Vnnues" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Os slides estão <a href="http://talmo.uk/2023/slides/ardito.pdf">disponíveis em pdf</a>.</p>
+<p>Tópicos:</p>
+<ul>
+<li><p>O que é um LLM?</p></li>
+<li><p>Como funciona?</p></li>
+<li><p>Parâmetros: temperatura, tamanho do contexto etc.</p></li>
+<li><p><a href="https://www.bing.com/search?q=Bing+AI&amp;showconv=1">Bing AI</a> tem um monólogo interior!</p></li>
+<li><p>Os LLMs do futuro (integrados, multimodais, acessíveis, especializados).</p></li>
+<li><p>Estudos de 2023 sobre LLMs em matemática.</p></li>
+<li><p>Vantagens de supervisionar o <em>processo</em>, em vez de supervisionar apenas a <em>resposta</em>.</p></li>
+<li><p>Experimentos com LLMs resolvendo questões de matemática.</p></li>
+<li><p>Os erros dos LLMs devem ser usados para desenvolver o senso crítico dos alunos.</p></li>
+<li><p>Os alunos <em>já usam</em> LLMs no seu estudo. É melhor que, pelo menos, tenham orientação para isso.</p></li>
+<li><p>Ao invés de <em>reprimir</em> o uso de LLMs, os professores devem <em>ensinar</em> aos alunos como usar estas ferramentas de forma crítica, <em>sem prejudicar os métodos de avaliação</em>. Aliás, como adaptar os métodos de avaliação?</p></li>
+<li><p>Detectar o uso de LLMs pelos alunos é tarefa impossível, apesar do marketing em contrário.</p></li>
+<li><p>Sugestões para o uso de LLMs no ensino e na administração.</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Links da apresentação de Cesare G. Ardito
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Murray Shanahan – Talking about Large Language Models. <a href="https://arxiv.org/abs/2212.03551" class="uri">https://arxiv.org/abs/2212.03551</a>.</p></li>
+<li><p>Cleo Nardo - Remarks (1-18) on GPT (compressed). <a href="https://www.lesswrong.com/posts/7qSHKYRnqyrumEfbt/remarks1-18-on-gpt-compressed" class="uri">https://www.lesswrong.com/posts/7qSHKYRnqyrumEfbt/remarks1-18-on-gpt-compressed</a>.</p></li>
+<li><p>Sadasivan, Kumar, Balasubramanian, Wang, Feizi, “Can AI-Generated Text be Reliably Detected?”, <a href="https://arxiv.org/abs/2303.11156" class="uri">https://arxiv.org/abs/2303.11156</a> (2023).</p></li>
+<li><p>Cotton, Cotton,Shipway, “Chatting and Cheating: Ensuring academic integrity in the era of ChatGPT.” Preprint. <a href="https://doi.org/10.35542/osf.io/mrz8h" class="uri">https://doi.org/10.35542/osf.io/mrz8h</a> (2023).</p></li>
+<li><p>Michael Grove, “ChatGPT And Assessments In The Mathematical Sciences”, TALMO. <a href="http://talmo.uk/blog/feb2023/chatgpt.html" class="uri">http://talmo.uk/blog/feb2023/chatgpt.html</a> (2023).</p></li>
+<li><p>Michael Webb, “A generative AI primer”, JISC. <a href="https://nationalcentreforai.jiscinvolve.org/wp/2023/05/11/generativeai-primer/" class="uri">https://nationalcentreforai.jiscinvolve.org/wp/2023/05/11/generativeai-primer/</a>.</p></li>
+<li><p>Sue Attewell et al, Generative AI and students concerns, JISC. <a href="https://nationalcentreforai.jiscinvolve.org/wp/2023/06/05/generative-ai-and-student-concerns/" class="uri">https://nationalcentreforai.jiscinvolve.org/wp/2023/06/05/generative-ai-and-student-concerns/</a>.</p></li>
+<li><p>“I know a lot of teachers are worried that students are using GPT to write their essays. Educators are already discussing ways to adapt to the new technology, and I suspect those conversations will continue for quite some time. I’ve heard about teachers who have found clever ways to incorporate the technology into their work — like by allowing students to use GPT to create a first draft that they have to personalize.” Bill Gates, <a href="https://www.gatesnotes.com/The-Age-of-AI-Has-Begun#ALChapter5" class="uri">https://www.gatesnotes.com/The-Age-of-AI-Has-Begun#ALChapter5</a>.</p></li>
+<li><p>A student’s insight when falsely accused of plagiarism by a GPT “detector” on Reddit: <a href="https://www.reddit.com/r/NoStupidQuestions/comments/11rzus1/my_teacher_told_me_my_essay_didnt_pass_the/" class="uri">https://www.reddit.com/r/NoStupidQuestions/comments/11rzus1/my_teacher_told_me_my_essay_didnt_pass_the/</a>.</p></li>
+</ul>
+</div>
+</div>
+<hr>
+<p>A segunda apresentação foi de Peter Klappa, da Universidade de Kent:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/VoQlrj0zV-c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Os slides também estão <a href="http://talmo.uk/2023/slides/klappa.pdf">disponíveis em pdf</a>.</p>
+<p>Aqui, Peter Klappa traz sugestões concretas para usar LLMs, com os seguintes objetivos:</p>
+<ul>
+<li><p>Aprimorar a escrita dos alunos.</p></li>
+<li><p>Traduzir texto.</p></li>
+<li><p>Fazer pesquisa bibliográfica.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Elicit">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Elicit
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Há pouco tempo, descobri o <a href="https://elicit.org/">Elicit</a>, um LLM criado para buscar e resumir artigos científicos, sobre o qual devo escrever em outra postagem.</p>
+</div>
+</div></li>
+<li><p>Gerar problemas e soluções.</p></li>
+<li><p>Gerar código a partir de requisitos em linguagem natural.</p></li>
+<li><p>Auxiliar alunos com problemas de acessibilidade e outras deficiências.</p></li>
+</ul>
+<p>Além disso, discute questões éticas, de propriedade intelectual e de segurança.</p>
+<p>No final, oferece sugestões concretas para ensinar aos alunos como usar LLMs.</p>
+</section>
+<section id="conclusões-por-enquanto" class="level2">
+<h2 class="anchored" data-anchor-id="conclusões-por-enquanto">Conclusões (por enquanto)</h2>
+<p>Talvez devamos convencer nossos alunos a tratar os LLMs como seus colegas em trabalhos em grupo — colegas com um pouco mais de conhecimento, mas propensos a erros tão ou mais básicos que os erros cometidos por nossos alunos.</p>
+<p>Seja como for, em vez de proibir que alunos usem LLMs, devemos ensinar a eles como tirar melhor proveito destas ferramentas. Para tanto, devemos nós mesmos, professores, aceitar que LLMs estão aqui para ficar e aprender como usá-los na nossa prática.</p>
+<p>Pois, como diz a frase no final da apresentação de Peter Klappa, <a href="https://openai.com/dall-e-2">ilustrada por Dall-E</a>:<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="robot-text.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
 
 
+</section>
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Pré-selecionado</option>
-         <option value="listing-title" data-direction="asc">
-          Título
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Data - Mais velho
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Data - O mais novo
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Autor
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="ensino,llm,ia" data-listing-date-sort="1691550000000" data-listing-file-modified-sort="1691613303134" data-listing-date-modified-sort="1691550000000" data-listing-reading-time-sort="4">
-<a href="./posts/chatgpt/chatgpt.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/chatgpt/robot-text.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ChatGPT e similares no ensino de exatas
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ensino'); return false;">
-ensino
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('llm'); return false;">
-llm
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ia'); return false;">
-ia
-</div>
-</div>
-<div class="card-text listing-description">
-Parte 1: TALMO
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-fnaufel
-</div>
-<div class="listing-date">
-09/08/2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="probest,r,livros" data-listing-date-sort="1691550000000" data-listing-file-modified-sort="1691592831268" data-listing-date-modified-sort="1691550000000" data-listing-reading-time-sort="1">
-<a href="./posts/livros-tidyverse/livros-tidyverse.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="posts/livros-tidyverse/tidyverse.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Livros online sobre o tidyverse
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('probest'); return false;">
-probest
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('r'); return false;">
-r
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('livros'); return false;">
-livros
-</div>
-</div>
-<div class="card-text listing-description">
-Todos com livre acesso
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-fnaufel
-</div>
-<div class="listing-date">
-09/08/2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="ga" data-listing-date-sort="1691463600000" data-listing-file-modified-sort="1691592905160" data-listing-date-modified-sort="1691463600000" data-listing-reading-time-sort="1">
-<a href="./posts/provas-antigas-ga/provas-antigas.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/provas-antigas-ga/20230808_256x256_image.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Provas de períodos anteriores
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ga'); return false;">
-ga
-</div>
-</div>
-<div class="card-text listing-description">
-Algumas com gabarito
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-fnaufel
-</div>
-<div class="listing-date">
-08/08/2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="ga" data-listing-date-sort="1691463600000" data-listing-file-modified-sort="1691592922712" data-listing-date-modified-sort="1691463600000" data-listing-reading-time-sort="1">
-<a href="./posts/trabalhos-antigos-ga/trabalhos-antigos.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/trabalhos-antigos-ga/20230808_256x256_image_2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Trabalhos de períodos anteriores
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('ga'); return false;">
-ga
-</div>
-</div>
-<div class="card-text listing-description">
-Tarefas online e respostas
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-fnaufel
-</div>
-<div class="listing-date">
-08/08/2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="probest" data-listing-date-sort="1691463600000" data-listing-file-modified-sort="1691592936632" data-listing-date-modified-sort="1691463600000" data-listing-reading-time-sort="1">
-<a href="./posts/trabalhos-antigos-probest/trabalhos-antigos.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/trabalhos-antigos-probest/20230808_256x256_image_2.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Trabalhos de períodos anteriores
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('probest'); return false;">
-probest
-</div>
-</div>
-<div class="card-text listing-description">
-Tarefas online e respostas
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-fnaufel
-</div>
-<div class="listing-date">
-08/08/2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Nenhum item correspondente
-</div>
-</div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p><em>TALMO</em> significa <em>Teaching And Learning Mathematics Online</em>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>E editada por mim, pois Dall-E é péssimo em gerar texto em imagens.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -762,7 +669,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./licenca.html">LICENÇA CC-BY-NC-SA</a>
+    <a class="nav-link" href="../../licenca.html">LICENÇA CC-BY-NC-SA</a>
   </li>  
 </ul>
     </div>   

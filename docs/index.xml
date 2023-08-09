@@ -19,6 +19,126 @@
 <generator>quarto-1.3.361</generator>
 <lastBuildDate>Wed, 09 Aug 2023 03:00:00 GMT</lastBuildDate>
 <item>
+  <title>ChatGPT e similares no ensino de exatas</title>
+  <dc:creator>fnaufel </dc:creator>
+  <link>https://fnaufel.github.io/posts/chatgpt/chatgpt.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="por-quê" class="level2">
+<h2 class="anchored" data-anchor-id="por-quê">Por quê?</h2>
+<p>Porque não acho certo ter em relação a estas ferramentas a mesma resistência que nossos antecessores tiveram em relação a calculadoras e computadores em sala de aula.</p>
+</section>
+<section id="nesta-postagem" class="level2">
+<h2 class="anchored" data-anchor-id="nesta-postagem">Nesta postagem</h2>
+<p>Por enquanto, minha idéia é listar vídeos e artigos com discussões a respeito, com alguns primeiros comentários meus.</p>
+<p>No futuro, incluir comentários mais aprofundados, assim como resultados de meus próprios experimentos.</p>
+</section>
+<section id="talmo-07062023" class="level2">
+<h2 class="anchored" data-anchor-id="talmo-07062023">TALMO, 07/06/2023</h2>
+<p><a href="http://talmo.uk/2023/generativeai.html">Neste evento online</a>,<sup>1</sup> dois professores de universidades inglesas discutiram sobre o uso de LLMs no ensino de matemática.</p>
+<p>Cesare G. Ardito, da Universidade de Manchester, fez a primeira apresentação:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/VHTy3Vnnues" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Os slides estão <a href="http://talmo.uk/2023/slides/ardito.pdf">disponíveis em pdf</a>.</p>
+<p>Tópicos:</p>
+<ul>
+<li><p>O que é um LLM?</p></li>
+<li><p>Como funciona?</p></li>
+<li><p>Parâmetros: temperatura, tamanho do contexto etc.</p></li>
+<li><p><a href="https://www.bing.com/search?q=Bing+AI&amp;showconv=1">Bing AI</a> tem um monólogo interior!</p></li>
+<li><p>Os LLMs do futuro (integrados, multimodais, acessíveis, especializados).</p></li>
+<li><p>Estudos de 2023 sobre LLMs em matemática.</p></li>
+<li><p>Vantagens de supervisionar o <em>processo</em>, em vez de supervisionar apenas a <em>resposta</em>.</p></li>
+<li><p>Experimentos com LLMs resolvendo questões de matemática.</p></li>
+<li><p>Os erros dos LLMs devem ser usados para desenvolver o senso crítico dos alunos.</p></li>
+<li><p>Os alunos <em>já usam</em> LLMs no seu estudo. É melhor que, pelo menos, tenham orientação para isso.</p></li>
+<li><p>Ao invés de <em>reprimir</em> o uso de LLMs, os professores devem <em>ensinar</em> aos alunos como usar estas ferramentas de forma crítica, <em>sem prejudicar os métodos de avaliação</em>. Aliás, como adaptar os métodos de avaliação?</p></li>
+<li><p>Detectar o uso de LLMs pelos alunos é tarefa impossível, apesar do marketing em contrário.</p></li>
+<li><p>Sugestões para o uso de LLMs no ensino e na administração.</p></li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Links da apresentação de Cesare G. Ardito
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Murray Shanahan – Talking about Large Language Models. <a href="https://arxiv.org/abs/2212.03551" class="uri">https://arxiv.org/abs/2212.03551</a>.</p></li>
+<li><p>Cleo Nardo - Remarks (1-18) on GPT (compressed). <a href="https://www.lesswrong.com/posts/7qSHKYRnqyrumEfbt/remarks1-18-on-gpt-compressed" class="uri">https://www.lesswrong.com/posts/7qSHKYRnqyrumEfbt/remarks1-18-on-gpt-compressed</a>.</p></li>
+<li><p>Sadasivan, Kumar, Balasubramanian, Wang, Feizi, “Can AI-Generated Text be Reliably Detected?”, <a href="https://arxiv.org/abs/2303.11156" class="uri">https://arxiv.org/abs/2303.11156</a> (2023).</p></li>
+<li><p>Cotton, Cotton,Shipway, “Chatting and Cheating: Ensuring academic integrity in the era of ChatGPT.” Preprint. <a href="https://doi.org/10.35542/osf.io/mrz8h" class="uri">https://doi.org/10.35542/osf.io/mrz8h</a> (2023).</p></li>
+<li><p>Michael Grove, “ChatGPT And Assessments In The Mathematical Sciences”, TALMO. <a href="http://talmo.uk/blog/feb2023/chatgpt.html" class="uri">http://talmo.uk/blog/feb2023/chatgpt.html</a> (2023).</p></li>
+<li><p>Michael Webb, “A generative AI primer”, JISC. <a href="https://nationalcentreforai.jiscinvolve.org/wp/2023/05/11/generativeai-primer/" class="uri">https://nationalcentreforai.jiscinvolve.org/wp/2023/05/11/generativeai-primer/</a>.</p></li>
+<li><p>Sue Attewell et al, Generative AI and students concerns, JISC. <a href="https://nationalcentreforai.jiscinvolve.org/wp/2023/06/05/generative-ai-and-student-concerns/" class="uri">https://nationalcentreforai.jiscinvolve.org/wp/2023/06/05/generative-ai-and-student-concerns/</a>.</p></li>
+<li><p>“I know a lot of teachers are worried that students are using GPT to write their essays. Educators are already discussing ways to adapt to the new technology, and I suspect those conversations will continue for quite some time. I’ve heard about teachers who have found clever ways to incorporate the technology into their work — like by allowing students to use GPT to create a first draft that they have to personalize.” Bill Gates, <a href="https://www.gatesnotes.com/The-Age-of-AI-Has-Begun#ALChapter5" class="uri">https://www.gatesnotes.com/The-Age-of-AI-Has-Begun#ALChapter5</a>.</p></li>
+<li><p>A student’s insight when falsely accused of plagiarism by a GPT “detector” on Reddit: <a href="https://www.reddit.com/r/NoStupidQuestions/comments/11rzus1/my_teacher_told_me_my_essay_didnt_pass_the/" class="uri">https://www.reddit.com/r/NoStupidQuestions/comments/11rzus1/my_teacher_told_me_my_essay_didnt_pass_the/</a>.</p></li>
+</ul>
+</div>
+</div>
+<hr>
+<p>A segunda apresentação foi de Peter Klappa, da Universidade de Kent:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/VoQlrj0zV-c" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Os slides também estão <a href="http://talmo.uk/2023/slides/klappa.pdf">disponíveis em pdf</a>.</p>
+<p>Aqui, Peter Klappa traz sugestões concretas para usar LLMs, com os seguintes objetivos:</p>
+<ul>
+<li><p>Aprimorar a escrita dos alunos.</p></li>
+<li><p>Traduzir texto.</p></li>
+<li><p>Fazer pesquisa bibliográfica.</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Elicit">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Elicit
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Há pouco tempo, descobri o <a href="https://elicit.org/">Elicit</a>, um LLM criado para buscar e resumir artigos científicos, sobre o qual devo escrever em outra postagem.</p>
+</div>
+</div></li>
+<li><p>Gerar problemas e soluções.</p></li>
+<li><p>Gerar código a partir de requisitos em linguagem natural.</p></li>
+<li><p>Auxiliar alunos com problemas de acessibilidade e outras deficiências.</p></li>
+</ul>
+<p>Além disso, discute questões éticas, de propriedade intelectual e de segurança.</p>
+<p>No final, oferece sugestões concretas para ensinar aos alunos como usar LLMs.</p>
+</section>
+<section id="conclusões-por-enquanto" class="level2">
+<h2 class="anchored" data-anchor-id="conclusões-por-enquanto">Conclusões (por enquanto)</h2>
+<p>Talvez devamos convencer nossos alunos a tratar os LLMs como seus colegas em trabalhos em grupo — colegas com um pouco mais de conhecimento, mas propensos a erros tão ou mais básicos que os erros cometidos por nossos alunos.</p>
+<p>Seja como for, em vez de proibir que alunos usem LLMs, devemos ensinar a eles como tirar melhor proveito destas ferramentas. Para tanto, devemos nós mesmos, professores, aceitar que LLMs estão aqui para ficar e aprender como usá-los na nossa prática.</p>
+<p>Pois, como diz a frase no final da apresentação de Peter Klappa, <a href="https://openai.com/dall-e-2">ilustrada por Dall-E</a>:<sup>2</sup></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fnaufel.github.io/posts/chatgpt/robot-text.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p><em>TALMO</em> significa <em>Teaching And Learning Mathematics Online</em>.↩︎</p></li>
+<li id="fn2"><p>E editada por mim, pois Dall-E é péssimo em gerar texto em imagens.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>ensino</category>
+  <category>llm</category>
+  <category>ia</category>
+  <guid>https://fnaufel.github.io/posts/chatgpt/chatgpt.html</guid>
+  <pubDate>Wed, 09 Aug 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Livros online sobre o tidyverse</title>
   <dc:creator>fnaufel </dc:creator>
   <link>https://fnaufel.github.io/posts/livros-tidyverse/livros-tidyverse.html</link>

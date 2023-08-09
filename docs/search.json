@@ -91,6 +91,48 @@
     "text": "Baixe este arquivo .zip."
   },
   {
+    "objectID": "posts/chatgpt/chatgpt.html",
+    "href": "posts/chatgpt/chatgpt.html",
+    "title": "ChatGPT e similares no ensino de exatas",
+    "section": "",
+    "text": "Porque não acho certo ter em relação a estas ferramentas a mesma resistência que nossos antecessores tiveram em relação a calculadoras e computadores em sala de aula."
+  },
+  {
+    "objectID": "posts/chatgpt/chatgpt.html#por-quê",
+    "href": "posts/chatgpt/chatgpt.html#por-quê",
+    "title": "ChatGPT e similares no ensino de exatas",
+    "section": "",
+    "text": "Porque não acho certo ter em relação a estas ferramentas a mesma resistência que nossos antecessores tiveram em relação a calculadoras e computadores em sala de aula."
+  },
+  {
+    "objectID": "posts/chatgpt/chatgpt.html#nesta-postagem",
+    "href": "posts/chatgpt/chatgpt.html#nesta-postagem",
+    "title": "ChatGPT e similares no ensino de exatas",
+    "section": "Nesta postagem",
+    "text": "Nesta postagem\nPor enquanto, minha idéia é listar vídeos e artigos com discussões a respeito, com alguns primeiros comentários meus.\nNo futuro, incluir comentários mais aprofundados, assim como resultados de meus próprios experimentos."
+  },
+  {
+    "objectID": "posts/chatgpt/chatgpt.html#talmo-07062023",
+    "href": "posts/chatgpt/chatgpt.html#talmo-07062023",
+    "title": "ChatGPT e similares no ensino de exatas",
+    "section": "TALMO, 07/06/2023",
+    "text": "TALMO, 07/06/2023\nNeste evento online,1 dois professores de universidades inglesas discutiram sobre o uso de LLMs no ensino de matemática.\nCesare G. Ardito, da Universidade de Manchester, fez a primeira apresentação:\n\nOs slides estão disponíveis em pdf.\nTópicos:\n\nO que é um LLM?\nComo funciona?\nParâmetros: temperatura, tamanho do contexto etc.\nBing AI tem um monólogo interior!\nOs LLMs do futuro (integrados, multimodais, acessíveis, especializados).\nEstudos de 2023 sobre LLMs em matemática.\nVantagens de supervisionar o processo, em vez de supervisionar apenas a resposta.\nExperimentos com LLMs resolvendo questões de matemática.\nOs erros dos LLMs devem ser usados para desenvolver o senso crítico dos alunos.\nOs alunos já usam LLMs no seu estudo. É melhor que, pelo menos, tenham orientação para isso.\nAo invés de reprimir o uso de LLMs, os professores devem ensinar aos alunos como usar estas ferramentas de forma crítica, sem prejudicar os métodos de avaliação. Aliás, como adaptar os métodos de avaliação?\nDetectar o uso de LLMs pelos alunos é tarefa impossível, apesar do marketing em contrário.\nSugestões para o uso de LLMs no ensino e na administração.\n\n\n\n\n\n\n\nLinks da apresentação de Cesare G. Ardito\n\n\n\n\nMurray Shanahan – Talking about Large Language Models. https://arxiv.org/abs/2212.03551.\nCleo Nardo - Remarks (1-18) on GPT (compressed). https://www.lesswrong.com/posts/7qSHKYRnqyrumEfbt/remarks1-18-on-gpt-compressed.\nSadasivan, Kumar, Balasubramanian, Wang, Feizi, “Can AI-Generated Text be Reliably Detected?”, https://arxiv.org/abs/2303.11156 (2023).\nCotton, Cotton,Shipway, “Chatting and Cheating: Ensuring academic integrity in the era of ChatGPT.” Preprint. https://doi.org/10.35542/osf.io/mrz8h (2023).\nMichael Grove, “ChatGPT And Assessments In The Mathematical Sciences”, TALMO. http://talmo.uk/blog/feb2023/chatgpt.html (2023).\nMichael Webb, “A generative AI primer”, JISC. https://nationalcentreforai.jiscinvolve.org/wp/2023/05/11/generativeai-primer/.\nSue Attewell et al, Generative AI and students concerns, JISC. https://nationalcentreforai.jiscinvolve.org/wp/2023/06/05/generative-ai-and-student-concerns/.\n“I know a lot of teachers are worried that students are using GPT to write their essays. Educators are already discussing ways to adapt to the new technology, and I suspect those conversations will continue for quite some time. I’ve heard about teachers who have found clever ways to incorporate the technology into their work — like by allowing students to use GPT to create a first draft that they have to personalize.” Bill Gates, https://www.gatesnotes.com/The-Age-of-AI-Has-Begun#ALChapter5.\nA student’s insight when falsely accused of plagiarism by a GPT “detector” on Reddit: https://www.reddit.com/r/NoStupidQuestions/comments/11rzus1/my_teacher_told_me_my_essay_didnt_pass_the/.\n\n\n\n\nA segunda apresentação foi de Peter Klappa, da Universidade de Kent:\n\nOs slides também estão disponíveis em pdf.\nAqui, Peter Klappa traz sugestões concretas para usar LLMs, com os seguintes objetivos:\n\nAprimorar a escrita dos alunos.\nTraduzir texto.\nFazer pesquisa bibliográfica.\n\n\n\n\n\n\nElicit\n\n\n\nHá pouco tempo, descobri o Elicit, um LLM criado para buscar e resumir artigos científicos, sobre o qual devo escrever em outra postagem.\n\n\nGerar problemas e soluções.\nGerar código a partir de requisitos em linguagem natural.\nAuxiliar alunos com problemas de acessibilidade e outras deficiências.\n\nAlém disso, discute questões éticas, de propriedade intelectual e de segurança.\nNo final, oferece sugestões concretas para ensinar aos alunos como usar LLMs."
+  },
+  {
+    "objectID": "posts/chatgpt/chatgpt.html#conclusões-por-enquanto",
+    "href": "posts/chatgpt/chatgpt.html#conclusões-por-enquanto",
+    "title": "ChatGPT e similares no ensino de exatas",
+    "section": "Conclusões (por enquanto)",
+    "text": "Conclusões (por enquanto)\nTalvez devamos convencer nossos alunos a tratar os LLMs como seus colegas em trabalhos em grupo — colegas com um pouco mais de conhecimento, mas propensos a erros tão ou mais básicos que os erros cometidos por nossos alunos.\nSeja como for, em vez de proibir que alunos usem LLMs, devemos ensinar a eles como tirar melhor proveito destas ferramentas. Para tanto, devemos nós mesmos, professores, aceitar que LLMs estão aqui para ficar e aprender como usá-los na nossa prática.\nPois, como diz a frase no final da apresentação de Peter Klappa, ilustrada por Dall-E:2"
+  },
+  {
+    "objectID": "posts/chatgpt/chatgpt.html#footnotes",
+    "href": "posts/chatgpt/chatgpt.html#footnotes",
+    "title": "ChatGPT e similares no ensino de exatas",
+    "section": "Notas de rodapé",
+    "text": "Notas de rodapé\n\n\nTALMO significa Teaching And Learning Mathematics Online.↩︎\nE editada por mim, pois Dall-E é péssimo em gerar texto em imagens.↩︎"
+  },
+  {
     "objectID": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section",
     "href": "posts/trabalhos-antigos-ga/trabalhos-antigos.html#section",
     "title": "Trabalhos de períodos anteriores",
@@ -165,7 +207,7 @@
     "href": "index.html",
     "title": "Todas as postagens",
     "section": "",
-    "text": "Ordenar por\n       Pré-selecionado\n         \n          Título\n        \n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Autor\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nLivros online sobre o tidyverse\n\n\n\nprobest\n\n\nr\n\n\nlivros\n\n\n\nTodos com livre acesso\n\n\n\nfnaufel\n\n\n09/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProvas de períodos anteriores\n\n\n\nga\n\n\n\nAlgumas com gabarito\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\n\nga\n\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\n\nprobest\n\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Ordenar por\n       Pré-selecionado\n         \n          Título\n        \n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Autor\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\nChatGPT e similares no ensino de exatas\n\n\n\nensino\n\n\nllm\n\n\nia\n\n\n\nParte 1: TALMO\n\n\n\nfnaufel\n\n\n09/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\nLivros online sobre o tidyverse\n\n\n\nprobest\n\n\nr\n\n\nlivros\n\n\n\nTodos com livre acesso\n\n\n\nfnaufel\n\n\n09/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProvas de períodos anteriores\n\n\n\nga\n\n\n\nAlgumas com gabarito\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\n\nga\n\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\n\nprobest\n\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "ga.html",
