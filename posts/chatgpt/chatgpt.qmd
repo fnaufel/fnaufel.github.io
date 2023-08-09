@@ -2,7 +2,6 @@
 title: "ChatGPT e similares no ensino de exatas"
 description: "Parte 1: TALMO"
 author: "fnaufel"
-#image: 
 date: 09 08 2023
 date-modified: 09 08 2023
 categories:
@@ -11,6 +10,8 @@ categories:
   - ia
 draft: false
 ---
+
+![](robot-teacher.png){fig-align="center"}
   
 ## Por quê?
 
