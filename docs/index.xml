@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>fnaufel</title>
+<link>https://fnaufel.github.io/index.html</link>
+<atom:link href="https://fnaufel.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Professor Associado, RCN, UFF</description>
+<image>
+<url>https://fnaufel.github.io/images/icon.png</url>
+<title>fnaufel</title>
+<link>https://fnaufel.github.io/index.html</link>
+<height>144</height>
+<width>144</width>
+</image>
+<generator>quarto-1.3.361</generator>
+<lastBuildDate>Wed, 09 Aug 2023 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Livros online sobre o tidyverse</title>
+  <dc:creator>fnaufel </dc:creator>
+  <link>https://fnaufel.github.io/posts/livros-tidyverse/livros-tidyverse.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fnaufel.github.io/posts/livros-tidyverse/tidyverse.png" class="img-fluid figure-img" style="width:30.0%"></p>
+</figure>
+</div>
+<section id="em-português" class="level2">
+<h2 class="anchored" data-anchor-id="em-português">Em português</h2>
+<ul>
+<li>Sillas Gonzaga, <em>Introdução a R para Visualização e Apresentação de Dados</em>, <a href="http://sillasgonzaga.com/material/curso_visualizacao/index.html" class="uri">http://sillasgonzaga.com/material/curso_visualizacao/index.html</a></li>
+<li>Allan Vieira de Castro Quadros, <em>Introdução à Análise de Dados em R utilizando Tidyverse</em>, <a href="https://allanvc.github.io/book_IADR-T/" class="uri">https://allanvc.github.io/book_IADR-T/</a></li>
+<li>Paulo Felipe de Oliveira, Saulo Guerra, Robert McDonnel, <em>Ciência de Dados com R – Introdução</em>, <a href="https://cdr.ibpad.com.br/index.html" class="uri">https://cdr.ibpad.com.br/index.html</a></li>
+<li>Curso R, <em>Ciência de Dados em R</em>, <a href="https://livro.curso-r.com/" class="uri">https://livro.curso-r.com/</a></li>
+</ul>
+</section>
+<section id="em-inglês" class="level2">
+<h2 class="anchored" data-anchor-id="em-inglês">Em inglês</h2>
+<ul>
+<li>Chester Ismay, Albert Y. Kim, <em>A ModernDive into R and the Tidyverse</em>, <a href="https://moderndive.com/" class="uri">https://moderndive.com/</a></li>
+<li>Garrett Grolemund, Hadley Wickham, <em>R for Data Science</em>, 2a edição <a href="https://r4ds.hadley.nz/" class="uri">https://r4ds.hadley.nz/</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>probest</category>
+  <category>r</category>
+  <category>livros</category>
+  <guid>https://fnaufel.github.io/posts/livros-tidyverse/livros-tidyverse.html</guid>
+  <pubDate>Wed, 09 Aug 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Provas de períodos anteriores</title>
+  <dc:creator>fnaufel </dc:creator>
+  <link>https://fnaufel.github.io/posts/provas-antigas-ga/provas-antigas.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fnaufel.github.io/posts/provas-antigas-ga/20230808_256x256_image.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<p>Baixe <a href="https://drive.google.com/file/d/1HsSzo3eflh7p2TbpBphG9m6WCNW3BA2h/view?usp=sharing">este arquivo .zip</a>.</p>
+
+
+
+ ]]></description>
+  <category>ga</category>
+  <guid>https://fnaufel.github.io/posts/provas-antigas-ga/provas-antigas.html</guid>
+  <pubDate>Tue, 08 Aug 2023 03:00:00 GMT</pubDate>
+  <media:content url="https://fnaufel.github.io/posts/provas-antigas-ga/20230808_256x256_image.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Trabalhos de períodos anteriores</title>
+  <dc:creator>fnaufel </dc:creator>
+  <link>https://fnaufel.github.io/posts/trabalhos-antigos-ga/trabalhos-antigos.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fnaufel.github.io/posts/trabalhos-antigos-ga/20230808_256x256_image_2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2021.2</h2>
+<section id="lista-1-construindo-uma-casa-no-mathbbr2" class="level3">
+<h3 class="anchored" data-anchor-id="lista-1-construindo-uma-casa-no-mathbbr2">Lista 1: construindo uma casa no <img src="https://latex.codecogs.com/png.latex?%5Cmathbb%7BR%7D%5E2"></h3>
+<ul>
+<li><a href="../../ga/2022.1/casa2d.html">Enunciado.</a></li>
+<li><a href="../../ga/2022.1/casa2d-gabarito.html">Solução.</a></li>
+</ul>
+</section>
+<section id="lista-2-construindo-um-emoji-com-cônicas" class="level3">
+<h3 class="anchored" data-anchor-id="lista-2-construindo-um-emoji-com-cônicas">Lista 2: construindo um emoji com cônicas</h3>
+<ul>
+<li><a href="../../ga/2022.1/emoji.html">Enunciado.</a></li>
+<li><a href="../../ga/2022.1/emoji-gab.html">Solução.</a></li>
+</ul>
+</section>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2021.1</h2>
+<p>Listas de exercícios que serviram como avaliação no semestre 2021.1, o terceiro a ser oferecido remotamente por causa da pandemia.</p>
+<section id="lista-1-vetores-projeção-ortogonal-cônicas" class="level3">
+<h3 class="anchored" data-anchor-id="lista-1-vetores-projeção-ortogonal-cônicas">Lista 1: vetores, projeção ortogonal, cônicas</h3>
+<ul>
+<li><a href="../../ga/2021.1/lista1.html">Enunciado.</a></li>
+<li><a href="https://www.geogebra.org/m/w98zzmt8#material/uyrwturt">Solução.</a></li>
+</ul>
+</section>
+<section id="lista-2-construindo-uma-casa-no-mathbbr3" class="level3">
+<h3 class="anchored" data-anchor-id="lista-2-construindo-uma-casa-no-mathbbr3">Lista 2: construindo uma casa no <img src="https://latex.codecogs.com/png.latex?%5Cmathbb%7BR%7D%5E3"></h3>
+<ul>
+<li><a href="../../ga/2021.1/lista2.html">Enunciado.</a></li>
+<li><a href="https://www.geogebra.org/m/knmkcbe4">Solução.</a></li>
+</ul>
+</section>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2020.2</h2>
+<p>Listas de exercícios que serviram como avaliação no semestre 2020.2, o segundo a ser oferecido remotamente por causa da pandemia.</p>
+<section id="lista-1-cônicas" class="level3">
+<h3 class="anchored" data-anchor-id="lista-1-cônicas">Lista 1: cônicas</h3>
+<ul>
+<li><a href="../../ga/2020.2/2020.2-lista1.html">Enunciado.</a></li>
+</ul>
+</section>
+<section id="lista-2-esferas-e-retas-no-espaço" class="level3">
+<h3 class="anchored" data-anchor-id="lista-2-esferas-e-retas-no-espaço">Lista 2: esferas e retas no espaço</h3>
+<ul>
+<li><a href="../../ga/2020.2/lista2.html">Enunciado.</a></li>
+<li><a href="../../ga/2020.2/lista2-gab.html">Solução.</a></li>
+</ul>
+</section>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2020.1</h2>
+<p>Listas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.</p>
+<section id="lista-1-retas-vetores-projeção-ortogonal" class="level3">
+<h3 class="anchored" data-anchor-id="lista-1-retas-vetores-projeção-ortogonal">Lista 1: retas, vetores, projeção ortogonal</h3>
+<ul>
+<li><a href="../../ga/2020.1/lista1.html">Enunciado.</a></li>
+<li><a href="../../ga/2020.1/lista1-gabarito.html">Solução.</a></li>
+</ul>
+</section>
+<section id="lista-2-cônicas" class="level3">
+<h3 class="anchored" data-anchor-id="lista-2-cônicas">Lista 2: cônicas</h3>
+<ul>
+<li><a href="../../ga/2020.1/lista2.html">Enunciado.</a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>ga</category>
+  <guid>https://fnaufel.github.io/posts/trabalhos-antigos-ga/trabalhos-antigos.html</guid>
+  <pubDate>Tue, 08 Aug 2023 03:00:00 GMT</pubDate>
+  <media:content url="https://fnaufel.github.io/posts/trabalhos-antigos-ga/20230808_256x256_image_2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+<item>
+  <title>Trabalhos de períodos anteriores</title>
+  <dc:creator>fnaufel </dc:creator>
+  <link>https://fnaufel.github.io/posts/trabalhos-antigos-probest/trabalhos-antigos.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fnaufel.github.io/posts/trabalhos-antigos-probest/20230808_256x256_image_2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section">2022.1</h2>
+<section id="lista-1-cidades-brasileiras" class="level3">
+<h3 class="anchored" data-anchor-id="lista-1-cidades-brasileiras">Lista 1: cidades brasileiras</h3>
+<ul>
+<li><a href="https://fnaufel.github.io/lista1-cidades-br/">Enunciado.</a></li>
+<li><a href="../../probest/2022.1/cidades-gab.html">Solução parcial.</a></li>
+</ul>
+</section>
+<section id="lista-2-pessoas-e-medidas" class="level3">
+<h3 class="anchored" data-anchor-id="lista-2-pessoas-e-medidas">Lista 2: pessoas e medidas</h3>
+<ul>
+<li><a href="../../probest/2022.1/ic-ih.html">Enunciado.</a></li>
+</ul>
+</section>
+</section>
+<section id="section-1" class="level2">
+<h2 class="anchored" data-anchor-id="section-1">2021.2</h2>
+<section id="lista-1-olimpíadas" class="level3">
+<h3 class="anchored" data-anchor-id="lista-1-olimpíadas">Lista 1: olimpíadas</h3>
+<ul>
+<li><a href="https://github.com/fnaufel/Olimpiadas/blob/master/README.md">Enunciado.</a></li>
+<li><a href="../../probest/2021.2/olimpiadas-solucoes.html">Solução.</a></li>
+</ul>
+</section>
+<section id="lista-2-intervalos-de-confiança-e-testes-de-hipóteses" class="level3">
+<h3 class="anchored" data-anchor-id="lista-2-intervalos-de-confiança-e-testes-de-hipóteses">Lista 2: intervalos de confiança e testes de hipóteses</h3>
+<ul>
+<li><a href="../../probest/2021.2/ic-th.html">Enunciado.</a></li>
+<li><a href="../../probest/2021.2/ic-th-solucoes.html">Solução.</a></li>
+</ul>
+</section>
+</section>
+<section id="section-2" class="level2">
+<h2 class="anchored" data-anchor-id="section-2">2021.1</h2>
+<p>Listas de exercícios que serviram como avaliação no semestre 2021.1, o terceiro a ser oferecido remotamente por causa da pandemia.</p>
+<section id="lista-2-visualização-e-probabilidades" class="level3">
+<h3 class="anchored" data-anchor-id="lista-2-visualização-e-probabilidades">Lista 2: visualização e probabilidades</h3>
+<ul>
+<li><a href="../../probest/2021.1/lista2.html">Enunciado.</a></li>
+<li><a href="../../probest/2021.1/lista2-gab.html">Solução.</a></li>
+</ul>
+</section>
+</section>
+<section id="section-3" class="level2">
+<h2 class="anchored" data-anchor-id="section-3">2020.1</h2>
+<p>Listas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.</p>
+<section id="lista-1-visualização-medidas-probabilidades" class="level3">
+<h3 class="anchored" data-anchor-id="lista-1-visualização-medidas-probabilidades">Lista 1: visualização, medidas, probabilidades</h3>
+<ul>
+<li><a href="../../probest/2020.1/lista1.html">Enunciado.</a></li>
+<li><a href="../../probest/2020.1/lista1-gab.html">Solução.</a></li>
+</ul>
+</section>
+<section id="lista-2-normal-poisson-probabilidades" class="level3">
+<h3 class="anchored" data-anchor-id="lista-2-normal-poisson-probabilidades">Lista 2: normal, Poisson, probabilidades</h3>
+<ul>
+<li><a href="../../probest/2020.1/lista2.html">Enunciado.</a></li>
+<li><a href="../../probest/2020.1/lista2-respostas.html">Solução.</a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>probest</category>
+  <guid>https://fnaufel.github.io/posts/trabalhos-antigos-probest/trabalhos-antigos.html</guid>
+  <pubDate>Tue, 08 Aug 2023 03:00:00 GMT</pubDate>
+  <media:content url="https://fnaufel.github.io/posts/trabalhos-antigos-probest/20230808_256x256_image_2.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
+</channel>
+</rss>

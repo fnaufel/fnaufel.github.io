@@ -3,10 +3,11 @@ project:
   output-dir: docs
 
 website:
-  title: "fnaufel (RCN, UFF)"
+  title: "fnaufel"
+  site-url: https://fnaufel.github.io
+  description: "Professor Associado, RCN, UFF"
   favicon: images/avatar.jpg
   image: images/icon.png
-  site-url: https://fnaufel.github.io
   repo-url: https://github.com/fnaufel/fnaufel.github.io
   repo-branch: master
   reader-mode: true
@@ -48,6 +49,8 @@ website:
       - icon: youtube
         href: https://www.youtube.com/@serenitasfifty1185
         aria-label: YouTube
+      - icon: rss
+        href: index.xml        
         
 format:
   html:
