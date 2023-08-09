@@ -2,12 +2,14 @@
   {
     "listing": "/probest.html",
     "items": [
+      "/posts/livros-tidyverse/livros-tidyverse.html",
       "/posts/trabalhos-antigos-probest/trabalhos-antigos.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/livros-tidyverse/livros-tidyverse.html",
       "/posts/provas-antigas-ga/provas-antigas.html",
       "/posts/trabalhos-antigos-ga/trabalhos-antigos.html",
       "/posts/trabalhos-antigos-probest/trabalhos-antigos.html"

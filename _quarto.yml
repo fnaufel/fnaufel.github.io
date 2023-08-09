@@ -7,7 +7,7 @@ website:
   favicon: images/avatar.jpg
   image: images/icon.png
   site-url: https://fnaufel.github.io
-  repo-url: https://github.com/fnaufel/site
+  repo-url: https://github.com/fnaufel/fnaufel.github.io
   repo-branch: master
   reader-mode: true
   page-footer: 
@@ -56,6 +56,7 @@ format:
       dark: slate
     css: styles.css
     lang: pt
+    date-format: DD/MM/YYYY
     link-external-icon: true
     link-external-newwindow: true
     link-external-filter: ^(?:http:|https:)\/\/fnaufel\.github\.io

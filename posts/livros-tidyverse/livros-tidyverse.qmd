@@ -1,0 +1,30 @@
+---
+title: "Livros online sobre o tidyverse"
+description: "Todos com livre acesso"
+author: "fnaufel"
+#image: 
+date: 09 08 2023
+date-modified: 09 08 2023
+categories:
+  - probest
+  - r
+  - livros
+#draft: true
+---
+
+![](tidyverse.png){fig-align="center" width=30%}
+
+## Em português
+
+* Sillas Gonzaga, *Introdução a R para Visualização e Apresentação de Dados*,
+<http://sillasgonzaga.com/material/curso_visualizacao/index.html>
+* Allan Vieira de Castro Quadros, *Introdução à Análise de Dados em R utilizando Tidyverse*, <https://allanvc.github.io/book_IADR-T/>
+* Paulo Felipe de Oliveira, Saulo Guerra, Robert McDonnel, *Ciência de Dados com R – Introdução*, <https://cdr.ibpad.com.br/index.html>
+* Curso R, *Ciência de Dados em R*, <https://livro.curso-r.com/>
+
+
+## Em inglês
+
+* Chester Ismay, Albert Y. Kim, *A ModernDive into R and the Tidyverse*, <https://moderndive.com/>
+* Garrett Grolemund, Hadley Wickham, *R for Data Science*, 2a edição <https://r4ds.hadley.nz/>
+

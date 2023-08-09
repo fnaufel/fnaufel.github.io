@@ -3,14 +3,14 @@ title: "Trabalhos de períodos anteriores"
 description: "Tarefas online e respostas"
 author: "fnaufel"
 image: 20230808_256x256_image_2.png
-date: 08/08/2023
-date-modified: 08/08/2023
+date: 08 08 2023
+date-modified: 08 08 2023
 categories:
   - probest
 #draft: true
 ---
 
-![](20230808_256x256_image_2.png)
+![](20230808_256x256_image_2.png){fig-align="center"}
   
 ## 2022.1
 
