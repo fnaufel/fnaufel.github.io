@@ -28,7 +28,7 @@ website:
     right:
       - text: Desenvolvido com Quarto
         href: https://quarto.org/
-  search:
+  search: 
     location: navbar
     type: textbox
   navbar:
@@ -53,6 +53,9 @@ website:
       - href: about.qmd
         text: Sobre
         aria-label: Sobre
+      - href: contato.qmd
+        text: Contato
+        aria-label: Contato
       - icon: github
         href: https://github.com/fnaufel
         aria-label: GitHub

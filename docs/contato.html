@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>fnaufel - Licença</title>
+<title>fnaufel - Contato</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,8 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/forms/forms.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -63,12 +62,21 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script>
+
+function submit() {
+
+        alert("Enviado");
+    
+    }
+
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contato.html" rel="" target="">
+    <a class="nav-link active" href="./contato.html" rel="" target="" aria-current="page">
  <span class="menu-text">Contato</span></a>
   </li>  
   <li class="nav-item compact">
@@ -144,13 +152,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Licença</h1>
+<h1 class="title">Contato</h1>
 </div>
 
 
@@ -165,10 +175,22 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Todo o material deste site (exceto quando houver indicação em contrário) está disponível sob a licença <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional</a>.</p>
-<div style="text-align: center;">
-<p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR"><i class="fa-brands fa-creative-commons fa-4x" title="CC" aria-label="creative-commons"></i> <i class="fa-brands fa-creative-commons-by fa-4x" title="CCBY" aria-label="creative-commons-by"></i> <i class="fa-brands fa-creative-commons-nc fa-4x" title="CCNC" aria-label="creative-commons-nc"></i> <i class="fa-brands fa-creative-commons-sa fa-4x" title="CCSA" aria-label="creative-commons-sa"></i></a></p>
+<p></p><div id="form-div" class="form-wrapper">
+ <form id="form" action="MAILTO:fnaufel@gmail.com">
+<div class="form-group">
+<label for="emailid" class="form-label mt-4">E-mail</label>
+<input type="email" id="emailid" name="" class="form-control" required="">
 </div>
+<div class="form-group">
+<label for="mensagem">Mensagem</label>
+<textarea name="mensagem" id="mensagem" rows="..&quot;30&quot;" cols="30" class="form-control"></textarea>
+</div>
+<br>
+<div class="form-group">
+  <input type="submit" value="Enviar" class="btn btn-primary">
+</div>
+</form></div>
+<p></p>
 
 
 
@@ -545,7 +567,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link active" href="./licenca.html" aria-current="page">LICENÇA CC-BY-NC-SA</a>
+    <a class="nav-link" href="./licenca.html">LICENÇA CC-BY-NC-SA</a>
   </li>  
 </ul>
     </div>   
