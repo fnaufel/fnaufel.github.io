@@ -53,9 +53,6 @@ website:
       - href: about.qmd
         text: Sobre
         aria-label: Sobre
-      - href: contato.qmd
-        text: Contato
-        aria-label: Contato
       - icon: github
         href: https://github.com/fnaufel
         aria-label: GitHub
@@ -76,6 +73,7 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     link-external-filter: ^(?:http:|https:)\/\/fnaufel\.github\.io
+    email-obfuscation: javascript
     resources:
       - "site/index.html"
       - "publications/*"
