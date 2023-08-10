@@ -3,7 +3,7 @@ title: "ChatGPT e similares no ensino de exatas"
 description: "Parte 1: TALMO"
 author: "fnaufel"
 date: 09 08 2023
-date-modified: 09 08 2023
+date-modified: 10 08 2023
 categories:
   - ensino
   - llm
@@ -76,7 +76,7 @@ Tópicos:
 
 * Michael Grove, “ChatGPT And Assessments In The Mathematical Sciences”, TALMO. <http://talmo.uk/blog/feb2023/chatgpt.html> (2023).
 
-* Michael Webb, “A generative AI primer”, JISC. <https://nationalcentreforai.jiscinvolve.org/wp/2023/05/11/generativeai-primer/>.
+* Michael Webb, “A generative AI primer”, JISC. <A Generative AI Primer - National centre for AI <https://nationalcentreforai.jiscinvolve.org/wp/2023/05/11/generative-ai-primer/>.
 
 * Sue Attewell et al, Generative AI and students concerns, JISC. <https://nationalcentreforai.jiscinvolve.org/wp/2023/06/05/generative-ai-and-student-concerns/>.
 

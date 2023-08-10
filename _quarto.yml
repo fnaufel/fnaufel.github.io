@@ -39,8 +39,8 @@ website:
     collapse: true
     right:
       - href: index.qmd
-        text: Posts
-        aria-label: Posts
+        text: Blog
+        aria-label: Blog
       - href: ga.qmd
         text: GA
         aria-label: GA
