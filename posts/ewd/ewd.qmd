@@ -22,6 +22,6 @@ O mais interessante -- e talvez menos conhecido -- é o conjunto de anotações 
 
 Um dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:
 
-![](EWD831-1_1.png){fig-alt="ewd1" #fig-ewd1 width=60% fig-align="center"}
-![](EWD831-2_1.png){fig-alt="ewd2" #fig-ewd2 width=60% fig-align="center"}
-![](EWD831-3_1.png){fig-alt="ewd3" #fig-ewd3 width=60% fig-align="center"}
+![](EWD831-1_1.png){fig-alt="ewd1" #fig-ewd1 fig-align="center"}
+![](EWD831-2_1.png){fig-alt="ewd2" #fig-ewd2 fig-align="center"}
+![](EWD831-3_1.png){fig-alt="ewd3" #fig-ewd3 fig-align="center"}

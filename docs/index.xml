@@ -36,7 +36,7 @@
 <p>Em <a href="https://www.cs.utexas.edu/users/EWD/" class="uri">https://www.cs.utexas.edu/users/EWD/</a>, você encontra muitas informações sobre o cara.</p>
 <p>O mais interessante – e talvez menos conhecido – é o conjunto de anotações manuscritas sobre diversos assuntos: programação, matemática e educação, entre outros. Estão todos disponíveis, em pdf, em <a href="https://www.cs.utexas.edu/users/EWD/indexChron.html" class="uri">https://www.cs.utexas.edu/users/EWD/indexChron.html</a>.</p>
 <p>Um dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:</p>
-<p><img src="https://fnaufel.github.io/posts/ewd/EWD831-1_1.png" id="fig-ewd1" class="img-fluid" style="width:60.0%" data-fig-align="center" alt="ewd1"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-2_1.png" id="fig-ewd2" class="img-fluid" style="width:60.0%" data-fig-align="center" alt="ewd2"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-3_1.png" id="fig-ewd3" class="img-fluid" style="width:60.0%" data-fig-align="center" alt="ewd3"></p>
+<p><img src="https://fnaufel.github.io/posts/ewd/EWD831-1_1.png" id="fig-ewd1" class="img-fluid" data-fig-align="center" alt="ewd1"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-2_1.png" id="fig-ewd2" class="img-fluid" data-fig-align="center" alt="ewd2"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-3_1.png" id="fig-ewd3" class="img-fluid" data-fig-align="center" alt="ewd3"></p>
 
 
 </section>
