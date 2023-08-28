@@ -1,0 +1,24 @@
+---
+title: "Revisando matemática"
+description: "Recursos do portal da OBMEP"
+author: "fnaufel"
+image: numbers.png
+date: 28 08 2023
+date-modified: 28 08 2023
+categories:
+  - ga
+  - matemática
+  - ensino
+---
+  
+## Recursos *online* para revisar matemática
+
+![](numbers.png){fig-alt="numeros"  width=60% fig-align="center"}
+
+Realizada desde 2005 pelo Instituto de Matemática Pura e Aplicada -- IMPA --, a Olimpíada Brasileira de Matemática das Escolas Públicas -- OBMEP -- oferece uma série de exercícios e orientações desenvolvidos por uma equipe de professores.
+
+O Portal de Matemática da OBMEP oferece, gratuitamente, videoaulas, apostilas teóricas, cadernos de exercícios, problemas resolvidos, aplicativos e testes que cobrem todo o currículo de matemática do 6º ano do Ensino Fundamental ao 3º ano do Ensino Médio, além de tópicos adicionais para complementar e aprofundar o aprendizado.
+
+[Clique aqui para acessar.](https://portaldaobmep.impa.br/index.php/modulo/)
+
+(Agradecimentos ao monitor Ricardo Soares pela indicação.)

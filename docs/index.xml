@@ -17,7 +17,39 @@
 <width>144</width>
 </image>
 <generator>quarto-1.3.361</generator>
-<lastBuildDate>Wed, 09 Aug 2023 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Mon, 28 Aug 2023 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Revisando matemática</title>
+  <dc:creator>fnaufel </dc:creator>
+  <link>https://fnaufel.github.io/posts/portal-obmep/portal-obmep.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="recursos-online-para-revisar-matemática" class="level2">
+<h2 class="anchored" data-anchor-id="recursos-online-para-revisar-matemática">Recursos <em>online</em> para revisar matemática</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://fnaufel.github.io/posts/portal-obmep/numbers.png" class="img-fluid figure-img" style="width:60.0%" alt="numeros"></p>
+</figure>
+</div>
+<p>Realizada desde 2005 pelo Instituto de Matemática Pura e Aplicada – IMPA –, a Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP – oferece uma série de exercícios e orientações desenvolvidos por uma equipe de professores.</p>
+<p>O Portal de Matemática da OBMEP oferece, gratuitamente, videoaulas, apostilas teóricas, cadernos de exercícios, problemas resolvidos, aplicativos e testes que cobrem todo o currículo de matemática do 6º ano do Ensino Fundamental ao 3º ano do Ensino Médio, além de tópicos adicionais para complementar e aprofundar o aprendizado.</p>
+<p><a href="https://portaldaobmep.impa.br/index.php/modulo/">Clique aqui para acessar.</a></p>
+<p>(Agradecimentos ao monitor Ricardo Soares pela indicação.)</p>
+
+
+</section>
+
+ ]]></description>
+  <category>ga</category>
+  <category>matemática</category>
+  <category>ensino</category>
+  <guid>https://fnaufel.github.io/posts/portal-obmep/portal-obmep.html</guid>
+  <pubDate>Mon, 28 Aug 2023 03:00:00 GMT</pubDate>
+  <media:content url="https://fnaufel.github.io/posts/portal-obmep/numbers.png" medium="image" type="image/png" height="144" width="144"/>
+</item>
 <item>
   <title>ChatGPT e similares no ensino de exatas</title>
   <dc:creator>fnaufel </dc:creator>

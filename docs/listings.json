@@ -9,6 +9,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/portal-obmep/portal-obmep.html",
       "/posts/chatgpt/chatgpt.html",
       "/posts/livros-tidyverse/livros-tidyverse.html",
       "/posts/provas-antigas-ga/provas-antigas.html",
@@ -19,6 +20,7 @@
   {
     "listing": "/ga.html",
     "items": [
+      "/posts/portal-obmep/portal-obmep.html",
       "/posts/provas-antigas-ga/provas-antigas.html",
       "/posts/trabalhos-antigos-ga/trabalhos-antigos.html"
     ]
