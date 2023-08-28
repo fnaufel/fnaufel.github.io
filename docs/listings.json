@@ -9,6 +9,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/ewd/ewd.html",
       "/posts/portal-obmep/portal-obmep.html",
       "/posts/chatgpt/chatgpt.html",
       "/posts/livros-tidyverse/livros-tidyverse.html",

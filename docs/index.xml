@@ -13,11 +13,41 @@
 <url>https://fnaufel.github.io/images/icon.png</url>
 <title>fnaufel</title>
 <link>https://fnaufel.github.io/index.html</link>
-<height>144</height>
-<width>144</width>
 </image>
 <generator>quarto-1.3.361</generator>
 <lastBuildDate>Mon, 28 Aug 2023 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Material escrito por Dijkstra</title>
+  <dc:creator>fnaufel </dc:creator>
+  <link>https://fnaufel.github.io/posts/ewd/ewd.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="manuscritos-de-e.w.-dijkstra-pronuncia-se-déikstra" class="level2">
+<h2 class="anchored" data-anchor-id="manuscritos-de-e.w.-dijkstra-pronuncia-se-déikstra">Manuscritos de E.W. Dijkstra (pronuncia-se “déikstra”)</h2>
+<div id="fig-dijkstra" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://fnaufel.github.io/posts/ewd/EWDwww.jpg" class="img-fluid figure-img" style="width:60.0%" alt="dijkstra"></p>
+</figure>
+</div>
+<p>(Foto ©2002 Hamilton Richards)</p>
+<p>Em <a href="https://www.cs.utexas.edu/users/EWD/" class="uri">https://www.cs.utexas.edu/users/EWD/</a>, você encontra muitas informações sobre o cara.</p>
+<p>O mais interessante – e talvez menos conhecido – é o conjunto de anotações manuscritas sobre diversos assuntos: programação, matemática e educação, entre outros. Estão todos disponíveis, em pdf, em <a href="https://www.cs.utexas.edu/users/EWD/indexChron.html" class="uri">https://www.cs.utexas.edu/users/EWD/indexChron.html</a>.</p>
+<p>Um dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:</p>
+<p><img src="https://fnaufel.github.io/posts/ewd/EWD831-1_1.png" id="fig-ewd1" class="img-fluid" style="width:60.0%" data-fig-align="center" alt="ewd1"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-2_1.png" id="fig-ewd2" class="img-fluid" style="width:60.0%" data-fig-align="center" alt="ewd2"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-3_1.png" id="fig-ewd3" class="img-fluid" style="width:60.0%" data-fig-align="center" alt="ewd3"></p>
+
+
+</section>
+
+ ]]></description>
+  <category>computação</category>
+  <category>linguagens</category>
+  <guid>https://fnaufel.github.io/posts/ewd/ewd.html</guid>
+  <pubDate>Mon, 28 Aug 2023 03:00:00 GMT</pubDate>
+  <media:content url="https://fnaufel.github.io/posts/ewd/EWDwww.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Revisando matemática</title>
   <dc:creator>fnaufel </dc:creator>

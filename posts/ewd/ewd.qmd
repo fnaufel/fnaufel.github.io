@@ -1,0 +1,27 @@
+---
+title: "Material escrito por Dijkstra"
+description: "(quando não existiam *blogs*)"
+author: "fnaufel"
+image: EWDwww.jpg
+date: 28 08 2023
+date-modified: 28 08 2023
+categories:
+  - computação
+  - linguagens
+---
+  
+## Manuscritos de E.W. Dijkstra (pronuncia-se "déikstra")
+
+![](EWDwww.jpg){fig-alt="dijkstra" #fig-dijkstra width=60% fig-align="center"}
+
+(Foto ©2002 Hamilton Richards)
+
+Em <https://www.cs.utexas.edu/users/EWD/>, você encontra muitas informações sobre o cara.
+
+O mais interessante -- e talvez menos conhecido -- é o conjunto de anotações manuscritas sobre diversos assuntos: programação, matemática e educação, entre outros. Estão todos disponíveis, em pdf, em <https://www.cs.utexas.edu/users/EWD/indexChron.html>.
+
+Um dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:
+
+![](EWD831-1_1.png){fig-alt="ewd1" #fig-ewd1 width=60% fig-align="center"}
+![](EWD831-2_1.png){fig-alt="ewd2" #fig-ewd2 width=60% fig-align="center"}
+![](EWD831-3_1.png){fig-alt="ewd3" #fig-ewd3 width=60% fig-align="center"}
