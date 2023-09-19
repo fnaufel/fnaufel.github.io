@@ -91,6 +91,20 @@
     "text": "Baixe este arquivo .zip."
   },
   {
+    "objectID": "posts/ewd/ewd.html",
+    "href": "posts/ewd/ewd.html",
+    "title": "Material escrito por Dijkstra",
+    "section": "",
+    "text": "(Foto ©2002 Hamilton Richards)\nEm https://www.cs.utexas.edu/users/EWD/, você encontra muitas informações sobre o cara.\nO mais interessante – e talvez menos conhecido – é o conjunto de anotações manuscritas sobre diversos assuntos: programação, matemática e educação, entre outros. Estão todos disponíveis, em pdf, em https://www.cs.utexas.edu/users/EWD/indexChron.html.\nUm dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:"
+  },
+  {
+    "objectID": "posts/ewd/ewd.html#manuscritos-de-e.w.-dijkstra-pronuncia-se-déikstra",
+    "href": "posts/ewd/ewd.html#manuscritos-de-e.w.-dijkstra-pronuncia-se-déikstra",
+    "title": "Material escrito por Dijkstra",
+    "section": "",
+    "text": "(Foto ©2002 Hamilton Richards)\nEm https://www.cs.utexas.edu/users/EWD/, você encontra muitas informações sobre o cara.\nO mais interessante – e talvez menos conhecido – é o conjunto de anotações manuscritas sobre diversos assuntos: programação, matemática e educação, entre outros. Estão todos disponíveis, em pdf, em https://www.cs.utexas.edu/users/EWD/indexChron.html.\nUm dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:"
+  },
+  {
     "objectID": "posts/chatgpt/chatgpt.html#por-quê",
     "href": "posts/chatgpt/chatgpt.html#por-quê",
     "title": "ChatGPT e similares no ensino de exatas",
@@ -168,6 +182,20 @@
     "text": "Em inglês\n\nChester Ismay, Albert Y. Kim, A ModernDive into R and the Tidyverse, https://moderndive.com/\nGarrett Grolemund, Hadley Wickham, R for Data Science, 2a edição https://r4ds.hadley.nz/"
   },
   {
+    "objectID": "posts/portal-obmep/portal-obmep.html",
+    "href": "posts/portal-obmep/portal-obmep.html",
+    "title": "Revisando matemática",
+    "section": "",
+    "text": "Realizada desde 2005 pelo Instituto de Matemática Pura e Aplicada – IMPA –, a Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP – oferece uma série de exercícios e orientações desenvolvidos por uma equipe de professores.\nO Portal de Matemática da OBMEP oferece, gratuitamente, videoaulas, apostilas teóricas, cadernos de exercícios, problemas resolvidos, aplicativos e testes que cobrem todo o currículo de matemática do 6º ano do Ensino Fundamental ao 3º ano do Ensino Médio, além de tópicos adicionais para complementar e aprofundar o aprendizado.\nClique aqui para acessar.\n(Agradecimentos ao monitor Ricardo Soares pela indicação.)"
+  },
+  {
+    "objectID": "posts/portal-obmep/portal-obmep.html#recursos-online-para-revisar-matemática",
+    "href": "posts/portal-obmep/portal-obmep.html#recursos-online-para-revisar-matemática",
+    "title": "Revisando matemática",
+    "section": "",
+    "text": "Realizada desde 2005 pelo Instituto de Matemática Pura e Aplicada – IMPA –, a Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP – oferece uma série de exercícios e orientações desenvolvidos por uma equipe de professores.\nO Portal de Matemática da OBMEP oferece, gratuitamente, videoaulas, apostilas teóricas, cadernos de exercícios, problemas resolvidos, aplicativos e testes que cobrem todo o currículo de matemática do 6º ano do Ensino Fundamental ao 3º ano do Ensino Médio, além de tópicos adicionais para complementar e aprofundar o aprendizado.\nClique aqui para acessar.\n(Agradecimentos ao monitor Ricardo Soares pela indicação.)"
+  },
+  {
     "objectID": "posts/trabalhos-antigos-probest/trabalhos-antigos.html#section",
     "href": "posts/trabalhos-antigos-probest/trabalhos-antigos.html#section",
     "title": "Trabalhos de períodos anteriores",
@@ -243,33 +271,5 @@
     "title": "Geometria Analítica e Cálculo Vetorial (RCN00023)",
     "section": "Postagens recentes sobre GA",
     "text": "Postagens recentes sobre GA\n\n\n\n\n\n\n\n\n\n\nRevisando matemática\n\n\nRecursos do portal da OBMEP\n\n\n\nfnaufel\n\n\n28/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProvas de períodos anteriores\n\n\nAlgumas com gabarito\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTrabalhos de períodos anteriores\n\n\nTarefas online e respostas\n\n\n\nfnaufel\n\n\n08/08/2023\n\n\n\n\n\n\n\n\nNenhum item correspondente"
-  },
-  {
-    "objectID": "posts/portal-obmep/portal-obmep.html",
-    "href": "posts/portal-obmep/portal-obmep.html",
-    "title": "Revisando matemática",
-    "section": "",
-    "text": "Realizada desde 2005 pelo Instituto de Matemática Pura e Aplicada – IMPA –, a Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP – oferece uma série de exercícios e orientações desenvolvidos por uma equipe de professores.\nO Portal de Matemática da OBMEP oferece, gratuitamente, videoaulas, apostilas teóricas, cadernos de exercícios, problemas resolvidos, aplicativos e testes que cobrem todo o currículo de matemática do 6º ano do Ensino Fundamental ao 3º ano do Ensino Médio, além de tópicos adicionais para complementar e aprofundar o aprendizado.\nClique aqui para acessar.\n(Agradecimentos ao monitor Ricardo Soares pela indicação.)"
-  },
-  {
-    "objectID": "posts/portal-obmep/portal-obmep.html#recursos-online-para-revisar-matemática",
-    "href": "posts/portal-obmep/portal-obmep.html#recursos-online-para-revisar-matemática",
-    "title": "Revisando matemática",
-    "section": "",
-    "text": "Realizada desde 2005 pelo Instituto de Matemática Pura e Aplicada – IMPA –, a Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP – oferece uma série de exercícios e orientações desenvolvidos por uma equipe de professores.\nO Portal de Matemática da OBMEP oferece, gratuitamente, videoaulas, apostilas teóricas, cadernos de exercícios, problemas resolvidos, aplicativos e testes que cobrem todo o currículo de matemática do 6º ano do Ensino Fundamental ao 3º ano do Ensino Médio, além de tópicos adicionais para complementar e aprofundar o aprendizado.\nClique aqui para acessar.\n(Agradecimentos ao monitor Ricardo Soares pela indicação.)"
-  },
-  {
-    "objectID": "posts/ewd/ewd.html",
-    "href": "posts/ewd/ewd.html",
-    "title": "Material escrito por Dijkstra",
-    "section": "",
-    "text": "(Foto ©2002 Hamilton Richards)\nEm https://www.cs.utexas.edu/users/EWD/, você encontra muitas informações sobre o cara.\nO mais interessante – e talvez menos conhecido – é o conjunto de anotações manuscritas sobre diversos assuntos: programação, matemática e educação, entre outros. Estão todos disponíveis, em pdf, em https://www.cs.utexas.edu/users/EWD/indexChron.html.\nUm dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:"
-  },
-  {
-    "objectID": "posts/ewd/ewd.html#manuscritos-de-e.w.-dijkstra-pronuncia-se-déikstra",
-    "href": "posts/ewd/ewd.html#manuscritos-de-e.w.-dijkstra-pronuncia-se-déikstra",
-    "title": "Material escrito por Dijkstra",
-    "section": "",
-    "text": "(Foto ©2002 Hamilton Richards)\nEm https://www.cs.utexas.edu/users/EWD/, você encontra muitas informações sobre o cara.\nO mais interessante – e talvez menos conhecido – é o conjunto de anotações manuscritas sobre diversos assuntos: programação, matemática e educação, entre outros. Estão todos disponíveis, em pdf, em https://www.cs.utexas.edu/users/EWD/indexChron.html.\nUm dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:"
   }
 ]
