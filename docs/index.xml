@@ -13,8 +13,6 @@
 <url>https://fnaufel.github.io/images/icon.png</url>
 <title>fnaufel</title>
 <link>https://fnaufel.github.io/index.html</link>
-<height>144</height>
-<width>144</width>
 </image>
 <generator>quarto-1.3.361</generator>
 <lastBuildDate>Mon, 28 Aug 2023 03:00:00 GMT</lastBuildDate>
@@ -417,7 +415,6 @@ Elicit
 <h3 class="anchored" data-anchor-id="lista-2-visualização-e-probabilidades">Lista 2: visualização e probabilidades</h3>
 <ul>
 <li><a href="../../probest/2021.1/lista2.html">Enunciado.</a></li>
-<li><a href="../../probest/2021.1/lista2-gab.html">Solução.</a></li>
 </ul>
 </section>
 </section>
@@ -428,14 +425,12 @@ Elicit
 <h3 class="anchored" data-anchor-id="lista-1-visualização-medidas-probabilidades">Lista 1: visualização, medidas, probabilidades</h3>
 <ul>
 <li><a href="../../probest/2020.1/lista1.html">Enunciado.</a></li>
-<li><a href="../../probest/2020.1/lista1-gab.html">Solução.</a></li>
 </ul>
 </section>
 <section id="lista-2-normal-poisson-probabilidades" class="level3">
 <h3 class="anchored" data-anchor-id="lista-2-normal-poisson-probabilidades">Lista 2: normal, Poisson, probabilidades</h3>
 <ul>
 <li><a href="../../probest/2020.1/lista2.html">Enunciado.</a></li>
-<li><a href="../../probest/2020.1/lista2-respostas.html">Solução.</a></li>
 </ul>
 
 
