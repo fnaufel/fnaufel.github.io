@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Fernando Náufel">
+<title>Intervalos de confiança, testes de hipótese, regressão linear</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+<script src="ic-th-rl_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ic-th-rl_files/libs/quarto-html/quarto.js"></script>
+<script src="ic-th-rl_files/libs/quarto-html/popper.min.js"></script>
+<script src="ic-th-rl_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="ic-th-rl_files/libs/quarto-html/anchor.min.js"></script>
+<link href="ic-th-rl_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ic-th-rl_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="ic-th-rl_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="ic-th-rl_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="ic-th-rl_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><link href="ic-th-rl_files/libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
+<script src="ic-th-rl_files/libs/pagedtable-1.1/js/pagedtable.js"></script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Índice</h2>
+   
+  <ul>
+<li><a href="#mentindo-a-idade" id="toc-mentindo-a-idade" class="nav-link active" data-scroll-target="#mentindo-a-idade">Mentindo a idade</a></li>
+  <li><a href="#casamento" id="toc-casamento" class="nav-link" data-scroll-target="#casamento">Casamento</a></li>
+  <li><a href="#pulsa%C3%A7%C3%A3o" id="toc-pulsação" class="nav-link" data-scroll-target="#pulsa%C3%A7%C3%A3o">Pulsação</a></li>
+  <li><a href="#sexta-feira-13" id="toc-sexta-feira-13" class="nav-link" data-scroll-target="#sexta-feira-13">Sexta-feira 13</a></li>
+  <li><a href="#vendas" id="toc-vendas" class="nav-link" data-scroll-target="#vendas">Vendas</a></li>
+  </ul></nav>
+</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">Intervalos de confiança, testes de hipótese, regressão linear</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+<p class="subtitle lead">Lista avaliativa final – Probabilidade e Estatística</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Fernando Náufel </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">27/11/2023 17:29</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header><div class="hidden">
+% reais % seno
+% vetor
+% vetor e_i
+% blade
+% reverso (til em cima) \providecommand{}[1]{#1^{~}} % reverso (til à direita) % contração à esq % contração à dir % grau
+% inverso
+% dual
+% undual
+<p>% projeção</p>
+</div>
+<section id="mentindo-a-idade" class="level1"><h1>Mentindo a idade</h1>
+<p>Uma pesquisa perguntou a <span class="math inline">\(799\)</span> adolescentes se eles mentiam a idade para entrar em sites da internet. Das respostas, <span class="math inline">\(49\%\)</span> foram que sim.</p>
+<ol type="1">
+<li><p>Qual o <span class="hl">erro-padrão</span> de <span class="math inline">\(\hat p\)</span>?</p></li>
+<li><p><span class="hl">O que significa</span> este erro-padrão?</p></li>
+<li><p>Construa <span class="hl">intervalos de confiança para <span class="math inline">\(p\)</span></span> com <span class="math inline">\(90\%\)</span>, <span class="math inline">\(95\%\)</span> e <span class="math inline">\(99\%\)</span> de confiança.</p></li>
+<li><p>Qual dos <span class="math inline">\(3\)</span> intervalos de confiança do item anterior tem <span class="hl">a maior margem de erro</span>? Por quê?</p></li>
+<li><p>Faça um <span class="hl">teste de hipóteses</span> para verificar se <span class="math inline">\(p\)</span> é <span class="hl">diferente</span> de <span class="math inline">\(0{,}5\)</span> com <span class="math inline">\(\alpha = 0{,}1\)</span>; <span class="math inline">\(\alpha = 0{,}05\)</span>; e <span class="math inline">\(\alpha = 0{,}01\)</span>.</p></li>
+</ol></section><section id="casamento" class="level1"><h1>Casamento</h1>
+<p>Em <span class="math inline">\(1960\)</span>, a idade média dos homens no momento do primeiro casamento era de <span class="math inline">\(23{,}3\)</span> anos.</p>
+<p>Em uma amostra de <span class="math inline">\(40\)</span> homens que se casaram pela primeira vez no ano passado, as idades eram:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">idades</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>  <span class="fl">24.4</span>, <span class="fl">27.6</span>, <span class="fl">34.0</span>, <span class="fl">20.8</span>, <span class="fl">23.7</span>, <span class="fl">34.3</span>, <span class="fl">14.3</span>, <span class="fl">23.9</span>, <span class="fl">23.6</span>, <span class="fl">21.5</span>, <span class="fl">26.4</span>, </span>
+<span>  <span class="fl">10.6</span>, <span class="fl">27.9</span>, <span class="fl">19.3</span>, <span class="fl">17.9</span>, <span class="fl">21.9</span>, <span class="fl">20.3</span>, <span class="fl">25.8</span>, <span class="fl">28.3</span>, <span class="fl">22.5</span>, <span class="fl">33.1</span>, <span class="fl">21.5</span>, </span>
+<span>  <span class="fl">23.0</span>, <span class="fl">24.0</span>, <span class="fl">20.5</span>, <span class="fl">28.5</span>, <span class="fl">24.0</span>, <span class="fl">25.0</span>, <span class="fl">28.5</span>, <span class="fl">19.8</span>, <span class="fl">22.5</span>, <span class="fl">29.2</span>, <span class="fl">21.2</span>, </span>
+<span>  <span class="fl">19.2</span>, <span class="fl">22.7</span>, <span class="fl">27.4</span>, <span class="fl">33</span>, <span class="fl">25</span>, <span class="fl">26.4</span>, <span class="fl">23.1</span></span>
+<span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Os homens estão se casando <span class="hl">mais velhos</span>?</p>
+<p>Responda com <span class="math inline">\(\alpha = 0{,}1\)</span>; com <span class="math inline">\(\alpha = 0{,}05\)</span>; e com <span class="math inline">\(\alpha = 0{,}01\)</span>?</p>
+</section><section id="pulsação" class="level1"><h1>Pulsação</h1>
+<p>Um pesquisador examinou as pulsações de homens e mulheres (em bpm):</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">homens</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>  <span class="fl">78</span>, <span class="fl">72</span>, <span class="fl">74</span>, <span class="fl">70</span>, <span class="fl">77</span>, <span class="fl">75</span>, <span class="fl">76</span>, <span class="fl">71</span>, <span class="fl">73</span>, <span class="fl">75</span>, <span class="fl">73</span>, <span class="fl">70</span>, <span class="fl">70</span>, <span class="fl">79</span>, </span>
+<span>  <span class="fl">76</span>, <span class="fl">73</span>, <span class="fl">70</span>, <span class="fl">77</span>, <span class="fl">75</span>, <span class="fl">77</span>, <span class="fl">70</span>, <span class="fl">76</span>, <span class="fl">76</span>, <span class="fl">73</span>, <span class="fl">73</span>, <span class="fl">75</span>, <span class="fl">78</span>, <span class="fl">70</span></span>
+<span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">mulheres</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
+<span>  <span class="fl">78</span>, <span class="fl">72</span>, <span class="fl">75</span>, <span class="fl">67</span>, <span class="fl">75</span>, <span class="fl">73</span>, <span class="fl">76</span>, <span class="fl">73</span>, <span class="fl">67</span>, <span class="fl">77</span>, <span class="fl">72</span>, <span class="fl">72</span>, <span class="fl">68</span>, <span class="fl">73</span>, </span>
+<span>  <span class="fl">68</span>, <span class="fl">83</span>, <span class="fl">76</span>, <span class="fl">74</span>, <span class="fl">70</span>, <span class="fl">72</span>, <span class="fl">67</span>, <span class="fl">67</span>, <span class="fl">73</span>, <span class="fl">75</span>, <span class="fl">76</span>, <span class="fl">77</span>, <span class="fl">70</span>, <span class="fl">71</span></span>
+<span><span class="op">)</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ol type="1">
+<li><p>Construa <span class="hl"><em>boxplots</em></span> para os dados (separados por sexo).</p></li>
+<li><p>O que você nota de estranho?</p></li>
+<li><p>Calcule as <span class="hl">médias</span> e os <span class="hl">desvios-padrão</span> dos grupos.</p></li>
+<li><p>Construa <span class="hl">intervalos de confiança</span> para a diferença entre as pulsações médias dos homens e das mulheres, considerando que <span class="hl">as variâncias dos grupos são diferentes</span>, com <span class="math inline">\(90\%\)</span>, <span class="math inline">\(95\%\)</span> e <span class="math inline">\(99\%\)</span> de confiança.</p></li>
+<li><p>Refaça o item acima, considerando que <span class="hl">as variâncias dos grupos são iguais</span>. Houve muita mudança?</p></li>
+</ol></section><section id="sexta-feira-13" class="level1"><h1>Sexta-feira 13</h1>
+<p>Sextas-feiras <span class="math inline">\(13\)</span> são mais perigosas?</p>
+<p>Em uma cidade, pesquisadores contaram as quantidades de pacientes admitidos nas emergências de hospitais por causa de acidentes de trânsito.</p>
+<p>As contagens foram feitas em diversas sextas-feiras <span class="math inline">\(13\)</span> e nas respectivas sextas-feiras <span class="math inline">\(6\)</span> anteriores, como mostra a tabela:</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+
+<div data-pagedtable="false">
+  <script data-pagedtable-source="" type="application/json">
+{"columns":[{"label":["ano"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["mês"],"name":[2],"type":["chr"],"align":["left"]},{"label":["6"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["13"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"1989","2":"outubro","3":"9","4":"13"},{"1":"1990","2":"julho","3":"6","4":"12"},{"1":"1991","2":"setembro","3":"11","4":"14"},{"1":"1991","2":"dezembro","3":"11","4":"10"},{"1":"1992","2":"março","3":"3","4":"4"},{"1":"1992","2":"novembro","3":"5","4":"12"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+</div>
+<p>Para sua conveniência, já transformei o <em>data frame</em> para o formato longo:</p>
+<div class="cell" data-layout-align="center">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">df</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+
+<div data-pagedtable="false">
+  <script data-pagedtable-source="" type="application/json">
+{"columns":[{"label":["ano"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["mês"],"name":[2],"type":["chr"],"align":["left"]},{"label":["dia"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["pacientes"],"name":[4],"type":["dbl"],"align":["right"]}],"data":[{"1":"1989","2":"outubro","3":"6","4":"9"},{"1":"1989","2":"outubro","3":"13","4":"13"},{"1":"1990","2":"julho","3":"6","4":"6"},{"1":"1990","2":"julho","3":"13","4":"12"},{"1":"1991","2":"setembro","3":"6","4":"11"},{"1":"1991","2":"setembro","3":"13","4":"14"},{"1":"1991","2":"dezembro","3":"6","4":"11"},{"1":"1991","2":"dezembro","3":"13","4":"10"},{"1":"1992","2":"março","3":"6","4":"3"},{"1":"1992","2":"março","3":"13","4":"4"},{"1":"1992","2":"novembro","3":"6","4":"5"},{"1":"1992","2":"novembro","3":"13","4":"12"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><p>Construa <span class="hl"><em>boxplots</em></span>, separados por dia (<span class="math inline">\(6\)</span> ou <span class="math inline">\(13\)</span>) das quantidades de pacientes. Qual é a sua impressão?</p></li>
+<li>
+<p>Faça o seguinte <span class="hl">teste de hipóteses</span>, <span class="hl">considerando iguais as variâncias</span> dos dois grupos, com <span class="math inline">\(\alpha = 0{,}05\)</span>:</p>
+<ol type="a">
+<li><p><span class="math inline">\(H_0:\)</span> a diferença entre a média de pacientes no dia <span class="math inline">\(6\)</span> e a média de pacientes no dia <span class="math inline">\(13\)</span> é <span class="hl">igual a zero</span>.</p></li>
+<li><p><span class="math inline">\(H_A:\)</span> a diferença entre a média de pacientes no dia <span class="math inline">\(6\)</span> e a média de pacientes no dia <span class="math inline">\(13\)</span> é <span class="hl">menor que zero</span> (i.e., a média no dia <span class="math inline">\(6\)</span> é menor).</p></li>
+</ol>
+</li>
+<li>
+<p>Agora, faça o seguinte <span class="hl">teste de hipóteses</span>, <span class="hl">considerando iguais as variâncias</span> dos dois grupos, com <span class="math inline">\(\alpha = 0{,}05\)</span>:</p>
+<ol type="a">
+<li><p><span class="math inline">\(H_0:\)</span> em cada par de sexta-feira <span class="math inline">\(6\)</span> e sexta-feira <span class="math inline">\(13\)</span> subsequente, a diferença entre as quantidades de pacientes é <span class="hl">igual a zero</span>, em média.</p></li>
+<li><p><span class="math inline">\(H_A:\)</span> em cada par de sexta-feira <span class="math inline">\(6\)</span> e sexta-feira <span class="math inline">\(13\)</span> subsequente, a diferença entre as quantidades de pacientes é <span class="hl">menor que zero</span>, em média (i.e., a quantidade no dia <span class="math inline">\(6\)</span> é menor, em média).</p></li>
+</ol>
+</li>
+<li><p>Qual dos dois testes você acha mais apropriado usar para responder a pergunta “<span class="hl">Sextas-feiras <span class="math inline">\(13\)</span> são mais perigosas?</span>”? Por quê?</p></li>
+</ol></section><section id="vendas" class="level1"><h1>Vendas</h1>
+<p>O <em>dataframe</em> abaixo mostra a relação entre a quantidade de vendedores em uma loja e a receita das vendas (em R$ <span class="math inline">\(1.000\)</span>):</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+
+<div data-pagedtable="false">
+  <script data-pagedtable-source="" type="application/json">
+{"columns":[{"label":["vendedores"],"name":[1],"type":["dbl"],"align":["right"]},{"label":["vendas"],"name":[2],"type":["dbl"],"align":["right"]}],"data":[{"1":"2","2":"10"},{"1":"3","2":"11"},{"1":"7","2":"13"},{"1":"9","2":"14"},{"1":"10","2":"18"},{"1":"10","2":"20"},{"1":"12","2":"20"},{"1":"15","2":"22"},{"1":"16","2":"22"},{"1":"20","2":"26"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
+</div>
+</div>
+<ol type="1">
+<li><p>Faça um <span class="hl"><em>scatter plot</em></span>.</p></li>
+<li><p>Qual é a <span class="hl">correlação</span> entre estas variáveis?</p></li>
+<li><p>O gerente quer estudar <span class="hl">como as vendas variam em função da quantidade de vendedores</span>. Ache a <span class="hl">equação</span> da reta de melhor ajuste usando regressão linear.</p></li>
+<li><p>O que significa o <span class="hl">termo constante</span> desta equação?</p></li>
+<li><p>O que significa o <span class="hl">coeficiente da variável</span> nesta equação?</p></li>
+<li><p>Faça um <span class="hl">histograma</span> de todos os resíduos. <span class="hl">Comente o gráfico</span>.</p></li>
+<li><p>Faça um <span class="hl"><em>scatter plot</em></span> de todos os resíduos por valor previsto. <span class="hl">Comente o gráfico</span>.</p></li>
+<li><p>Se houver <span class="math inline">\(18\)</span> vendedores, qual a <span class="hl">receita prevista</span>?</p></li>
+<li><p>Se, com <span class="math inline">\(18\)</span> vendedores, houver uma receita de R$ <span class="math inline">\(25.000\)</span>, qual o <span class="hl">resíduo</span>?</p></li>
+</ol>
+<!-- -->
+</section></main><!-- /main column --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiada");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("^(?:http:|https:)\/\/fnaufel\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Código fonte</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb4" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> 'Intervalos de confiança, testes de hipótese, regressão linear'</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="an">subtitle:</span><span class="co"> 'Lista avaliativa final -- Probabilidade e Estatística'</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Fernando Náufel"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> now</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="an">date-format:</span><span class="co"> "DD/MM/YYYY HH:mm"</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="an">lang:</span><span class="co"> pt</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="co"># bibliography: bibliography.bib</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="co"># csl: universidade-do-porto-faculdade-de-engenharia-chicago-pt-crono.csl</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="co">    toc: true  </span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="co">    toc-depth: 3</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="co">    number-depth: 3</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co">    theme: </span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="co">      - journal</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="co">      - _custom.scss</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="co">    link-external-icon: true</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="co">    link-external-newwindow: true</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="co">    link-external-filter: ^(?:http:|https:)\/\/fnaufel\.github\.io</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="co">    df-print: paged</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a><span class="co">    code-link: true</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a><span class="co">    code-copy: true</span></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>{{&lt; include _math.qmd &gt;}}</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a><span class="in">```{r setup, echo=FALSE, message=FALSE}</span></span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a><span class="fu">source</span>(<span class="st">'_setup.R'</span>)</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a><span class="fu"># Mentindo a idade</span></span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a>Uma pesquisa perguntou a $799$ adolescentes se eles mentiam a idade para entrar em sites da internet. Das respostas, $49\%$ foram que sim.</span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Qual o <span class="co">[</span><span class="ot">erro-padrão</span><span class="co">]</span>{.hl} de $\hat p$?</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span><span class="co">[</span><span class="ot">O que significa</span><span class="co">]</span>{.hl} este erro-padrão?</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-45"><a href="#cb4-45" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Construa <span class="co">[</span><span class="ot">intervalos de confiança para $p$</span><span class="co">]</span>{.hl} com $90\%$, $95\%$ e $99\%$ de confiança.</span>
+<span id="cb4-46"><a href="#cb4-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-47"><a href="#cb4-47" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Qual dos $3$ intervalos de confiança do item anterior tem <span class="co">[</span><span class="ot">a maior margem de erro</span><span class="co">]</span>{.hl}? Por quê?</span>
+<span id="cb4-48"><a href="#cb4-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-49"><a href="#cb4-49" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Faça um <span class="co">[</span><span class="ot">teste de hipóteses</span><span class="co">]</span>{.hl} para verificar se $p$ é <span class="co">[</span><span class="ot">diferente</span><span class="co">]</span>{.hl} de $0{,}5$ com $\alpha = 0{,}1$; $\alpha = 0{,}05$; e $\alpha = 0{,}01$.</span>
+<span id="cb4-50"><a href="#cb4-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-51"><a href="#cb4-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-52"><a href="#cb4-52" aria-hidden="true" tabindex="-1"></a><span class="fu"># Casamento</span></span>
+<span id="cb4-53"><a href="#cb4-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-54"><a href="#cb4-54" aria-hidden="true" tabindex="-1"></a>Em $1960$, a idade média dos homens no momento do primeiro casamento era de $23{,}3$ anos.</span>
+<span id="cb4-55"><a href="#cb4-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-56"><a href="#cb4-56" aria-hidden="true" tabindex="-1"></a>Em uma amostra de $40$ homens que se casaram pela primeira vez no ano passado, as idades eram:</span>
+<span id="cb4-57"><a href="#cb4-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-60"><a href="#cb4-60" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb4-61"><a href="#cb4-61" aria-hidden="true" tabindex="-1"></a>idades <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb4-62"><a href="#cb4-62" aria-hidden="true" tabindex="-1"></a>  <span class="fl">24.4</span>, <span class="fl">27.6</span>, <span class="fl">34.0</span>, <span class="fl">20.8</span>, <span class="fl">23.7</span>, <span class="fl">34.3</span>, <span class="fl">14.3</span>, <span class="fl">23.9</span>, <span class="fl">23.6</span>, <span class="fl">21.5</span>, <span class="fl">26.4</span>, </span>
+<span id="cb4-63"><a href="#cb4-63" aria-hidden="true" tabindex="-1"></a>  <span class="fl">10.6</span>, <span class="fl">27.9</span>, <span class="fl">19.3</span>, <span class="fl">17.9</span>, <span class="fl">21.9</span>, <span class="fl">20.3</span>, <span class="fl">25.8</span>, <span class="fl">28.3</span>, <span class="fl">22.5</span>, <span class="fl">33.1</span>, <span class="fl">21.5</span>, </span>
+<span id="cb4-64"><a href="#cb4-64" aria-hidden="true" tabindex="-1"></a>  <span class="fl">23.0</span>, <span class="fl">24.0</span>, <span class="fl">20.5</span>, <span class="fl">28.5</span>, <span class="fl">24.0</span>, <span class="fl">25.0</span>, <span class="fl">28.5</span>, <span class="fl">19.8</span>, <span class="fl">22.5</span>, <span class="fl">29.2</span>, <span class="fl">21.2</span>, </span>
+<span id="cb4-65"><a href="#cb4-65" aria-hidden="true" tabindex="-1"></a>  <span class="fl">19.2</span>, <span class="fl">22.7</span>, <span class="fl">27.4</span>, <span class="dv">33</span>, <span class="dv">25</span>, <span class="fl">26.4</span>, <span class="fl">23.1</span></span>
+<span id="cb4-66"><a href="#cb4-66" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-67"><a href="#cb4-67" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-68"><a href="#cb4-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-69"><a href="#cb4-69" aria-hidden="true" tabindex="-1"></a>Os homens estão se casando <span class="co">[</span><span class="ot">mais velhos</span><span class="co">]</span>{.hl}?</span>
+<span id="cb4-70"><a href="#cb4-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-71"><a href="#cb4-71" aria-hidden="true" tabindex="-1"></a>Responda com $\alpha = 0{,}1$; com $\alpha = 0{,}05$; e com $\alpha = 0{,}01$?</span>
+<span id="cb4-72"><a href="#cb4-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-73"><a href="#cb4-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-74"><a href="#cb4-74" aria-hidden="true" tabindex="-1"></a><span class="fu"># Pulsação</span></span>
+<span id="cb4-75"><a href="#cb4-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-76"><a href="#cb4-76" aria-hidden="true" tabindex="-1"></a>Um pesquisador examinou as pulsações de homens e mulheres (em bpm):</span>
+<span id="cb4-77"><a href="#cb4-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-80"><a href="#cb4-80" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb4-81"><a href="#cb4-81" aria-hidden="true" tabindex="-1"></a>homens <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb4-82"><a href="#cb4-82" aria-hidden="true" tabindex="-1"></a>  <span class="dv">78</span>, <span class="dv">72</span>, <span class="dv">74</span>, <span class="dv">70</span>, <span class="dv">77</span>, <span class="dv">75</span>, <span class="dv">76</span>, <span class="dv">71</span>, <span class="dv">73</span>, <span class="dv">75</span>, <span class="dv">73</span>, <span class="dv">70</span>, <span class="dv">70</span>, <span class="dv">79</span>, </span>
+<span id="cb4-83"><a href="#cb4-83" aria-hidden="true" tabindex="-1"></a>  <span class="dv">76</span>, <span class="dv">73</span>, <span class="dv">70</span>, <span class="dv">77</span>, <span class="dv">75</span>, <span class="dv">77</span>, <span class="dv">70</span>, <span class="dv">76</span>, <span class="dv">76</span>, <span class="dv">73</span>, <span class="dv">73</span>, <span class="dv">75</span>, <span class="dv">78</span>, <span class="dv">70</span></span>
+<span id="cb4-84"><a href="#cb4-84" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-85"><a href="#cb4-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-86"><a href="#cb4-86" aria-hidden="true" tabindex="-1"></a>mulheres <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
+<span id="cb4-87"><a href="#cb4-87" aria-hidden="true" tabindex="-1"></a>  <span class="dv">78</span>, <span class="dv">72</span>, <span class="dv">75</span>, <span class="dv">67</span>, <span class="dv">75</span>, <span class="dv">73</span>, <span class="dv">76</span>, <span class="dv">73</span>, <span class="dv">67</span>, <span class="dv">77</span>, <span class="dv">72</span>, <span class="dv">72</span>, <span class="dv">68</span>, <span class="dv">73</span>, </span>
+<span id="cb4-88"><a href="#cb4-88" aria-hidden="true" tabindex="-1"></a>  <span class="dv">68</span>, <span class="dv">83</span>, <span class="dv">76</span>, <span class="dv">74</span>, <span class="dv">70</span>, <span class="dv">72</span>, <span class="dv">67</span>, <span class="dv">67</span>, <span class="dv">73</span>, <span class="dv">75</span>, <span class="dv">76</span>, <span class="dv">77</span>, <span class="dv">70</span>, <span class="dv">71</span></span>
+<span id="cb4-89"><a href="#cb4-89" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-90"><a href="#cb4-90" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-91"><a href="#cb4-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-92"><a href="#cb4-92" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Construa <span class="co">[</span><span class="ot">*boxplots*</span><span class="co">]</span>{.hl} para os dados (separados por sexo).</span>
+<span id="cb4-93"><a href="#cb4-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-94"><a href="#cb4-94" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>O que você nota de estranho?</span>
+<span id="cb4-95"><a href="#cb4-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-96"><a href="#cb4-96" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Calcule as <span class="co">[</span><span class="ot">médias</span><span class="co">]</span>{.hl} e os <span class="co">[</span><span class="ot">desvios-padrão</span><span class="co">]</span>{.hl} dos grupos.</span>
+<span id="cb4-97"><a href="#cb4-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-98"><a href="#cb4-98" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Construa <span class="co">[</span><span class="ot">intervalos de confiança</span><span class="co">]</span>{.hl} para a diferença entre as pulsações médias dos homens e das mulheres, considerando que <span class="co">[</span><span class="ot">as variâncias dos grupos são diferentes</span><span class="co">]</span>{.hl}, com $90\%$, $95\%$ e $99\%$ de confiança.</span>
+<span id="cb4-99"><a href="#cb4-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-100"><a href="#cb4-100" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Refaça o item acima, considerando que <span class="co">[</span><span class="ot">as variâncias dos grupos são iguais</span><span class="co">]</span>{.hl}. Houve muita mudança?</span>
+<span id="cb4-101"><a href="#cb4-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-102"><a href="#cb4-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-103"><a href="#cb4-103" aria-hidden="true" tabindex="-1"></a><span class="fu"># Sexta-feira 13</span></span>
+<span id="cb4-104"><a href="#cb4-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-105"><a href="#cb4-105" aria-hidden="true" tabindex="-1"></a>Sextas-feiras $13$ são mais perigosas?</span>
+<span id="cb4-106"><a href="#cb4-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-107"><a href="#cb4-107" aria-hidden="true" tabindex="-1"></a>Em uma cidade, pesquisadores contaram as quantidades de pacientes admitidos nas emergências de hospitais por causa de acidentes de trânsito.</span>
+<span id="cb4-108"><a href="#cb4-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-109"><a href="#cb4-109" aria-hidden="true" tabindex="-1"></a>As contagens foram feitas em diversas sextas-feiras $13$ e nas respectivas sextas-feiras $6$ anteriores, como mostra a tabela:</span>
+<span id="cb4-110"><a href="#cb4-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-111"><a href="#cb4-111" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE}</span></span>
+<span id="cb4-112"><a href="#cb4-112" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> </span>
+<span id="cb4-113"><a href="#cb4-113" aria-hidden="true" tabindex="-1"></a><span class="fu">tribble</span>(</span>
+<span id="cb4-114"><a href="#cb4-114" aria-hidden="true" tabindex="-1"></a>  <span class="sc">~</span>ano, <span class="sc">~</span>mês,         <span class="sc">~</span><span class="st">"6"</span>,   <span class="sc">~</span><span class="st">"13"</span>,</span>
+<span id="cb4-115"><a href="#cb4-115" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1989</span>, <span class="st">'outubro'</span>,    <span class="dv">9</span>,      <span class="dv">13</span>,</span>
+<span id="cb4-116"><a href="#cb4-116" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1990</span>, <span class="st">'julho'</span>,      <span class="dv">6</span>,      <span class="dv">12</span>,</span>
+<span id="cb4-117"><a href="#cb4-117" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1991</span>, <span class="st">'setembro'</span>,   <span class="dv">11</span>,     <span class="dv">14</span>,</span>
+<span id="cb4-118"><a href="#cb4-118" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1991</span>, <span class="st">'dezembro'</span>,   <span class="dv">11</span>,     <span class="dv">10</span>,</span>
+<span id="cb4-119"><a href="#cb4-119" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1992</span>, <span class="st">'março'</span>,      <span class="dv">3</span>,      <span class="dv">4</span>,</span>
+<span id="cb4-120"><a href="#cb4-120" aria-hidden="true" tabindex="-1"></a>  <span class="dv">1992</span>, <span class="st">'novembro'</span>,   <span class="dv">5</span>,      <span class="dv">12</span></span>
+<span id="cb4-121"><a href="#cb4-121" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-122"><a href="#cb4-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-123"><a href="#cb4-123" aria-hidden="true" tabindex="-1"></a>df</span>
+<span id="cb4-124"><a href="#cb4-124" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-125"><a href="#cb4-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-126"><a href="#cb4-126" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE}</span></span>
+<span id="cb4-127"><a href="#cb4-127" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span> </span>
+<span id="cb4-128"><a href="#cb4-128" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_longer</span>(</span>
+<span id="cb4-129"><a href="#cb4-129" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">6</span><span class="st">`</span><span class="sc">:</span><span class="st">`</span><span class="at">13</span><span class="st">`</span>,</span>
+<span id="cb4-130"><a href="#cb4-130" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_to =</span> <span class="st">'dia'</span>,</span>
+<span id="cb4-131"><a href="#cb4-131" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_transform =</span> <span class="fu">list</span>(<span class="at">dia =</span> as.double),</span>
+<span id="cb4-132"><a href="#cb4-132" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_to =</span> <span class="st">'pacientes'</span>,</span>
+<span id="cb4-133"><a href="#cb4-133" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb4-134"><a href="#cb4-134" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-135"><a href="#cb4-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-136"><a href="#cb4-136" aria-hidden="true" tabindex="-1"></a>Para sua conveniência, já transformei o *data frame* para o formato longo:</span>
+<span id="cb4-137"><a href="#cb4-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-140"><a href="#cb4-140" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb4-141"><a href="#cb4-141" aria-hidden="true" tabindex="-1"></a>df</span>
+<span id="cb4-142"><a href="#cb4-142" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-143"><a href="#cb4-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-144"><a href="#cb4-144" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Construa <span class="co">[</span><span class="ot">*boxplots*</span><span class="co">]</span>{.hl}, separados por dia ($6$ ou $13$) das quantidades de pacientes. Qual é a sua impressão?</span>
+<span id="cb4-145"><a href="#cb4-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-146"><a href="#cb4-146" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Faça o seguinte <span class="co">[</span><span class="ot">teste de hipóteses</span><span class="co">]</span>{.hl}, <span class="co">[</span><span class="ot">considerando iguais as variâncias</span><span class="co">]</span>{.hl} dos dois grupos, com $\alpha = 0{,}05$:</span>
+<span id="cb4-147"><a href="#cb4-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-148"><a href="#cb4-148" aria-hidden="true" tabindex="-1"></a>   a. $H_0:$ a diferença entre a média de pacientes no dia $6$ e a média de pacientes no dia $13$ é <span class="co">[</span><span class="ot">igual a zero</span><span class="co">]</span>{.hl}.</span>
+<span id="cb4-149"><a href="#cb4-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-150"><a href="#cb4-150" aria-hidden="true" tabindex="-1"></a>   a. $H_A:$ a diferença entre a média de pacientes no dia $6$ e a média de pacientes no dia $13$ é <span class="co">[</span><span class="ot">menor que zero</span><span class="co">]</span>{.hl} (i.e., a média no dia $6$ é menor).</span>
+<span id="cb4-151"><a href="#cb4-151" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-152"><a href="#cb4-152" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Agora, faça o seguinte <span class="co">[</span><span class="ot">teste de hipóteses</span><span class="co">]</span>{.hl}, <span class="co">[</span><span class="ot">considerando iguais as variâncias</span><span class="co">]</span>{.hl} dos dois grupos, com $\alpha = 0{,}05$:</span>
+<span id="cb4-153"><a href="#cb4-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-154"><a href="#cb4-154" aria-hidden="true" tabindex="-1"></a>   a. $H_0:$ em cada par de sexta-feira $6$ e sexta-feira $13$ subsequente, a diferença entre as quantidades de pacientes é <span class="co">[</span><span class="ot">igual a zero</span><span class="co">]</span>{.hl}, em média.</span>
+<span id="cb4-155"><a href="#cb4-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-156"><a href="#cb4-156" aria-hidden="true" tabindex="-1"></a>   a. $H_A:$ em cada par de sexta-feira $6$ e sexta-feira $13$ subsequente, a diferença entre as quantidades de pacientes é <span class="co">[</span><span class="ot">menor que zero</span><span class="co">]</span>{.hl}, em média (i.e., a quantidade no dia $6$ é menor, em média).</span>
+<span id="cb4-157"><a href="#cb4-157" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb4-158"><a href="#cb4-158" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Qual dos dois testes você acha mais apropriado usar para responder a pergunta "<span class="co">[</span><span class="ot">Sextas-feiras $13$ são mais perigosas?</span><span class="co">]</span>{.hl}"? Por quê?</span>
+<span id="cb4-159"><a href="#cb4-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-160"><a href="#cb4-160" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-161"><a href="#cb4-161" aria-hidden="true" tabindex="-1"></a><span class="fu"># Vendas</span></span>
+<span id="cb4-162"><a href="#cb4-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-163"><a href="#cb4-163" aria-hidden="true" tabindex="-1"></a>O *dataframe* abaixo mostra a relação entre a quantidade de vendedores em uma loja e a receita das vendas (em R\$ $1.000$):</span>
+<span id="cb4-164"><a href="#cb4-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-165"><a href="#cb4-165" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE}</span></span>
+<span id="cb4-166"><a href="#cb4-166" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
+<span id="cb4-167"><a href="#cb4-167" aria-hidden="true" tabindex="-1"></a>  <span class="at">vendedores =</span> <span class="fu">c</span>(<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">7</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">10</span>, <span class="dv">12</span>, <span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">20</span>),</span>
+<span id="cb4-168"><a href="#cb4-168" aria-hidden="true" tabindex="-1"></a>  <span class="at">vendas =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">11</span>, <span class="dv">13</span>, <span class="dv">14</span>, <span class="dv">18</span>, <span class="dv">20</span>, <span class="dv">20</span>, <span class="dv">22</span>, <span class="dv">22</span>, <span class="dv">26</span>)</span>
+<span id="cb4-169"><a href="#cb4-169" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb4-170"><a href="#cb4-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-171"><a href="#cb4-171" aria-hidden="true" tabindex="-1"></a>df</span>
+<span id="cb4-172"><a href="#cb4-172" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb4-173"><a href="#cb4-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-174"><a href="#cb4-174" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Faça um <span class="co">[</span><span class="ot">*scatter plot*</span><span class="co">]</span>{.hl}.</span>
+<span id="cb4-175"><a href="#cb4-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-176"><a href="#cb4-176" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Qual é a <span class="co">[</span><span class="ot">correlação</span><span class="co">]</span>{.hl} entre estas variáveis?</span>
+<span id="cb4-177"><a href="#cb4-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-178"><a href="#cb4-178" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>O gerente quer estudar <span class="co">[</span><span class="ot">como as vendas variam em função da quantidade de vendedores</span><span class="co">]</span>{.hl}. Ache a <span class="co">[</span><span class="ot">equação</span><span class="co">]</span>{.hl} da reta de melhor ajuste usando regressão linear.</span>
+<span id="cb4-179"><a href="#cb4-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-180"><a href="#cb4-180" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>O que significa o <span class="co">[</span><span class="ot">termo constante</span><span class="co">]</span>{.hl} desta equação?</span>
+<span id="cb4-181"><a href="#cb4-181" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-182"><a href="#cb4-182" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>O que significa o <span class="co">[</span><span class="ot">coeficiente da variável</span><span class="co">]</span>{.hl} nesta equação?</span>
+<span id="cb4-183"><a href="#cb4-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-184"><a href="#cb4-184" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Faça um <span class="co">[</span><span class="ot">histograma</span><span class="co">]</span>{.hl} de todos os resíduos. <span class="co">[</span><span class="ot">Comente o gráfico</span><span class="co">]</span>{.hl}.</span>
+<span id="cb4-185"><a href="#cb4-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-186"><a href="#cb4-186" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Faça um <span class="co">[</span><span class="ot">*scatter plot*</span><span class="co">]</span>{.hl} de todos os resíduos por valor previsto. <span class="co">[</span><span class="ot">Comente o gráfico</span><span class="co">]</span>{.hl}.</span>
+<span id="cb4-187"><a href="#cb4-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-188"><a href="#cb4-188" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Se houver $18$ vendedores, qual a <span class="co">[</span><span class="ot">receita prevista</span><span class="co">]</span>{.hl}?</span>
+<span id="cb4-189"><a href="#cb4-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-190"><a href="#cb4-190" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Se, com $18$ vendedores, houver uma receita de R\$ $25.000$, qual o <span class="co">[</span><span class="ot">resíduo</span><span class="co">]</span>{.hl}?</span>
+</code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+</body></html>
