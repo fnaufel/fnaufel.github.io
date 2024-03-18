@@ -1,0 +1,35 @@
+---
+title: "Matemática Discreta (RCN00023)"
+listing:
+  id: md-listings
+  contents: posts
+  type: grid
+  sort: "date desc"
+  date-format: short
+  categories: false
+  include: 
+    categories: "md"
+---
+
+::: {.callout-important title="Postagens recentes"}
+
+Ao longo do semestre, acompanhe as postagens [mais abaixo, nesta mesma página](#listing-md-listings).
+
+:::
+
+
+## Livro
+
+Anamaria Gomide, Jorge Stolfi, *Elementos de Matemática Discreta para Computação*, versão preliminar de 1 de janeiro de 2023, com pdf disponível em <https://www.ic.unicamp.br/~stolfi/fmc-book/2022-08-24-js/livro.pdf>.
+
+
+## Cronograma e outras informações
+
+No [Moodle](https://ead.cead.uff.br/). Entre em contato se você ainda não tem acesso.
+
+
+## Postagens recentes sobre MD
+
+::: {#md-listings}
+:::
+

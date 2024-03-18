@@ -6,11 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="fnaufel">
-<meta name="dcterms.date" content="2023-08-08">
-<meta name="description" content="Alguns com respostas">
 
-<title>fnaufel - Trabalhos de períodos anteriores</title>
+<title>fnaufel - Matemática Discreta (RCN00023)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/avatar.jpg" rel="icon" type="image/jpeg">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/avatar.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,22 +69,80 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-md-listings .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
+    const options = {
+      valueNames: ['listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-md-listings'] = new List('listing-md-listings', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/icon.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/icon.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">fnaufel</span>
     </a>
   </div>
@@ -96,27 +153,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../md.html"> 
+    <a class="nav-link active" href="./md.html" aria-current="page"> 
 <span class="menu-text">MD</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../probest.html"> 
+    <a class="nav-link" href="./probest.html"> 
 <span class="menu-text">ProbEst</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../ga.html"> 
+    <a class="nav-link" href="./ga.html"> 
 <span class="menu-text">GA</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../pubs.html"> 
+    <a class="nav-link" href="./pubs.html"> 
 <span class="menu-text">Publicações</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Sobre</span></a>
   </li>  
   <li class="nav-item compact">
@@ -130,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
+    <a class="nav-link" href="./index.xml"> <i class="bi bi-rss" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -148,124 +205,66 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Trabalhos de períodos anteriores</h1>
-                  <div>
-        <div class="description">
-          Alguns com respostas
-        </div>
-      </div>
-                          <div class="quarto-categories">
-                <div class="quarto-category">probest</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Autor</div>
-      <div class="quarto-title-meta-contents">
-               <p>fnaufel </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Data de Publicação</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">08/08/2023</p>
-      </div>
-    </div>
-    
-      <div>
-      <div class="quarto-title-meta-heading">Data de Modificação</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">13/10/2023</p>
-      </div>
-    </div>
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="20230808_256x256_image_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Matemática Discreta (RCN00023)</h1>
 </div>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2022.1</h2>
-<section id="lista-1-cidades-brasileiras" class="level3">
-<h3 class="anchored" data-anchor-id="lista-1-cidades-brasileiras">Lista 1: cidades brasileiras</h3>
-<ul>
-<li><a href="https://fnaufel.github.io/lista1-cidades-br/">Enunciado.</a></li>
-<li><a href="../../probest/2022.1/cidades-gab.html">Solução parcial.</a></li>
-</ul>
-</section>
-<section id="lista-2-pessoas-e-medidas" class="level3">
-<h3 class="anchored" data-anchor-id="lista-2-pessoas-e-medidas">Lista 2: pessoas e medidas</h3>
-<ul>
-<li><a href="../../probest/2022.1/ic-ih.html">Enunciado.</a></li>
-</ul>
-</section>
-</section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2021.2</h2>
-<section id="lista-1-olimpíadas" class="level3">
-<h3 class="anchored" data-anchor-id="lista-1-olimpíadas">Lista 1: olimpíadas</h3>
-<ul>
-<li><a href="https://github.com/fnaufel/Olimpiadas/blob/master/README.md">Enunciado.</a></li>
-<li><a href="../../probest/2021.2/olimpiadas-solucoes.html">Solução.</a></li>
-</ul>
-</section>
-<section id="lista-2-intervalos-de-confiança-e-testes-de-hipóteses" class="level3">
-<h3 class="anchored" data-anchor-id="lista-2-intervalos-de-confiança-e-testes-de-hipóteses">Lista 2: intervalos de confiança e testes de hipóteses</h3>
-<ul>
-<li><a href="../../probest/2021.2/ic-th.html">Enunciado.</a></li>
-<li><a href="../../probest/2021.2/ic-th-solucoes.html">Solução.</a></li>
-</ul>
-</section>
-</section>
-<section id="section-2" class="level2">
-<h2 class="anchored" data-anchor-id="section-2">2021.1</h2>
-<p>Listas de exercícios que serviram como avaliação no semestre 2021.1, o terceiro a ser oferecido remotamente por causa da pandemia.</p>
-<section id="lista-2-visualização-e-probabilidades" class="level3">
-<h3 class="anchored" data-anchor-id="lista-2-visualização-e-probabilidades">Lista 2: visualização e probabilidades</h3>
-<ul>
-<li><a href="../../probest/2021.1/lista2.html">Enunciado.</a></li>
-</ul>
-</section>
-</section>
-<section id="section-3" class="level2">
-<h2 class="anchored" data-anchor-id="section-3">2020.1</h2>
-<p>Listas de exercícios que serviram como avaliação no semestre 2020.1, o primeiro a ser oferecido remotamente por causa da pandemia.</p>
-<section id="lista-1-visualização-medidas-probabilidades" class="level3">
-<h3 class="anchored" data-anchor-id="lista-1-visualização-medidas-probabilidades">Lista 1: visualização, medidas, probabilidades</h3>
-<ul>
-<li><a href="../../probest/2020.1/lista1.html">Enunciado.</a></li>
-</ul>
-</section>
-<section id="lista-2-normal-poisson-probabilidades" class="level3">
-<h3 class="anchored" data-anchor-id="lista-2-normal-poisson-probabilidades">Lista 2: normal, Poisson, probabilidades</h3>
-<ul>
-<li><a href="../../probest/2020.1/lista2.html">Enunciado.</a></li>
-</ul>
 
 
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-important callout-titled" title="Postagens recentes">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Postagens recentes
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ao longo do semestre, acompanhe as postagens <a href="#listing-md-listings">mais abaixo, nesta mesma página</a>.</p>
+</div>
+</div>
+<section id="livro" class="level2">
+<h2 class="anchored" data-anchor-id="livro">Livro</h2>
+<p>Anamaria Gomide, Jorge Stolfi, <em>Elementos de Matemática Discreta para Computação</em>, versão preliminar de 1 de janeiro de 2023, com pdf disponível em <a href="https://www.ic.unicamp.br/~stolfi/fmc-book/2022-08-24-js/livro.pdf" class="uri">https://www.ic.unicamp.br/~stolfi/fmc-book/2022-08-24-js/livro.pdf</a>.</p>
 </section>
+<section id="cronograma-e-outras-informações" class="level2">
+<h2 class="anchored" data-anchor-id="cronograma-e-outras-informações">Cronograma e outras informações</h2>
+<p>No <a href="https://ead.cead.uff.br/">Moodle</a>. Entre em contato se você ainda não tem acesso.</p>
+</section>
+<section id="postagens-recentes-sobre-md" class="level2">
+<h2 class="anchored" data-anchor-id="postagens-recentes-sobre-md">Postagens recentes sobre MD</h2>
+<div id="listing-md-listings" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+
+</div>
+<div class="listing-no-matching d-none">
+Nenhum item correspondente
+</div>
+</div>
+
+
+
 </section>
 
 </main> <!-- /main -->
@@ -830,7 +829,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../licenca.html">
+    <a class="nav-link" href="./licenca.html">
 <p>LICENÇA CC-BY-NC-SA</p>
 </a>
   </li>  

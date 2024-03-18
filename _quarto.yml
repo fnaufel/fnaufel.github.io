@@ -41,12 +41,15 @@ website:
       - href: index.qmd
         text: Blog
         aria-label: Blog
-      - href: ga.qmd
-        text: GA
-        aria-label: GA
+      - href: md.qmd
+        text: MD
+        aria-label: MD
       - href: probest.qmd
         text: ProbEst
         aria-label: Probabililidade e Estatística
+      - href: ga.qmd
+        text: GA
+        aria-label: GA
       - href: pubs.qmd
         text: Publicações
         aria-label: Publicações

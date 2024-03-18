@@ -6,15 +6,17 @@
       version="2.0">
 <channel>
 <title>fnaufel</title>
-<link>https://fnaufel.github.io/index.html</link>
+<link>https://fnaufel.github.io/</link>
 <atom:link href="https://fnaufel.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>Professor Associado, RCN, UFF</description>
 <image>
 <url>https://fnaufel.github.io/images/icon.png</url>
 <title>fnaufel</title>
-<link>https://fnaufel.github.io/index.html</link>
+<link>https://fnaufel.github.io/</link>
+<height>144</height>
+<width>144</width>
 </image>
-<generator>quarto-1.3.361</generator>
+<generator>quarto-1.4.549</generator>
 <lastBuildDate>Mon, 28 Aug 2023 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Material escrito por Dijkstra</title>
@@ -25,18 +27,24 @@
 
 
 
+
 <section id="manuscritos-de-e.w.-dijkstra-pronuncia-se-déikstra" class="level2">
 <h2 class="anchored" data-anchor-id="manuscritos-de-e.w.-dijkstra-pronuncia-se-déikstra">Manuscritos de E.W. Dijkstra (pronuncia-se “déikstra”)</h2>
-<div id="fig-dijkstra" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="https://fnaufel.github.io/posts/ewd/EWDwww.jpg" class="img-fluid figure-img" style="width:60.0%" alt="dijkstra"></p>
+<div id="fig-dijkstra" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center" width="60%" alt="dijkstra">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-dijkstra-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://fnaufel.github.io/posts/ewd/EWDwww.jpg" id="fig-dijkstra" class="img-fluid quarto-figure quarto-figure-center anchored figure-img" style="width:60.0%" alt="dijkstra">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-dijkstra-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;1
+</figcaption>
 </figure>
 </div>
 <p>(Foto ©2002 Hamilton Richards)</p>
 <p>Em <a href="https://www.cs.utexas.edu/users/EWD/" class="uri">https://www.cs.utexas.edu/users/EWD/</a>, você encontra muitas informações sobre o cara.</p>
 <p>O mais interessante – e talvez menos conhecido – é o conjunto de anotações manuscritas sobre diversos assuntos: programação, matemática e educação, entre outros. Estão todos disponíveis, em pdf, em <a href="https://www.cs.utexas.edu/users/EWD/indexChron.html" class="uri">https://www.cs.utexas.edu/users/EWD/indexChron.html</a>.</p>
 <p>Um dos meus manuscritos favoritos é o que contém as considerações de Dijkstra sobre se vetores devem ser indexados a partir de zero ou a partir de 1:</p>
-<p><img src="https://fnaufel.github.io/posts/ewd/EWD831-1_1.png" id="fig-ewd1" class="img-fluid" data-fig-align="center" alt="ewd1"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-2_1.png" id="fig-ewd2" class="img-fluid" data-fig-align="center" alt="ewd2"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-3_1.png" id="fig-ewd3" class="img-fluid" data-fig-align="center" alt="ewd3"></p>
+<p><img src="https://fnaufel.github.io/posts/ewd/EWD831-1_1.png" id="fig-ewd1" class="img-fluid quarto-figure quarto-figure-center anchored" alt="ewd1"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-2_1.png" id="fig-ewd2" class="img-fluid quarto-figure quarto-figure-center anchored" alt="ewd2"> <img src="https://fnaufel.github.io/posts/ewd/EWD831-3_1.png" id="fig-ewd3" class="img-fluid quarto-figure quarto-figure-center anchored" alt="ewd3"></p>
 
 
 </section>
@@ -57,11 +65,12 @@
 
 
 
+
 <section id="recursos-online-para-revisar-matemática" class="level2">
 <h2 class="anchored" data-anchor-id="recursos-online-para-revisar-matemática">Recursos <em>online</em> para revisar matemática</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fnaufel.github.io/posts/portal-obmep/numbers.png" class="img-fluid figure-img" style="width:60.0%" alt="numeros"></p>
+<p><img src="https://fnaufel.github.io/posts/portal-obmep/numbers.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="numeros"></p>
 </figure>
 </div>
 <p>Realizada desde 2005 pelo Instituto de Matemática Pura e Aplicada – IMPA –, a Olimpíada Brasileira de Matemática das Escolas Públicas – OBMEP – oferece uma série de exercícios e orientações desenvolvidos por uma equipe de professores.</p>
@@ -89,9 +98,10 @@
 
 
 
+
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fnaufel.github.io/posts/chatgpt/robot-teacher.png" class="img-fluid figure-img"></p>
+<p><img src="https://fnaufel.github.io/posts/chatgpt/robot-teacher.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <section id="por-quê" class="level2">
@@ -184,7 +194,7 @@ Elicit
 <p>Pois, como diz a frase no final da apresentação de Peter Klappa, <a href="https://openai.com/dall-e-2">ilustrada por Dall-E</a>:<sup>2</sup></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fnaufel.github.io/posts/chatgpt/robot-text.png" class="img-fluid figure-img"></p>
+<p><img src="https://fnaufel.github.io/posts/chatgpt/robot-text.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 
@@ -214,9 +224,10 @@ Elicit
 
 
 
+
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fnaufel.github.io/posts/livros-tidyverse/tidyverse.png" class="img-fluid figure-img" style="width:30.0%"></p>
+<p><img src="https://fnaufel.github.io/posts/livros-tidyverse/tidyverse.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%"></p>
 </figure>
 </div>
 <section id="em-português" class="level2">
@@ -254,9 +265,10 @@ Elicit
 
 
 
+
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fnaufel.github.io/posts/provas-antigas-ga/20230808_256x256_image.png" class="img-fluid figure-img"></p>
+<p><img src="https://fnaufel.github.io/posts/provas-antigas-ga/20230808_256x256_image.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <p>Baixe <a href="https://drive.google.com/file/d/1HsSzo3eflh7p2TbpBphG9m6WCNW3BA2h/view?usp=sharing">este arquivo .zip</a>.</p>
@@ -278,9 +290,10 @@ Elicit
 
 
 
+
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fnaufel.github.io/posts/trabalhos-antigos-ga/20230808_256x256_image_2.png" class="img-fluid figure-img"></p>
+<p><img src="https://fnaufel.github.io/posts/trabalhos-antigos-ga/20230808_256x256_image_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <section id="section" class="level2">
@@ -370,9 +383,10 @@ Elicit
 
 
 
+
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://fnaufel.github.io/posts/trabalhos-antigos-probest/20230808_256x256_image_2.png" class="img-fluid figure-img"></p>
+<p><img src="https://fnaufel.github.io/posts/trabalhos-antigos-probest/20230808_256x256_image_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
 </div>
 <section id="section" class="level2">
