@@ -29,7 +29,7 @@ Bacharel em Ciência da Computação, UFF, 1997
 
 ## Interesses
 
-Álgebra geométrica  
+Aprendizado de máquina  
 Ciência de dados  
 Estatística  
 Probabilidades  
